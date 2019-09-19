@@ -57,6 +57,8 @@ urlpatterns = [
     url(r"^emails/verification/$", views.Emailsverification.as_view(), name="emailsver"),
 
 
+    # 修改密码
+    url(r"^password/$", views.ChangePassword.as_view(), name="password"),
 
     # 如果路由是：www.meiduo.site:8000 就改成/users/index/
 

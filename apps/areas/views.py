@@ -65,7 +65,7 @@ class AddressCreate(View):
 
         # 保存地址
         try:
-            address = Address.object.create(
+            address = Address.objects.create(
                 user=request.user,
                 title=receiver,
                 receiver=receiver,

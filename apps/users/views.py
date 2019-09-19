@@ -339,6 +339,54 @@ class Emailsverification(LoginRequiredMixin,View):
 
 
 
+# 修改密码－－－－－用户页的
+class ChangePassword(View):
+    # 转到密码修改页
+    def get(self,request):
+        return render(request,"user_center_pass.html")
+
+    # 修改密码逻辑实现
+    def post(self,request):
+        #　接受参数
+        old_pwd = request.POST.get("old_pwd")
+        new_pwd = request.POST.get("new_pwd")
+        new_cpwd = request.POST.get("new_cpwd")
+        # 校验
+        # 1.正则校验
+        if not re.match(r"^[0-9A-Za-z]{8,20}", old_pwd):
+            return render(request,"user_center_pass.html", {'origin_pwd_errmsg':'原始密码错误'})
+        else:
+            try:
+                result = request.user.check_password(old_pwd)
+            except Exception as e:
+                logger.error(e)
+                return render(request, 'user_center_pass.html', {'origin_pwd_errmsg': '原始密码错误'})
+            if not result:
+                return render(request, 'user_center_pass.html', {'origin_pwd_errmsg':'原始密码错误'})
+            if not re.match(r"^[0-9a-zA-Z]{8,20}", new_pwd):
+                return http.HttpResponse("请输入８－２０个字符的密码")
+            else:
+                if new_cpwd != new_pwd:
+                    return http.HttpResponse("俩次密码不一致")
+
+
+
+        # 逻辑实现
+        try:
+            request.user.set_password(new_pwd)
+            request.user.save()
+        except Exception as e:
+            logger.error(e)
+            return render(request, 'user_center_pass.html', {'origin_pwd_errmsg':'更新失败'})
+
+        login(request)
+        response = redirect(reverse("users:login"))
+        response.delete_cookie("username")
+
+        # 返回
+        return response
+
+
 
 
 
