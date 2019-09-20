@@ -7,6 +7,7 @@ from django import http
 from django.contrib.auth.views import login, logout
 
 from apps.areas.models import Area
+from apps.goods.models import GoodsChannel
 from utils.secret import SecretOauth
 from django.shortcuts import render, redirect
 from random import randint
@@ -16,7 +17,7 @@ from django.views import View
 from django_redis import get_redis_connection
 from pymysql import DatabaseError
 from apps.users import constants
-from apps.users.models import User
+from apps.users.models import User, ContentCategory
 from libs.captcha.captcha import captcha
 from meiduo_mall.settings.dev import logger
 from utils.response_code import RETCODE
@@ -97,7 +98,30 @@ class Register(View):
 # 转到首页
 class Index(View):
     def get(self,request):
-        return render(request,"index.html")
+        # 商品分类页
+        from apps.goods.utils import get_categories
+        categories = get_categories()
+
+        # 查询所有广告类别
+        contents = {}
+        content_categories = ContentCategory.objects.all()
+        for cat in content_categories:
+            contents[cat.key] = cat.content_set.filter(status=True).order_by('sequence')
+
+        # 轮播图
+
+
+        # 快讯
+
+        # 页头广告
+
+        # 渲染模板的上下文
+        context = {
+            "categories":categories,
+            "contents":contents,
+        }
+
+        return render(request,"index.html",context)
 
 
 # 判断用户名是否重复

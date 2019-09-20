@@ -10,7 +10,7 @@ from apps.users.models import Address
 from meiduo_mall.settings.dev import logger
 from utils.response_code import RETCODE
 
-
+# 收货地址的展示和跳转
 class Addresses(View):
     def get(self,request):
         addresses = Address.objects.filter(user=request.user,is_deleted=False)
@@ -37,7 +37,7 @@ class Addresses(View):
         return render(request,"user_center_site.html",context)
 
 
-# 新增地址
+# 新增收货地址
 class AddressCreate(View):
     def post(self, request):
         # 接受参数
@@ -116,7 +116,7 @@ class AddressCreate(View):
         return http.JsonResponse({'code': RETCODE.OK, 'errmsg': '新增地址成功', 'address': address_dict})
 
 
-# 三季联动
+# 三级联动
 class AreasView(View):
     def get(self,request):
         area_id= request.GET.get("area_id")

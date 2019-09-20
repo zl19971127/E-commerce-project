@@ -7964,3 +7964,1417 @@ INFO 2019-09-19 13:37:54,220 basehttp 124 "GET /users/info/ HTTP/1.1" 200 6443
 WARNING 2019-09-19 13:37:54,623 base 152 Not Found: /browse_histories/
 WARNING 2019-09-19 13:37:54,636 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 2982
 INFO 2019-09-19 13:37:56,605 basehttp 124 "GET /users/password/ HTTP/1.1" 200 5253
+INFO 2019-09-20 00:21:36,196 basehttp 124 "GET /users/index/ HTTP/1.1" 200 30482
+INFO 2019-09-20 00:21:36,313 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+WARNING 2019-09-20 00:21:36,826 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 00:21:36,832 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 00:21:39,836 basehttp 124 "GET /users/logout/ HTTP/1.1" 302 0
+INFO 2019-09-20 00:21:39,864 basehttp 124 "GET /users/index/ HTTP/1.1" 200 30482
+WARNING 2019-09-20 00:21:40,485 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 00:21:40,490 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 00:21:41,094 basehttp 124 "GET /users/register/ HTTP/1.1" 200 4176
+INFO 2019-09-20 00:21:41,183 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-09-20 00:21:41,229 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 304 0
+INFO 2019-09-20 00:21:41,234 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 304 0
+INFO 2019-09-20 00:21:41,676 basehttp 124 "GET /users/image_codes/3d2ce7f5-6d36-4f53-ad40-f9094e51b27e/ HTTP/1.1" 200 3723
+INFO 2019-09-20 00:21:46,620 basehttp 124 "GET /users/image_codes/0ad8a161-c2af-4186-84e3-1b1d1f13ad99/ HTTP/1.1" 200 3562
+INFO 2019-09-20 00:21:47,186 basehttp 124 "GET /users/image_codes/4f61c61e-628a-4248-9c6e-d282c32b3a91/ HTTP/1.1" 200 3528
+INFO 2019-09-20 00:22:04,097 basehttp 124 "GET /users/info HTTP/1.1" 301 0
+INFO 2019-09-20 00:22:04,102 basehttp 124 "GET /users/info/ HTTP/1.1" 302 0
+INFO 2019-09-20 00:22:04,152 basehttp 124 "GET /users/login/?next=/users/info/ HTTP/1.1" 200 2965
+INFO 2019-09-20 00:22:04,175 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2019-09-20 00:22:12,169 basehttp 124 "POST /users/login/?next=/users/info/ HTTP/1.1" 302 0
+INFO 2019-09-20 00:22:12,200 basehttp 124 "GET /users/info/ HTTP/1.1" 200 6443
+INFO 2019-09-20 00:22:12,245 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+WARNING 2019-09-20 00:22:12,534 base 152 Not Found: /browse_histories/
+WARNING 2019-09-20 00:22:12,545 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 2982
+INFO 2019-09-20 00:22:15,610 basehttp 124 "GET /users/password/ HTTP/1.1" 200 5253
+INFO 2019-09-20 00:22:26,340 basehttp 124 "POST /users/password/ HTTP/1.1" 302 0
+INFO 2019-09-20 00:22:26,353 basehttp 124 "GET /users/login/ HTTP/1.1" 200 2965
+INFO 2019-09-20 00:22:32,580 basehttp 124 "POST /users/login/ HTTP/1.1" 200 3080
+INFO 2019-09-20 00:22:42,951 basehttp 124 "POST /users/login/ HTTP/1.1" 302 0
+INFO 2019-09-20 00:22:42,963 basehttp 124 "GET /users/index/ HTTP/1.1" 200 30482
+WARNING 2019-09-20 00:22:43,515 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 00:22:43,523 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 00:22:45,206 basehttp 124 "GET /users/info HTTP/1.1" 301 0
+INFO 2019-09-20 00:22:45,244 basehttp 124 "GET /users/info/ HTTP/1.1" 200 6443
+WARNING 2019-09-20 00:22:45,545 base 152 Not Found: /browse_histories/
+WARNING 2019-09-20 00:22:45,552 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 2982
+INFO 2019-09-20 00:22:48,355 basehttp 124 "GET /users/password/ HTTP/1.1" 200 5253
+WARNING 2019-09-20 00:22:50,190 base 152 Not Found: /logout/
+WARNING 2019-09-20 00:22:50,191 basehttp 124 "GET /logout/ HTTP/1.1" 404 2952
+INFO 2019-09-20 00:23:36,950 basehttp 124 "GET /users/password/ HTTP/1.1" 200 5259
+INFO 2019-09-20 00:23:40,201 basehttp 124 "GET /users/index/ HTTP/1.1" 200 30482
+INFO 2019-09-20 00:23:40,216 basehttp 124 "GET /users/logout/ HTTP/1.1" 302 0
+WARNING 2019-09-20 00:23:40,769 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 00:23:40,771 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 00:23:42,092 basehttp 124 "GET /users/login/ HTTP/1.1" 200 2965
+INFO 2019-09-20 00:23:49,609 basehttp 124 "POST /users/login/ HTTP/1.1" 302 0
+INFO 2019-09-20 00:23:49,629 basehttp 124 "GET /users/index/ HTTP/1.1" 200 30482
+WARNING 2019-09-20 00:23:50,105 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 00:23:50,114 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 00:23:51,248 basehttp 124 "GET /users/info HTTP/1.1" 301 0
+INFO 2019-09-20 00:23:51,298 basehttp 124 "GET /users/info/ HTTP/1.1" 200 6443
+WARNING 2019-09-20 00:23:51,597 base 152 Not Found: /browse_histories/
+WARNING 2019-09-20 00:23:51,603 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 2982
+INFO 2019-09-20 00:23:52,694 basehttp 124 "GET /users/password/ HTTP/1.1" 200 5259
+INFO 2019-09-20 00:23:59,443 basehttp 124 "GET /static/cart.html HTTP/1.1" 200 4944
+INFO 2019-09-20 00:23:59,491 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 200 8354
+INFO 2019-09-20 00:24:03,108 basehttp 124 "GET /static/user_center_order.html HTTP/1.1" 200 5827
+INFO 2019-09-20 00:24:03,149 basehttp 124 "GET /static/css/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2019-09-20 00:24:03,168 basehttp 124 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2019-09-20 00:24:03,170 basehttp 124 "GET /static/js/user_center_order.js HTTP/1.1" 200 2046
+INFO 2019-09-20 00:24:14,665 basehttp 124 "GET /address/ HTTP/1.1" 200 8528
+INFO 2019-09-20 00:24:14,693 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-09-20 00:24:15,025 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-09-20 00:25:14,189 basehttp 124 "GET /users/info/ HTTP/1.1" 200 6443
+WARNING 2019-09-20 00:25:14,441 base 152 Not Found: /browse_histories/
+WARNING 2019-09-20 00:25:14,443 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 2982
+INFO 2019-09-20 00:25:21,364 basehttp 124 "GET /users/password/ HTTP/1.1" 200 5259
+INFO 2019-09-20 00:25:22,273 basehttp 124 "GET /address/ HTTP/1.1" 200 8528
+INFO 2019-09-20 00:25:22,473 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-09-20 00:25:27,101 basehttp 124 "GET /static/user_center_site.html HTTP/1.1" 200 7393
+INFO 2019-09-20 00:25:27,390 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-09-20 00:25:59,623 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-09-20 00:26:20,232 basehttp 124 "GET /static/user_center_info.html HTTP/1.1" 404 1682
+INFO 2019-09-20 00:26:24,385 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-09-20 00:26:29,658 basehttp 124 "GET /users/password/ HTTP/1.1" 200 5259
+INFO 2019-09-20 00:26:30,513 basehttp 124 "GET /address/ HTTP/1.1" 200 8528
+INFO 2019-09-20 00:26:30,695 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-09-20 00:28:13,788 basehttp 124 "GET /address/ HTTP/1.1" 200 8528
+INFO 2019-09-20 00:28:14,390 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-09-20 00:28:18,075 basehttp 124 "GET /users/info/ HTTP/1.1" 200 6520
+WARNING 2019-09-20 00:28:18,467 base 152 Not Found: /browse_histories/
+WARNING 2019-09-20 00:28:18,483 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 2982
+INFO 2019-09-20 00:29:19,868 basehttp 124 "GET /users/info/ HTTP/1.1" 200 6465
+WARNING 2019-09-20 00:29:20,040 base 152 Not Found: /browse_histories/
+WARNING 2019-09-20 00:29:20,043 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 2982
+WARNING 2019-09-20 00:30:30,130 base 152 Not Found: /users/info/register.html
+WARNING 2019-09-20 00:30:30,145 basehttp 124 "GET /users/info/register.html HTTP/1.1" 404 5214
+INFO 2019-09-20 00:31:18,132 basehttp 124 "GET /users/info/ HTTP/1.1" 200 6466
+WARNING 2019-09-20 00:31:18,411 base 152 Not Found: /browse_histories/
+WARNING 2019-09-20 00:31:18,417 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 2982
+WARNING 2019-09-20 00:31:19,899 base 152 Not Found: /users/info/users/register
+WARNING 2019-09-20 00:31:19,914 basehttp 124 "GET /users/info/users/register HTTP/1.1" 404 5217
+INFO 2019-09-20 00:31:38,155 basehttp 124 "GET /users/register HTTP/1.1" 301 0
+INFO 2019-09-20 00:31:38,180 basehttp 124 "GET /users/register/ HTTP/1.1" 200 4176
+INFO 2019-09-20 00:31:38,461 basehttp 124 "GET /users/image_codes/0f36f091-171d-4f16-9cc6-d0a01774a0fb/ HTTP/1.1" 200 2715
+WARNING 2019-09-20 01:23:54,234 base 152 Not Found: /users/static/login.html
+WARNING 2019-09-20 01:23:54,252 basehttp 124 "GET /users/static/login.html HTTP/1.1" 404 5211
+INFO 2019-09-20 01:23:56,885 basehttp 124 "GET /users/image_codes/f8504002-9e4f-4d07-a003-9c8f3b6e0913/ HTTP/1.1" 200 3074
+INFO 2019-09-20 01:24:34,884 basehttp 124 "GET /users/register/ HTTP/1.1" 200 4169
+INFO 2019-09-20 01:24:35,131 basehttp 124 "GET /users/image_codes/ff344c74-bda0-40f1-b120-5755dbcc8ed6/ HTTP/1.1" 200 3409
+INFO 2019-09-20 01:24:36,198 basehttp 124 "GET /users/login/ HTTP/1.1" 200 2965
+INFO 2019-09-20 02:17:26,299 basehttp 124 "GET /users/index/ HTTP/1.1" 200 30482
+WARNING 2019-09-20 02:17:26,796 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 02:17:26,809 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 02:34:20,078 basehttp 124 "GET /users/index/ HTTP/1.1" 200 30482
+WARNING 2019-09-20 02:34:20,528 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 02:34:20,534 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+ERROR 2019-09-20 09:22:49,497 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 115, in get
+    cat1 = channels.category
+AttributeError: 'QuerySet' object has no attribute 'category'
+ERROR 2019-09-20 09:22:49,716 basehttp 124 "GET /users/index/ HTTP/1.1" 500 85216
+INFO 2019-09-20 09:23:10,535 basehttp 124 "GET /users/index/ HTTP/1.1" 200 30482
+INFO 2019-09-20 09:23:10,575 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,583 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,593 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,597 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,607 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,612 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,619 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,665 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,675 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,792 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,843 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,847 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,856 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,861 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,870 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,877 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,906 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,917 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,940 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,944 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,963 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,965 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,977 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:23:10,981 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2019-09-20 09:23:12,149 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 09:23:12,162 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+ERROR 2019-09-20 09:24:10,405 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 113, in get
+    print(categories.group_id.categories)
+AttributeError: 'dict' object has no attribute 'group_id'
+ERROR 2019-09-20 09:24:10,947 basehttp 124 "GET /users/index/ HTTP/1.1" 500 85269
+ERROR 2019-09-20 09:29:50,517 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 114, in get
+    cat1 = channels.category
+AttributeError: 'QuerySet' object has no attribute 'category'
+ERROR 2019-09-20 09:29:50,886 basehttp 124 "GET /users/index/ HTTP/1.1" 500 85219
+INFO 2019-09-20 09:31:37,163 basehttp 124 "GET /users/index/ HTTP/1.1" 200 30482
+INFO 2019-09-20 09:31:37,227 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,346 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,349 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,361 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,365 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,368 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,370 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,378 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,384 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,386 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,462 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,485 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,496 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,500 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,516 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,580 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,584 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,597 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,597 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,609 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,610 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,612 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,615 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,619 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:31:37,623 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2019-09-20 09:31:38,125 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 09:31:38,130 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+ERROR 2019-09-20 09:41:17,925 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 123, in get
+    cat3 = cat2.subs.all()
+AttributeError: 'QuerySet' object has no attribute 'subs'
+ERROR 2019-09-20 09:41:18,608 basehttp 124 "GET /users/index/ HTTP/1.1" 500 85878
+ERROR 2019-09-20 09:42:15,398 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 123, in get
+    cat3 = cat1.subs.subs.all()
+AttributeError: 'RelatedManager' object has no attribute 'subs'
+ERROR 2019-09-20 09:42:15,585 basehttp 124 "GET /users/index/ HTTP/1.1" 500 85912
+ERROR 2019-09-20 09:42:48,862 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 123, in get
+    cat3 = cat2.subs.all()
+AttributeError: 'QuerySet' object has no attribute 'subs'
+ERROR 2019-09-20 09:42:48,995 basehttp 124 "GET /users/index/ HTTP/1.1" 500 85878
+ERROR 2019-09-20 09:43:32,500 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 131, in get
+    cat2.sub_cats.append(b)
+AttributeError: 'QuerySet' object has no attribute 'sub_cats'
+ERROR 2019-09-20 09:43:32,737 basehttp 124 "GET /users/index/ HTTP/1.1" 500 86699
+ERROR 2019-09-20 09:43:51,542 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 131, in get
+    a.sub_cats.append(b)
+AttributeError: 'GoodsCategory' object has no attribute 'sub_cats'
+ERROR 2019-09-20 09:43:51,676 basehttp 124 "GET /users/index/ HTTP/1.1" 500 86713
+ERROR 2019-09-20 09:43:59,576 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 131, in get
+    a.sub_cats.append(b)
+AttributeError: 'GoodsCategory' object has no attribute 'sub_cats'
+ERROR 2019-09-20 09:43:59,715 basehttp 124 "GET /users/index/ HTTP/1.1" 500 86713
+ERROR 2019-09-20 09:44:02,545 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 131, in get
+    a.sub_cats.append(b)
+AttributeError: 'GoodsCategory' object has no attribute 'sub_cats'
+ERROR 2019-09-20 09:44:02,680 basehttp 124 "GET /users/index/ HTTP/1.1" 500 86713
+ERROR 2019-09-20 09:45:17,377 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 131, in get
+    a["sub_cats"].append(b)
+TypeError: 'GoodsCategory' object is not subscriptable
+ERROR 2019-09-20 09:45:17,696 basehttp 124 "GET /users/index/ HTTP/1.1" 500 86649
+INFO 2019-09-20 09:48:00,662 basehttp 124 "GET /users/index/ HTTP/1.1" 200 30482
+INFO 2019-09-20 09:48:00,753 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,755 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,768 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,773 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,789 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,793 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,805 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,809 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,823 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,831 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,859 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,863 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,871 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,881 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,897 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,909 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,932 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,948 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,959 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,970 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,979 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,987 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,992 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:00,997 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 09:48:01,008 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2019-09-20 09:48:01,766 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 09:48:01,771 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 09:48:41,102 basehttp 124 "GET /users/index/ HTTP/1.1" 200 30482
+WARNING 2019-09-20 09:48:41,803 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 09:48:41,807 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 09:48:41,813 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:01,758 basehttp 124 "GET /users/index/ HTTP/1.1" 200 30354
+INFO 2019-09-20 10:03:01,819 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:01,821 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:01,833 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:01,866 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:01,876 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:01,903 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:01,921 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:01,941 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:01,959 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:01,963 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:02,028 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:02,081 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:02,082 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:02,084 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:02,111 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:02,112 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:02,126 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:02,132 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:02,133 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:02,160 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:02,160 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:02,162 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:02,171 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:02,177 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:03:02,234 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2019-09-20 10:03:03,288 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 10:03:03,295 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+WARNING 2019-09-20 10:03:58,616 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 10:03:58,618 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 10:05:16,783 basehttp 124 "GET /users/index/ HTTP/1.1" 200 30354
+WARNING 2019-09-20 10:05:18,258 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 10:05:18,262 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 10:06:38,449 basehttp 124 "GET /users/index/ HTTP/1.1" 200 30354
+WARNING 2019-09-20 10:06:39,418 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 10:06:39,435 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 10:10:53,001 basehttp 124 "GET /users/index/ HTTP/1.1" 200 30243
+WARNING 2019-09-20 10:10:54,173 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 10:10:54,197 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 10:13:38,061 basehttp 124 "GET /users/index/ HTTP/1.1" 200 30208
+WARNING 2019-09-20 10:13:38,551 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 10:13:38,558 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 10:15:08,453 basehttp 124 "GET /users/index/ HTTP/1.1" 200 30208
+INFO 2019-09-20 10:15:08,633 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,637 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,675 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,704 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,720 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,750 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,758 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,787 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,795 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,801 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,806 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,823 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,826 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,866 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,871 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,879 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,885 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,914 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,899 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,917 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,974 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,982 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,989 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,994 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 10:15:08,996 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2019-09-20 10:15:09,579 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 10:15:09,581 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 10:18:27,748 basehttp 124 "GET /users/index/ HTTP/1.1" 200 51133
+WARNING 2019-09-20 10:18:29,093 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 10:18:29,098 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 10:19:21,343 basehttp 124 "GET /users/index/ HTTP/1.1" 200 87196
+WARNING 2019-09-20 10:19:22,511 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 10:19:22,519 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 11:22:24,379 basehttp 124 "GET /users/index/ HTTP/1.1" 200 87196
+INFO 2019-09-20 11:22:24,460 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,482 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,483 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,528 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,542 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,570 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,577 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,600 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,610 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,622 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,638 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,643 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,668 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,670 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,683 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,699 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,727 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,741 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,751 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,759 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,769 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,793 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,812 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,814 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 11:22:24,839 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2019-09-20 11:22:25,790 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 11:22:25,807 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+WARNING 2019-09-20 11:22:31,522 base 152 Not Found: /list/458/1/
+WARNING 2019-09-20 11:22:31,535 basehttp 124 "GET /list/458/1/ HTTP/1.1" 404 2964
+ERROR 2019-09-20 11:40:54,393 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 124, in get
+    return render(request,"index.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/index.html", line 88, in top-level template code
+    {% for lbt in contens.index_lbt %}
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'contens' is undefined
+ERROR 2019-09-20 11:40:57,838 basehttp 124 "GET /users/index/ HTTP/1.1" 500 179331
+INFO 2019-09-20 11:42:21,653 basehttp 124 "GET /users/index/ HTTP/1.1" 200 87552
+WARNING 2019-09-20 11:42:21,820 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396
+WARNING 2019-09-20 11:42:21,883 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:42:21,907 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278
+WARNING 2019-09-20 11:42:21,909 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702
+WARNING 2019-09-20 11:42:21,911 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:42:21,913 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:42:21,922 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927
+WARNING 2019-09-20 11:42:21,931 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:42:23,612 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396
+WARNING 2019-09-20 11:42:23,628 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:42:23,697 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278
+WARNING 2019-09-20 11:42:23,776 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:42:23,701 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702
+WARNING 2019-09-20 11:42:23,777 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:42:23,776 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927
+WARNING 2019-09-20 11:42:23,781 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:42:23,771 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 11:42:23,787 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 11:44:47,335 basehttp 124 "GET /users/index/ HTTP/1.1" 200 87918
+WARNING 2019-09-20 11:44:47,478 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702
+WARNING 2019-09-20 11:44:47,505 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:44:47,504 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278
+WARNING 2019-09-20 11:44:47,503 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396
+WARNING 2019-09-20 11:44:47,514 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:44:47,516 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:44:47,499 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927
+WARNING 2019-09-20 11:44:47,520 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:44:48,204 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396
+WARNING 2019-09-20 11:44:48,218 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:44:48,238 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278
+WARNING 2019-09-20 11:44:48,241 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702
+WARNING 2019-09-20 11:44:48,243 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:44:48,246 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:44:48,513 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927
+WARNING 2019-09-20 11:44:48,521 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:44:48,516 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 11:44:48,535 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+ERROR 2019-09-20 11:46:01,363 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 124, in get
+    return render(request,"index.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/index.html", line 136, in top-level template code
+    <a href="{{ ytgg.url }}" class="advs"><img src="{{ ytgg.image }}"></a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'ytgg' is undefined
+ERROR 2019-09-20 11:46:02,990 basehttp 124 "GET /users/index/ HTTP/1.1" 500 179458
+ERROR 2019-09-20 11:46:29,664 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 124, in get
+    return render(request,"index.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/index.html", line 136, in top-level template code
+    <a href="{{ contens.ytgg.url }}" class="advs"><img src="{{ contens.ytgg.image }}"></a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'contens' is undefined
+ERROR 2019-09-20 11:46:31,798 basehttp 124 "GET /users/index/ HTTP/1.1" 500 179490
+ERROR 2019-09-20 11:46:50,483 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 124, in get
+    return render(request,"index.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/index.html", line 136, in top-level template code
+    <a href="{{ contents.ytgg.url }}" class="advs"><img src="{{ contents.ytgg.image }}"></a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'ytgg'
+ERROR 2019-09-20 11:46:51,864 basehttp 124 "GET /users/index/ HTTP/1.1" 500 179731
+ERROR 2019-09-20 11:46:58,638 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 124, in get
+    return render(request,"index.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/index.html", line 136, in top-level template code
+    <a href="{{ contents.ytgg.url }}" class="advs"><img src="{{ contents.ytgg.image }}"></a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'ytgg'
+ERROR 2019-09-20 11:47:00,165 basehttp 124 "GET /users/index/ HTTP/1.1" 500 179758
+ERROR 2019-09-20 11:47:04,989 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 124, in get
+    return render(request,"index.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/index.html", line 136, in top-level template code
+    <a href="{{ contents.ytgg.url }}" class="advs"><img src="{{ contents.ytgg.image }}"></a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'ytgg'
+ERROR 2019-09-20 11:47:07,207 basehttp 124 "GET /users/index/ HTTP/1.1" 500 179716
+ERROR 2019-09-20 11:47:26,554 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 124, in get
+    return render(request,"index.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/index.html", line 136, in top-level template code
+    <a href="{{ contents.ytgg.url }}" class="advs"><img src="{{ contents.ytgg.image }}"></a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'ytgg'
+ERROR 2019-09-20 11:47:27,985 basehttp 124 "GET /users/index/ HTTP/1.1" 500 179636
+ERROR 2019-09-20 11:47:41,827 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 124, in get
+    return render(request,"index.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/index.html", line 136, in top-level template code
+    <a href="{{ contents.ytgg.url }}" class="advs"><img src="{{ contents.ytgg.image }}"></a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'ytgg'
+ERROR 2019-09-20 11:47:43,295 basehttp 124 "GET /users/index/ HTTP/1.1" 500 179733
+INFO 2019-09-20 11:48:18,329 basehttp 124 "GET /users/index/ HTTP/1.1" 200 88042
+WARNING 2019-09-20 11:48:18,498 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396
+WARNING 2019-09-20 11:48:18,511 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:48:18,528 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278
+WARNING 2019-09-20 11:48:18,553 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:48:18,549 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702
+WARNING 2019-09-20 11:48:18,557 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:48:18,533 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927
+WARNING 2019-09-20 11:48:18,564 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:48:18,748 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 11:48:18,761 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5436
+WARNING 2019-09-20 11:48:19,495 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396
+WARNING 2019-09-20 11:48:19,524 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:48:19,497 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278
+WARNING 2019-09-20 11:48:19,525 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:48:19,524 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702
+WARNING 2019-09-20 11:48:19,528 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:48:19,514 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927
+WARNING 2019-09-20 11:48:19,541 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927 HTTP/1.1" 404 5331
+WARNING 2019-09-20 11:48:19,582 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 11:48:19,585 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 12:08:01,283 basehttp 124 "GET /users/index/ HTTP/1.1" 200 87383
+WARNING 2019-09-20 12:08:01,390 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396
+WARNING 2019-09-20 12:08:01,390 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702
+WARNING 2019-09-20 12:08:01,393 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927
+WARNING 2019-09-20 12:08:01,443 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,394 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,399 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,441 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278
+WARNING 2019-09-20 12:08:01,467 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,469 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 12:08:01,469 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5436
+WARNING 2019-09-20 12:08:01,475 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862
+WARNING 2019-09-20 12:08:01,479 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,501 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMe2KAGXDKAAAVASh8SzY6938726
+WARNING 2019-09-20 12:08:01,521 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMe2KAGXDKAAAVASh8SzY6938726 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,510 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgQuAM4-sAABPvjDmrZE7647305
+WARNING 2019-09-20 12:08:01,525 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgQuAM4-sAABPvjDmrZE7647305 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,521 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgWyAH_f1AAAQuFJkR2o1196559
+WARNING 2019-09-20 12:08:01,528 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgWyAH_f1AAAQuFJkR2o1196559 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,532 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgX2AeXiGAABuWTn7Wr09762364
+WARNING 2019-09-20 12:08:01,532 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgX2AeXiGAABuWTn7Wr09762364 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,559 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgbiARBnzAABbhp78Lqs6191821
+WARNING 2019-09-20 12:08:01,560 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgeuAYEocAABd3TzhhGw1571126
+WARNING 2019-09-20 12:08:01,563 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgbiARBnzAABbhp78Lqs6191821 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,585 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgeuAYEocAABd3TzhhGw1571126 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,602 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgkaAWyHAAABbrVH9a7o5762009
+WARNING 2019-09-20 12:08:01,606 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgkaAWyHAAABbrVH9a7o5762009 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,612 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgmyAB_1AAABoaAzPPW86045138
+WARNING 2019-09-20 12:08:01,640 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgmyAB_1AAABoaAzPPW86045138 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,645 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgo6Aa3OTAAA82h3PXzw9976088
+WARNING 2019-09-20 12:08:01,649 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgo6Aa3OTAAA82h3PXzw9976088 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,652 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhjOAdMNbAAAR1JGA_cA5064317
+WARNING 2019-09-20 12:08:01,664 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhjOAdMNbAAAR1JGA_cA5064317 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,679 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhlSAP_27AAAW_YBdNEk8530912
+WARNING 2019-09-20 12:08:01,714 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhlSAP_27AAAW_YBdNEk8530912 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,717 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhniADXZpAAALTWT-dfQ6160056
+WARNING 2019-09-20 12:08:01,718 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhniADXZpAAALTWT-dfQ6160056 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,722 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhpiAV3lJAABiLlkgy2Y9166507
+WARNING 2019-09-20 12:08:01,725 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhpiAV3lJAABiLlkgy2Y9166507 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,743 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhyuAEf95AABFDj_owsg4241256
+WARNING 2019-09-20 12:08:01,748 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhveAOh8EAAA1ykQ-kAU6900992
+WARNING 2019-09-20 12:08:01,749 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhveAOh8EAAA1ykQ-kAU6900992 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,757 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhyuAEf95AABFDj_owsg4241256 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,774 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMh4eAWdF2AAA-Fkkc5rM1921911
+WARNING 2019-09-20 12:08:01,779 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMh0qAavITAABOVXYg3SI5232882
+WARNING 2019-09-20 12:08:01,781 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMh0qAavITAABOVXYg3SI5232882 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,800 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMh4eAWdF2AAA-Fkkc5rM1921911 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:01,855 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMh62AUlDTAAA-SfqPszY5890026
+WARNING 2019-09-20 12:08:01,884 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMh62AUlDTAAA-SfqPszY5890026 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:02,317 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278
+WARNING 2019-09-20 12:08:02,318 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396
+WARNING 2019-09-20 12:08:02,324 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:02,333 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:02,348 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702
+WARNING 2019-09-20 12:08:02,364 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:02,385 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927
+WARNING 2019-09-20 12:08:02,406 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:02,429 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862
+WARNING 2019-09-20 12:08:02,444 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:02,438 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 12:08:02,441 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMe2KAGXDKAAAVASh8SzY6938726
+WARNING 2019-09-20 12:08:02,457 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMe2KAGXDKAAAVASh8SzY6938726 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:02,459 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5436
+WARNING 2019-09-20 12:08:02,466 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgQuAM4-sAABPvjDmrZE7647305
+WARNING 2019-09-20 12:08:02,470 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgQuAM4-sAABPvjDmrZE7647305 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:02,547 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgWyAH_f1AAAQuFJkR2o1196559
+WARNING 2019-09-20 12:08:02,551 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgWyAH_f1AAAQuFJkR2o1196559 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:02,549 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgX2AeXiGAABuWTn7Wr09762364
+WARNING 2019-09-20 12:08:02,582 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgX2AeXiGAABuWTn7Wr09762364 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:02,590 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgbiARBnzAABbhp78Lqs6191821
+WARNING 2019-09-20 12:08:02,627 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgbiARBnzAABbhp78Lqs6191821 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:02,608 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgeuAYEocAABd3TzhhGw1571126
+WARNING 2019-09-20 12:08:02,638 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgeuAYEocAABd3TzhhGw1571126 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:02,626 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgkaAWyHAAABbrVH9a7o5762009
+WARNING 2019-09-20 12:08:02,660 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgkaAWyHAAABbrVH9a7o5762009 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:02,696 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgmyAB_1AAABoaAzPPW86045138
+WARNING 2019-09-20 12:08:02,717 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgmyAB_1AAABoaAzPPW86045138 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:02,722 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 12:08:02,723 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+WARNING 2019-09-20 12:08:02,732 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgo6Aa3OTAAA82h3PXzw9976088
+WARNING 2019-09-20 12:08:02,744 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgo6Aa3OTAAA82h3PXzw9976088 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:02,771 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhjOAdMNbAAAR1JGA_cA5064317
+WARNING 2019-09-20 12:08:02,772 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhlSAP_27AAAW_YBdNEk8530912
+WARNING 2019-09-20 12:08:02,773 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhjOAdMNbAAAR1JGA_cA5064317 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:02,775 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhlSAP_27AAAW_YBdNEk8530912 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:02,808 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhniADXZpAAALTWT-dfQ6160056
+WARNING 2019-09-20 12:08:02,824 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhniADXZpAAALTWT-dfQ6160056 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:08:02,828 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhpiAV3lJAABiLlkgy2Y9166507
+WARNING 2019-09-20 12:08:02,831 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhpiAV3lJAABiLlkgy2Y9166507 HTTP/1.1" 404 5331
+INFO 2019-09-20 12:09:54,304 basehttp 124 "GET /users/index/ HTTP/1.1" 200 87402
+WARNING 2019-09-20 12:09:54,394 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702
+WARNING 2019-09-20 12:09:54,406 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396
+WARNING 2019-09-20 12:09:54,408 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278
+WARNING 2019-09-20 12:09:54,449 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:54,405 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927
+WARNING 2019-09-20 12:09:54,452 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:54,467 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:54,475 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:54,568 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 12:09:54,587 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5436
+WARNING 2019-09-20 12:09:54,631 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLnHaATJWfAABcalxfbWk5995788
+WARNING 2019-09-20 12:09:54,637 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLnHaATJWfAABcalxfbWk5995788 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:54,638 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862
+WARNING 2019-09-20 12:09:54,649 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:54,679 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMe2KAGXDKAAAVASh8SzY6938726
+WARNING 2019-09-20 12:09:54,698 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgQuAM4-sAABPvjDmrZE7647305
+WARNING 2019-09-20 12:09:54,699 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMe2KAGXDKAAAVASh8SzY6938726 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:54,722 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgWyAH_f1AAAQuFJkR2o1196559
+WARNING 2019-09-20 12:09:54,722 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgQuAM4-sAABPvjDmrZE7647305 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:54,736 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgWyAH_f1AAAQuFJkR2o1196559 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:54,738 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgX2AeXiGAABuWTn7Wr09762364
+WARNING 2019-09-20 12:09:54,738 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgX2AeXiGAABuWTn7Wr09762364 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:54,754 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgbiARBnzAABbhp78Lqs6191821
+WARNING 2019-09-20 12:09:54,771 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgbiARBnzAABbhp78Lqs6191821 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:54,797 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgeuAYEocAABd3TzhhGw1571126
+WARNING 2019-09-20 12:09:54,802 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgeuAYEocAABd3TzhhGw1571126 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:54,798 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgkaAWyHAAABbrVH9a7o5762009
+WARNING 2019-09-20 12:09:54,806 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgkaAWyHAAABbrVH9a7o5762009 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:54,840 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhjOAdMNbAAAR1JGA_cA5064317
+WARNING 2019-09-20 12:09:54,847 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgo6Aa3OTAAA82h3PXzw9976088
+WARNING 2019-09-20 12:09:54,856 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgo6Aa3OTAAA82h3PXzw9976088 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:54,846 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgmyAB_1AAABoaAzPPW86045138
+WARNING 2019-09-20 12:09:54,859 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgmyAB_1AAABoaAzPPW86045138 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:54,862 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhjOAdMNbAAAR1JGA_cA5064317 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:54,902 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhlSAP_27AAAW_YBdNEk8530912
+WARNING 2019-09-20 12:09:54,907 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhniADXZpAAALTWT-dfQ6160056
+WARNING 2019-09-20 12:09:54,925 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhniADXZpAAALTWT-dfQ6160056 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:54,929 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhlSAP_27AAAW_YBdNEk8530912 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:54,936 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhpiAV3lJAABiLlkgy2Y9166507
+WARNING 2019-09-20 12:09:54,952 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhveAOh8EAAA1ykQ-kAU6900992
+WARNING 2019-09-20 12:09:54,955 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhpiAV3lJAABiLlkgy2Y9166507 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:54,965 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhveAOh8EAAA1ykQ-kAU6900992 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:54,996 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMh4eAWdF2AAA-Fkkc5rM1921911
+WARNING 2019-09-20 12:09:54,986 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhyuAEf95AABFDj_owsg4241256
+WARNING 2019-09-20 12:09:55,001 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhyuAEf95AABFDj_owsg4241256 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:55,000 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMh0qAavITAABOVXYg3SI5232882
+WARNING 2019-09-20 12:09:55,013 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMh4eAWdF2AAA-Fkkc5rM1921911 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:55,022 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMh0qAavITAABOVXYg3SI5232882 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:55,031 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMh62AUlDTAAA-SfqPszY5890026
+WARNING 2019-09-20 12:09:55,046 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMh62AUlDTAAA-SfqPszY5890026 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:55,517 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396
+WARNING 2019-09-20 12:09:55,519 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:55,525 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278
+WARNING 2019-09-20 12:09:55,541 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:55,554 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702
+WARNING 2019-09-20 12:09:55,556 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:55,562 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 12:09:55,582 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927
+WARNING 2019-09-20 12:09:55,598 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5436
+WARNING 2019-09-20 12:09:55,602 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:55,604 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLnHaATJWfAABcalxfbWk5995788
+WARNING 2019-09-20 12:09:55,607 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLnHaATJWfAABcalxfbWk5995788 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:09:55,636 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 12:09:55,639 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862
+WARNING 2019-09-20 12:09:55,644 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+WARNING 2019-09-20 12:09:55,671 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862 HTTP/1.1" 404 5331
+ERROR 2019-09-20 12:23:19,601 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 124, in get
+    return render(request,"index.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/index.html", line 136, in top-level template code
+    <a href="{{ contents.index_ytgg.url }}" class="advs"><img src="{{ contents.index_ytgg.image.url }}"></a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'django.db.models.query.QuerySet object' has no attribute 'image'
+ERROR 2019-09-20 12:23:21,370 basehttp 124 "GET /users/index/ HTTP/1.1" 500 180161
+ERROR 2019-09-20 12:23:52,658 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 124, in get
+    return render(request,"index.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/index.html", line 136, in top-level template code
+    <a href="{{ contents.index_ytgg.url }}" class="advs"><img src="{{ contents.index_ytgg.image.url }}"></a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'django.db.models.query.QuerySet object' has no attribute 'image'
+ERROR 2019-09-20 12:23:54,830 basehttp 124 "GET /users/index/ HTTP/1.1" 500 179876
+ERROR 2019-09-20 12:25:16,993 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 124, in get
+    return render(request,"index.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/index.html", line 136, in top-level template code
+    <a href="{{ contents.index_ytgg.url }}" class="advs"><img src="{{ contents.index_ytgg.image.url }}"></a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'django.db.models.query.QuerySet object' has no attribute 'image'
+ERROR 2019-09-20 12:25:19,081 basehttp 124 "GET /users/index/ HTTP/1.1" 500 179989
+ERROR 2019-09-20 12:25:30,991 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 124, in get
+    return render(request,"index.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/index.html", line 136, in top-level template code
+    <a href="{{ contents.index_ytgg.url }}" class="advs"><img src="{{ contents.index_ytgg.image.url }}"></a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'django.db.models.query.QuerySet object' has no attribute 'image'
+ERROR 2019-09-20 12:25:32,478 basehttp 124 "GET /users/index/ HTTP/1.1" 500 180161
+ERROR 2019-09-20 12:27:01,231 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 124, in get
+    return render(request,"index.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/index.html", line 136, in top-level template code
+    <a href="{{ contents.index_ytgg.url }}" class="advs"><img src="{{ contents.index_ytgg.image.url }}"></a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'django.db.models.query.QuerySet object' has no attribute 'image'
+ERROR 2019-09-20 12:27:02,783 basehttp 124 "GET /users/index/ HTTP/1.1" 500 179876
+INFO 2019-09-20 12:27:28,104 basehttp 124 "GET /users/index/ HTTP/1.1" 200 87402
+WARNING 2019-09-20 12:27:28,189 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702
+WARNING 2019-09-20 12:27:28,196 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:28,195 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396
+WARNING 2019-09-20 12:27:28,198 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:28,201 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927
+WARNING 2019-09-20 12:27:28,194 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278
+WARNING 2019-09-20 12:27:28,204 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:28,206 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:28,479 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 12:27:28,481 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLnHaATJWfAABcalxfbWk5995788
+WARNING 2019-09-20 12:27:28,500 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLnHaATJWfAABcalxfbWk5995788 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:28,501 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5436
+WARNING 2019-09-20 12:27:28,536 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862
+WARNING 2019-09-20 12:27:28,552 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:28,551 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMe2KAGXDKAAAVASh8SzY6938726
+WARNING 2019-09-20 12:27:28,570 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMe2KAGXDKAAAVASh8SzY6938726 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:28,546 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgQuAM4-sAABPvjDmrZE7647305
+WARNING 2019-09-20 12:27:28,573 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgQuAM4-sAABPvjDmrZE7647305 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:28,629 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgWyAH_f1AAAQuFJkR2o1196559
+WARNING 2019-09-20 12:27:28,643 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgWyAH_f1AAAQuFJkR2o1196559 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:28,661 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgX2AeXiGAABuWTn7Wr09762364
+WARNING 2019-09-20 12:27:28,651 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgbiARBnzAABbhp78Lqs6191821
+WARNING 2019-09-20 12:27:28,673 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgbiARBnzAABbhp78Lqs6191821 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:28,681 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgX2AeXiGAABuWTn7Wr09762364 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:28,724 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgeuAYEocAABd3TzhhGw1571126
+WARNING 2019-09-20 12:27:28,750 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgkaAWyHAAABbrVH9a7o5762009
+WARNING 2019-09-20 12:27:28,776 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgkaAWyHAAABbrVH9a7o5762009 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:28,768 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgeuAYEocAABd3TzhhGw1571126 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:28,739 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgmyAB_1AAABoaAzPPW86045138
+WARNING 2019-09-20 12:27:28,811 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgmyAB_1AAABoaAzPPW86045138 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:28,809 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhjOAdMNbAAAR1JGA_cA5064317
+WARNING 2019-09-20 12:27:28,834 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhjOAdMNbAAAR1JGA_cA5064317 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:28,823 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgo6Aa3OTAAA82h3PXzw9976088
+WARNING 2019-09-20 12:27:28,839 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgo6Aa3OTAAA82h3PXzw9976088 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:28,844 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhlSAP_27AAAW_YBdNEk8530912
+WARNING 2019-09-20 12:27:28,856 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhlSAP_27AAAW_YBdNEk8530912 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:28,876 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhniADXZpAAALTWT-dfQ6160056
+WARNING 2019-09-20 12:27:28,901 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhniADXZpAAALTWT-dfQ6160056 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:28,907 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhveAOh8EAAA1ykQ-kAU6900992
+WARNING 2019-09-20 12:27:28,908 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhpiAV3lJAABiLlkgy2Y9166507
+WARNING 2019-09-20 12:27:28,910 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhpiAV3lJAABiLlkgy2Y9166507 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:28,927 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhveAOh8EAAA1ykQ-kAU6900992 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:28,993 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMh0qAavITAABOVXYg3SI5232882
+WARNING 2019-09-20 12:27:29,003 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhyuAEf95AABFDj_owsg4241256
+WARNING 2019-09-20 12:27:29,004 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhyuAEf95AABFDj_owsg4241256 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:29,009 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMh0qAavITAABOVXYg3SI5232882 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:29,019 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMh4eAWdF2AAA-Fkkc5rM1921911
+WARNING 2019-09-20 12:27:29,052 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMh4eAWdF2AAA-Fkkc5rM1921911 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:29,078 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMh62AUlDTAAA-SfqPszY5890026
+WARNING 2019-09-20 12:27:29,091 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMh62AUlDTAAA-SfqPszY5890026 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:29,683 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278
+WARNING 2019-09-20 12:27:29,704 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:29,710 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396
+WARNING 2019-09-20 12:27:29,712 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:30,074 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927
+WARNING 2019-09-20 12:27:30,075 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702
+WARNING 2019-09-20 12:27:30,090 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:30,090 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:27:30,103 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 12:27:30,114 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 12:28:03,856 basehttp 124 "GET /users/index/ HTTP/1.1" 200 87514
+WARNING 2019-09-20 12:28:04,206 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862
+WARNING 2019-09-20 12:28:04,241 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:28:04,216 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgQuAM4-sAABPvjDmrZE7647305
+WARNING 2019-09-20 12:28:04,242 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgQuAM4-sAABPvjDmrZE7647305 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:28:04,256 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMe2KAGXDKAAAVASh8SzY6938726
+WARNING 2019-09-20 12:28:04,257 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 12:28:04,258 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5436
+WARNING 2019-09-20 12:28:04,266 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMe2KAGXDKAAAVASh8SzY6938726 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:28:04,258 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLnHaATJWfAABcalxfbWk5995788
+WARNING 2019-09-20 12:28:04,279 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgWyAH_f1AAAQuFJkR2o1196559
+WARNING 2019-09-20 12:28:04,279 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgWyAH_f1AAAQuFJkR2o1196559 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:28:04,270 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLnHaATJWfAABcalxfbWk5995788 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:28:04,310 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgX2AeXiGAABuWTn7Wr09762364
+WARNING 2019-09-20 12:28:04,358 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgX2AeXiGAABuWTn7Wr09762364 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:28:04,331 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgeuAYEocAABd3TzhhGw1571126
+WARNING 2019-09-20 12:28:04,378 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgeuAYEocAABd3TzhhGw1571126 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:28:04,380 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgbiARBnzAABbhp78Lqs6191821
+WARNING 2019-09-20 12:28:04,392 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgkaAWyHAAABbrVH9a7o5762009
+WARNING 2019-09-20 12:28:04,403 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgbiARBnzAABbhp78Lqs6191821 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:28:04,413 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgmyAB_1AAABoaAzPPW86045138
+WARNING 2019-09-20 12:28:04,460 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgmyAB_1AAABoaAzPPW86045138 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:28:04,419 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgkaAWyHAAABbrVH9a7o5762009 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:28:04,467 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgo6Aa3OTAAA82h3PXzw9976088
+WARNING 2019-09-20 12:28:04,491 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgo6Aa3OTAAA82h3PXzw9976088 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:28:04,505 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhjOAdMNbAAAR1JGA_cA5064317
+WARNING 2019-09-20 12:28:04,537 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhjOAdMNbAAAR1JGA_cA5064317 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:28:04,550 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhlSAP_27AAAW_YBdNEk8530912
+WARNING 2019-09-20 12:28:04,562 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhniADXZpAAALTWT-dfQ6160056
+WARNING 2019-09-20 12:28:04,588 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhniADXZpAAALTWT-dfQ6160056 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:28:04,587 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhlSAP_27AAAW_YBdNEk8530912 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:28:04,576 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhpiAV3lJAABiLlkgy2Y9166507
+WARNING 2019-09-20 12:28:04,594 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhpiAV3lJAABiLlkgy2Y9166507 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:28:04,597 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhveAOh8EAAA1ykQ-kAU6900992
+WARNING 2019-09-20 12:28:04,611 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhveAOh8EAAA1ykQ-kAU6900992 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:28:04,646 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMh0qAavITAABOVXYg3SI5232882
+WARNING 2019-09-20 12:28:04,648 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMh0qAavITAABOVXYg3SI5232882 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:28:04,648 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhyuAEf95AABFDj_owsg4241256
+WARNING 2019-09-20 12:28:04,651 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhyuAEf95AABFDj_owsg4241256 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:28:04,703 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMh4eAWdF2AAA-Fkkc5rM1921911
+WARNING 2019-09-20 12:28:04,718 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMh4eAWdF2AAA-Fkkc5rM1921911 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:28:04,717 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMh62AUlDTAAA-SfqPszY5890026
+WARNING 2019-09-20 12:28:04,728 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMh62AUlDTAAA-SfqPszY5890026 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:28:05,641 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 12:28:05,652 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 12:29:42,597 basehttp 124 "GET /users/index/ HTTP/1.1" 200 87514
+WARNING 2019-09-20 12:29:42,823 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLnHaATJWfAABcalxfbWk5995788
+WARNING 2019-09-20 12:29:42,843 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLnHaATJWfAABcalxfbWk5995788 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:42,839 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 12:29:42,846 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5436
+WARNING 2019-09-20 12:29:43,272 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862
+WARNING 2019-09-20 12:29:43,275 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMe2KAGXDKAAAVASh8SzY6938726
+WARNING 2019-09-20 12:29:43,276 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:43,289 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMe2KAGXDKAAAVASh8SzY6938726 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:43,283 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgQuAM4-sAABPvjDmrZE7647305
+WARNING 2019-09-20 12:29:43,316 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgQuAM4-sAABPvjDmrZE7647305 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:43,338 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgX2AeXiGAABuWTn7Wr09762364
+WARNING 2019-09-20 12:29:43,357 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgX2AeXiGAABuWTn7Wr09762364 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:43,357 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgWyAH_f1AAAQuFJkR2o1196559
+WARNING 2019-09-20 12:29:43,359 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgWyAH_f1AAAQuFJkR2o1196559 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:43,365 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgbiARBnzAABbhp78Lqs6191821
+WARNING 2019-09-20 12:29:43,377 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgbiARBnzAABbhp78Lqs6191821 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:43,428 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgeuAYEocAABd3TzhhGw1571126
+WARNING 2019-09-20 12:29:43,430 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgkaAWyHAAABbrVH9a7o5762009
+WARNING 2019-09-20 12:29:43,434 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgeuAYEocAABd3TzhhGw1571126 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:43,444 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgkaAWyHAAABbrVH9a7o5762009 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:43,457 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgmyAB_1AAABoaAzPPW86045138
+WARNING 2019-09-20 12:29:43,479 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgmyAB_1AAABoaAzPPW86045138 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:43,503 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMgo6Aa3OTAAA82h3PXzw9976088
+WARNING 2019-09-20 12:29:43,525 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMgo6Aa3OTAAA82h3PXzw9976088 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:43,550 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhjOAdMNbAAAR1JGA_cA5064317
+WARNING 2019-09-20 12:29:43,566 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhjOAdMNbAAAR1JGA_cA5064317 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:43,599 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhniADXZpAAALTWT-dfQ6160056
+WARNING 2019-09-20 12:29:43,604 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhlSAP_27AAAW_YBdNEk8530912
+WARNING 2019-09-20 12:29:43,607 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhlSAP_27AAAW_YBdNEk8530912 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:43,615 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhpiAV3lJAABiLlkgy2Y9166507
+WARNING 2019-09-20 12:29:43,618 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhniADXZpAAALTWT-dfQ6160056 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:43,642 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhpiAV3lJAABiLlkgy2Y9166507 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:43,694 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhyuAEf95AABFDj_owsg4241256
+WARNING 2019-09-20 12:29:43,695 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhyuAEf95AABFDj_owsg4241256 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:43,709 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMhveAOh8EAAA1ykQ-kAU6900992
+WARNING 2019-09-20 12:29:43,710 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMhveAOh8EAAA1ykQ-kAU6900992 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:43,783 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMh0qAavITAABOVXYg3SI5232882
+WARNING 2019-09-20 12:29:43,800 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMh0qAavITAABOVXYg3SI5232882 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:43,801 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMh4eAWdF2AAA-Fkkc5rM1921911
+WARNING 2019-09-20 12:29:43,801 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrMh62AUlDTAAA-SfqPszY5890026
+WARNING 2019-09-20 12:29:43,803 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMh62AUlDTAAA-SfqPszY5890026 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:43,805 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrMh4eAWdF2AAA-Fkkc5rM1921911 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:44,322 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 12:29:44,327 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLnHaATJWfAABcalxfbWk5995788
+WARNING 2019-09-20 12:29:44,338 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLnHaATJWfAABcalxfbWk5995788 HTTP/1.1" 404 5331
+WARNING 2019-09-20 12:29:44,329 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5436
+WARNING 2019-09-20 12:29:44,340 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 12:29:44,356 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+ERROR 2019-09-20 12:31:15,435 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 124, in get
+    return render(request,"index.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/index.html", line 136, in top-level template code
+    <a href="{{ contents.index_ytgg.url }}" class="advs"><img src="{{ contents.index_ytgg.image.url }}"></a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'django.db.models.query.QuerySet object' has no attribute 'image'
+ERROR 2019-09-20 12:31:17,212 basehttp 124 "GET /users/index/ HTTP/1.1" 500 180161
+ERROR 2019-09-20 12:31:28,386 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 124, in get
+    return render(request,"index.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/index.html", line 136, in top-level template code
+    <a href="{{ contents.index_ytgg.url }}" class="advs"><img src="{{ contents.index_ytgg.image.url }}"></a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'django.db.models.query.QuerySet object' has no attribute 'image'
+ERROR 2019-09-20 12:31:29,909 basehttp 124 "GET /users/index/ HTTP/1.1" 500 179780
+ERROR 2019-09-20 12:31:56,884 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 124, in get
+    return render(request,"index.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/index.html", line 136, in top-level template code
+    <a href="{{ contents.index_ytgg.url }}" class="advs"><img src="{{ contents.index_ytgg.image.url }}"></a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'django.db.models.query.QuerySet object' has no attribute 'image'
+ERROR 2019-09-20 12:31:58,448 basehttp 124 "GET /users/index/ HTTP/1.1" 500 179923
+INFO 2019-09-20 12:32:27,485 basehttp 124 "GET /users/index/ HTTP/1.1" 200 88074
+WARNING 2019-09-20 12:32:27,724 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 12:32:27,738 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5436
+WARNING 2019-09-20 12:32:27,829 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 12:32:27,834 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5436
+WARNING 2019-09-20 12:32:28,575 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 12:32:28,580 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 12:39:57,701 basehttp 124 "GET /users/index/ HTTP/1.1" 200 88074
+WARNING 2019-09-20 12:39:57,854 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 12:39:57,869 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5436
+WARNING 2019-09-20 12:39:58,732 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 12:39:58,764 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5436
+WARNING 2019-09-20 12:39:58,766 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 12:39:58,769 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 12:45:51,443 basehttp 124 "GET /users/index/ HTTP/1.1" 200 88074
+WARNING 2019-09-20 12:45:51,616 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 12:45:51,622 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5436
+WARNING 2019-09-20 12:45:51,647 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 12:45:51,659 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5436
+WARNING 2019-09-20 12:45:52,137 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 12:45:52,140 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+INFO 2019-09-20 12:46:37,195 basehttp 124 "GET /users/index/ HTTP/1.1" 200 88122
+WARNING 2019-09-20 12:46:37,708 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 12:46:37,716 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5436
+WARNING 2019-09-20 12:46:38,914 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 12:46:38,916 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5436
+WARNING 2019-09-20 12:46:38,917 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 12:46:38,918 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2970
+WARNING 2019-09-20 12:53:23,266 base 152 Not Found: /list/115/1/
+WARNING 2019-09-20 12:53:23,294 basehttp 124 "GET /list/115/1/ HTTP/1.1" 404 2964
+WARNING 2019-09-20 12:57:10,604 base 152 Not Found: /list/
+WARNING 2019-09-20 12:57:10,624 basehttp 124 "GET /list/ HTTP/1.1" 404 2946
+WARNING 2019-09-20 12:57:17,801 base 152 Not Found: /list/
+WARNING 2019-09-20 12:57:17,817 basehttp 124 "GET /list/ HTTP/1.1" 404 2946
+WARNING 2019-09-20 12:57:24,151 base 152 Not Found: /list/115/1/
+WARNING 2019-09-20 12:57:24,170 basehttp 124 "GET /list/115/1/ HTTP/1.1" 404 2964
+WARNING 2019-09-20 12:57:29,221 base 152 Not Found: /list
+WARNING 2019-09-20 12:57:29,223 basehttp 124 "GET /list HTTP/1.1" 404 2943
+WARNING 2019-09-20 12:58:17,274 base 152 Not Found: /list
+WARNING 2019-09-20 12:58:17,285 basehttp 124 "GET /list HTTP/1.1" 404 3162
+WARNING 2019-09-20 12:58:22,922 base 152 Not Found: /list
+WARNING 2019-09-20 12:58:22,940 basehttp 124 "GET /list HTTP/1.1" 404 3162
+ERROR 2019-09-20 12:58:28,041 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() got an unexpected keyword argument 'page_num'
+ERROR 2019-09-20 12:58:28,413 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 80449
