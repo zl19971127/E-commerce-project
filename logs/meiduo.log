@@ -9378,3 +9378,1523 @@ Traceback (most recent call last):
     return handler(request, *args, **kwargs)
 TypeError: get() got an unexpected keyword argument 'page_num'
 ERROR 2019-09-20 12:58:28,413 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 80449
+ERROR 2019-09-20 14:21:30,346 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() got an unexpected keyword argument 'category_id'
+ERROR 2019-09-20 14:21:30,594 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 80653
+WARNING 2019-09-20 14:21:31,101 base 152 Not Found: /favicon.ico
+WARNING 2019-09-20 14:21:31,110 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3183
+INFO 2019-09-20 14:21:41,430 basehttp 124 "GET /users/index/ HTTP/1.1" 200 88122
+WARNING 2019-09-20 14:21:42,126 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 14:21:42,133 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5655
+WARNING 2019-09-20 14:21:44,252 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 14:21:44,255 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5655
+WARNING 2019-09-20 14:21:44,346 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 14:21:44,347 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3189
+INFO 2019-09-20 14:21:47,996 basehttp 124 "GET /users/info HTTP/1.1" 301 0
+INFO 2019-09-20 14:21:48,002 basehttp 124 "GET /users/info/ HTTP/1.1" 302 0
+INFO 2019-09-20 14:21:48,033 basehttp 124 "GET /users/login/?next=/users/info/ HTTP/1.1" 200 2965
+INFO 2019-09-20 14:21:48,080 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2019-09-20 14:21:48,084 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-09-20 14:21:48,169 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 304 0
+INFO 2019-09-20 14:21:48,228 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO 2019-09-20 14:21:48,275 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 304 0
+INFO 2019-09-20 14:21:53,184 basehttp 124 "GET /users/info/ HTTP/1.1" 302 0
+INFO 2019-09-20 14:21:53,195 basehttp 124 "GET /users/login/?next=/users/info/ HTTP/1.1" 200 2965
+INFO 2019-09-20 14:21:58,592 basehttp 124 "GET /users/logout/ HTTP/1.1" 302 0
+INFO 2019-09-20 14:21:59,225 basehttp 124 "GET /users/index/ HTTP/1.1" 200 88122
+WARNING 2019-09-20 14:21:59,326 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 14:21:59,332 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5655
+WARNING 2019-09-20 14:21:59,919 base 152 Not Found: /users/index/{{ no such element: django.db.models.query.QuerySet object['image'] }}
+WARNING 2019-09-20 14:21:59,931 basehttp 124 "GET /users/index/%7B%7B%20no%20such%20element:%20django.db.models.query.QuerySet%20object['image']%20%7D%7D HTTP/1.1" 404 5655
+WARNING 2019-09-20 14:21:59,927 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 14:21:59,941 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3189
+INFO 2019-09-20 14:22:01,142 basehttp 124 "GET /users/info HTTP/1.1" 301 0
+INFO 2019-09-20 14:22:01,158 basehttp 124 "GET /users/info/ HTTP/1.1" 302 0
+INFO 2019-09-20 14:22:01,179 basehttp 124 "GET /users/login/?next=/users/info/ HTTP/1.1" 200 2965
+ERROR 2019-09-20 14:22:12,322 exception 135 Internal Server Error: /users/login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django_redis/cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django_redis/cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django_redis/client/default.py", line 478, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 244, in post
+    login(request, user)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/views.py", line 54, in inner
+    return func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/views.py", line 150, in login
+    )(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/views.py", line 90, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/edit.py", line 183, in post
+    return self.form_valid(form)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/views.py", line 119, in form_valid
+    auth_login(self.request, form.get_user())
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 140, in login
+    request.session.cycle_key()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 311, in cycle_key
+    self.create()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/cache/backends/base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django_redis/cache.py", line 39, in _decorator
+    raise e.parent
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django_redis/client/default.py", line 476, in has_key
+    return client.exists(key) == 1
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/client.py", line 1239, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-09-20 14:22:13,076 basehttp 124 "POST /users/login/?next=/users/info/ HTTP/1.1" 500 222715
+ERROR 2019-09-20 14:22:45,771 exception 135 Internal Server Error: /users/login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django_redis/cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django_redis/cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django_redis/client/default.py", line 478, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 244, in post
+    login(request, user)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/views.py", line 54, in inner
+    return func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/views.py", line 150, in login
+    )(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/views.py", line 90, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/edit.py", line 183, in post
+    return self.form_valid(form)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/views.py", line 119, in form_valid
+    auth_login(self.request, form.get_user())
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 140, in login
+    request.session.cycle_key()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 311, in cycle_key
+    self.create()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/cache/backends/base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django_redis/cache.py", line 39, in _decorator
+    raise e.parent
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django_redis/client/default.py", line 476, in has_key
+    return client.exists(key) == 1
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/client.py", line 1239, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-09-20 14:22:46,046 basehttp 124 "POST /users/login/?next=/users/info/ HTTP/1.1" 500 222715
+INFO 2019-09-20 14:23:40,347 basehttp 124 "POST /users/login/?next=/users/info/ HTTP/1.1" 302 0
+INFO 2019-09-20 14:23:40,458 basehttp 124 "GET /users/info/ HTTP/1.1" 200 6466
+INFO 2019-09-20 14:23:40,493 basehttp 124 "GET /static/images/goods/goods006.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 14:23:40,533 basehttp 124 "GET /static/images/goods/goods007.jpg HTTP/1.1" 304 0
+INFO 2019-09-20 14:23:40,537 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+WARNING 2019-09-20 14:23:40,764 base 152 Not Found: /browse_histories/
+INFO 2019-09-20 14:23:40,769 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 304 0
+WARNING 2019-09-20 14:23:40,780 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3201
+INFO 2019-09-20 14:23:40,782 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 304 0
+INFO 2019-09-20 14:23:47,655 basehttp 124 "GET /users/login/?next=/users/info/ HTTP/1.1" 200 2965
+ERROR 2019-09-20 14:25:08,784 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 124, in get
+    return render(request,"index.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/index.html", line 136, in top-level template code
+    <a href="{{ contents.index_ytgg.url }}" class="advs"><img src="{{ contents.index_ytgg.image.url }}"></a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'django.db.models.query.QuerySet object' has no attribute 'image'
+ERROR 2019-09-20 14:25:10,224 basehttp 124 "GET /users/index/ HTTP/1.1" 500 180204
+INFO 2019-09-20 14:27:28,762 basehttp 124 "GET /users/index/ HTTP/1.1" 200 88104
+WARNING 2019-09-20 14:27:29,430 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 14:27:29,525 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3189
+INFO 2019-09-20 14:27:34,717 basehttp 124 "GET /users/index/ HTTP/1.1" 200 88104
+WARNING 2019-09-20 14:27:35,579 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 14:27:35,591 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3189
+INFO 2019-09-20 14:28:13,330 basehttp 124 "GET /users/index/ HTTP/1.1" 200 88074
+WARNING 2019-09-20 14:28:13,470 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLm_iAILnwAACbl1lbG3U8255973
+WARNING 2019-09-20 14:28:13,475 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLm_iAILnwAACbl1lbG3U8255973 HTTP/1.1" 404 5550
+WARNING 2019-09-20 14:28:14,543 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 14:28:14,543 base 152 Not Found: /users/index/group1/M00/00/01/CtM3BVrLm_iAILnwAACbl1lbG3U8255973
+WARNING 2019-09-20 14:28:14,553 basehttp 124 "GET /users/index/group1/M00/00/01/CtM3BVrLm_iAILnwAACbl1lbG3U8255973 HTTP/1.1" 404 5550
+WARNING 2019-09-20 14:28:14,554 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3189
+INFO 2019-09-20 14:28:26,115 basehttp 124 "GET /users/index/ HTTP/1.1" 200 88104
+WARNING 2019-09-20 14:28:26,850 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 14:28:26,857 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3189
+ERROR 2019-09-20 14:29:38,012 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() got an unexpected keyword argument 'category_id'
+ERROR 2019-09-20 14:29:38,113 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 80673
+ERROR 2019-09-20 14:30:24,903 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 7, in get
+    return render(request,"list.html")
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/list.html", line 77, in top-level template code
+    {% for group in categories.values() %}
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'categories' is undefined
+ERROR 2019-09-20 14:30:25,024 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 125175
+INFO 2019-09-20 14:31:11,819 basehttp 124 "GET /static/list.html HTTP/1.1" 200 12224
+INFO 2019-09-20 14:31:11,944 basehttp 124 "GET /static/js/list.js HTTP/1.1" 200 1959
+INFO 2019-09-20 14:42:53,606 basehttp 124 "GET /users/index/ HTTP/1.1" 200 88104
+WARNING 2019-09-20 14:42:54,221 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 14:42:54,229 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3189
+ERROR 2019-09-20 14:43:01,431 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 13, in get
+    category = models.GoodsCategory.objects.get(id=category_id)
+AttributeError: module 'utils.models' has no attribute 'GoodsCategory'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 14, in get
+    except models.GoodCategory.DoesNotExist:
+AttributeError: module 'utils.models' has no attribute 'GoodCategory'
+ERROR 2019-09-20 14:43:01,521 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 89371
+ERROR 2019-09-20 14:44:15,782 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 28, in get
+    return render(request,"list.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/list.html", line 143, in top-level template code
+    <a href="{{ url('goods:list',args=(category.id,page_num)) }}?sort=default" {% if sort=='default' %}class="active"{% endif %}>默认</a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'category' is undefined
+ERROR 2019-09-20 14:44:15,955 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 165014
+ERROR 2019-09-20 14:44:23,510 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 28, in get
+    return render(request,"list.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/list.html", line 143, in top-level template code
+    <a href="{{ url('goods:list',args=(category.id,page_num)) }}?sort=default" {% if sort=='default' %}class="active"{% endif %}>默认</a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'category' is undefined
+ERROR 2019-09-20 14:44:23,688 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 164996
+ERROR 2019-09-20 14:45:38,948 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 28, in get
+    return render(request,"list.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/list.html", line 143, in top-level template code
+    <a href="{{ url('goods:list',args=(category.id,page_num)) }}?sort=default" {% if sort=='default' %}class="active"{% endif %}>默认</a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'category' is undefined
+ERROR 2019-09-20 14:45:39,125 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 164970
+ERROR 2019-09-20 14:45:42,423 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 28, in get
+    return render(request,"list.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/list.html", line 143, in top-level template code
+    <a href="{{ url('goods:list',args=(category.id,page_num)) }}?sort=default" {% if sort=='default' %}class="active"{% endif %}>默认</a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'category' is undefined
+ERROR 2019-09-20 14:45:42,625 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 164882
+ERROR 2019-09-20 14:50:08,713 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 28, in get
+    return render(request,"list.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/list.html", line 143, in top-level template code
+    <a href="{{ url('goods:list',args=(category.id,page_num)) }}?sort=default" {% if sort=='default' %}class="active"{% endif %}>默认</a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'category' is undefined
+ERROR 2019-09-20 14:53:53,900 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 166127
+ERROR 2019-09-20 14:54:08,341 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 28, in get
+    return render(request,"list.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/list.html", line 142, in top-level template code
+    <a href="{{ url('goods:list',args=(category.id,page_num)) }}?sort=default"  {% if sort=='default' %} class="active" {% endif %}>默认</a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'category' is undefined
+ERROR 2019-09-20 14:54:08,517 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 164893
+ERROR 2019-09-20 14:55:12,600 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 28, in get
+    return render(request,"list.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/list.html", line 142, in top-level template code
+    <a href="{{ url('goods:list',args=(category.id,page_num)) }}?sort=default"  {% if sort=='default' %} class="active" {% endif %}>默认</a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'category' is undefined
+ERROR 2019-09-20 14:55:12,778 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 164897
+ERROR 2019-09-20 14:58:38,953 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 28, in get
+    return render(request,"list.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/list.html", line 142, in top-level template code
+    <a href="{{ url('goods:list',args=(category.id,page_num)) }}?sort=default"  {% if sort=='default' %} class="active" {% endif %}>默认</a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'category' is undefined
+ERROR 2019-09-20 14:58:39,166 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 164892
+ERROR 2019-09-20 14:58:41,964 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 28, in get
+    return render(request,"list.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/list.html", line 142, in top-level template code
+    <a href="{{ url('goods:list',args=(category.id,page_num)) }}?sort=default"  {% if sort=='default' %} class="active" {% endif %}>默认</a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'category' is undefined
+ERROR 2019-09-20 14:58:42,136 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 164953
+INFO 2019-09-20 14:59:18,394 basehttp 124 "GET /list/115/1 HTTP/1.1" 301 0
+ERROR 2019-09-20 14:59:18,884 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 28, in get
+    return render(request,"list.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/list.html", line 142, in top-level template code
+    <a href="{{ url('goods:list',args=(category.id,page_num)) }}?sort=default"  {% if sort=='default' %} class="active" {% endif %}>默认</a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'category' is undefined
+ERROR 2019-09-20 14:59:19,069 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 164496
+ERROR 2019-09-20 14:59:25,157 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 28, in get
+    return render(request,"list.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/list.html", line 142, in top-level template code
+    <a href="{{ url('goods:list',args=(category.id,page_num)) }}?sort=default"  {% if sort=='default' %} class="active" {% endif %}>默认</a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'category' is undefined
+ERROR 2019-09-20 14:59:25,658 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 164906
+ERROR 2019-09-20 14:59:35,981 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 28, in get
+    return render(request,"list.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/list.html", line 142, in top-level template code
+    <a href="{{ url('goods:list',args=(category.id,page_num)) }}?sort=default"  {% if sort=='default' %} class="active" {% endif %}>默认</a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'category' is undefined
+ERROR 2019-09-20 14:59:36,192 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 164938
+WARNING 2019-09-20 14:59:55,794 base 152 Not Found: /list
+WARNING 2019-09-20 14:59:55,821 basehttp 124 "GET /list HTTP/1.1" 404 3162
+WARNING 2019-09-20 15:00:01,778 base 152 Not Found: /list/
+WARNING 2019-09-20 15:00:01,792 basehttp 124 "GET /list/ HTTP/1.1" 404 3165
+INFO 2019-09-20 15:00:07,976 basehttp 124 "GET /list/115/1 HTTP/1.1" 301 0
+ERROR 2019-09-20 15:00:08,469 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 28, in get
+    return render(request,"list.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/list.html", line 142, in top-level template code
+    <a href="{{ url('goods:list',args=(category.id,page_num)) }}?sort=default"  {% if sort=='default' %} class="active" {% endif %}>默认</a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'category' is undefined
+ERROR 2019-09-20 15:00:08,657 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 164761
+ERROR 2019-09-20 15:04:13,607 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 28, in get
+    return render(request,"list.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/list.html", line 186, in top-level template code
+    let category_id = {{ category.id }}
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'category' is undefined
+ERROR 2019-09-20 15:04:13,824 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 164909
+ERROR 2019-09-20 15:04:16,666 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 28, in get
+    return render(request,"list.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/list.html", line 186, in top-level template code
+    let category_id = {{ category.id }}
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'category' is undefined
+ERROR 2019-09-20 15:04:16,896 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 164740
+INFO 2019-09-20 15:12:52,377 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 87498
+INFO 2019-09-20 15:12:52,489 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-20 15:12:52,489 basehttp 124 "GET /static/css/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2019-09-20 15:12:52,535 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-20 15:12:52,537 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-20 15:12:52,791 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-20 15:12:52,810 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-09-20 15:12:52,811 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-20 15:12:52,811 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-20 15:12:52,853 basehttp 124 "GET /static/js/list.js HTTP/1.1" 200 1959
+INFO 2019-09-20 15:12:52,889 basehttp 124 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+WARNING 2019-09-20 15:12:52,915 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:12:52,934 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3228
+WARNING 2019-09-20 15:12:53,134 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:12:53,149 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3228
+INFO 2019-09-20 15:12:53,155 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2019-09-20 15:12:53,157 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-20 15:12:53,179 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+WARNING 2019-09-20 15:12:53,507 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:12:53,525 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3189
+WARNING 2019-09-20 15:12:53,532 base 152 Not Found: /hot/115/
+WARNING 2019-09-20 15:12:53,534 basehttp 124 "GET /hot/115/ HTTP/1.1" 404 3174
+INFO 2019-09-20 15:15:46,353 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 87498
+WARNING 2019-09-20 15:15:46,409 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:15:46,411 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3228
+WARNING 2019-09-20 15:15:46,880 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:15:46,905 base 152 Not Found: /hot/115/
+WARNING 2019-09-20 15:15:46,906 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3228
+WARNING 2019-09-20 15:15:46,909 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:15:46,912 basehttp 124 "GET /hot/115/ HTTP/1.1" 404 3174
+WARNING 2019-09-20 15:15:46,915 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3189
+WARNING 2019-09-20 15:15:49,161 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-20 15:21:54,086 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 87498
+WARNING 2019-09-20 15:21:54,168 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:21:54,181 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:21:54,581 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:21:54,586 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:21:54,595 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:21:54,613 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3382
+ERROR 2019-09-20 15:21:54,616 exception 135 Internal Server Error: /hot/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 76, in get
+    return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK','hot_skus':hot_skus})
+AttributeError: module 'http' has no attribute 'JsonResponse'
+ERROR 2019-09-20 15:21:54,781 basehttp 124 "GET /hot/115/ HTTP/1.1" 500 84792
+INFO 2019-09-20 15:21:57,903 basehttp 124 "GET /list/115/1/?sort=default HTTP/1.1" 200 87498
+INFO 2019-09-20 15:21:58,467 basehttp 124 "GET /list/115/1/?sort=price HTTP/1.1" 200 87558
+WARNING 2019-09-20 15:21:58,523 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:21:58,544 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:21:58,952 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:21:58,955 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:21:58,979 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:21:58,981 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3382
+ERROR 2019-09-20 15:21:58,989 exception 135 Internal Server Error: /hot/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 76, in get
+    return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK','hot_skus':hot_skus})
+AttributeError: module 'http' has no attribute 'JsonResponse'
+ERROR 2019-09-20 15:21:59,132 basehttp 124 "GET /hot/115/ HTTP/1.1" 500 84802
+INFO 2019-09-20 15:22:08,433 basehttp 124 "GET /list/115/1/?sort=hot HTTP/1.1" 200 87520
+WARNING 2019-09-20 15:22:08,511 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:22:08,518 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:22:09,042 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:22:09,063 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:22:09,074 base 152 Not Found: /carts/simple/
+ERROR 2019-09-20 15:22:09,082 exception 135 Internal Server Error: /hot/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 76, in get
+    return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK','hot_skus':hot_skus})
+AttributeError: module 'http' has no attribute 'JsonResponse'
+WARNING 2019-09-20 15:22:09,083 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3382
+ERROR 2019-09-20 15:22:09,287 basehttp 124 "GET /hot/115/ HTTP/1.1" 500 84800
+INFO 2019-09-20 15:22:10,968 basehttp 124 "GET /list/115/1/?sort=default HTTP/1.1" 200 87498
+WARNING 2019-09-20 15:22:11,021 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:22:11,027 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:22:11,483 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:22:11,505 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:22:11,491 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:22:11,508 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3382
+ERROR 2019-09-20 15:22:11,517 exception 135 Internal Server Error: /hot/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 76, in get
+    return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK','hot_skus':hot_skus})
+AttributeError: module 'http' has no attribute 'JsonResponse'
+ERROR 2019-09-20 15:22:11,695 basehttp 124 "GET /hot/115/ HTTP/1.1" 500 84804
+INFO 2019-09-20 15:22:15,047 basehttp 124 "GET /list/115/1/?sort=price HTTP/1.1" 200 87558
+WARNING 2019-09-20 15:22:15,114 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:22:15,120 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:22:15,474 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:22:15,491 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:22:15,493 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:22:15,503 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3382
+ERROR 2019-09-20 15:22:15,513 exception 135 Internal Server Error: /hot/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 76, in get
+    return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK','hot_skus':hot_skus})
+AttributeError: module 'http' has no attribute 'JsonResponse'
+ERROR 2019-09-20 15:22:15,678 basehttp 124 "GET /hot/115/ HTTP/1.1" 500 84802
+INFO 2019-09-20 15:22:28,473 basehttp 124 "GET /list/116/1/ HTTP/1.1" 200 85170
+WARNING 2019-09-20 15:22:28,551 base 152 Not Found: /list/116/1/images/logo.png
+WARNING 2019-09-20 15:22:28,557 basehttp 124 "GET /list/116/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:22:28,875 base 152 Not Found: /list/116/1/images/logo.png
+WARNING 2019-09-20 15:22:28,886 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:22:28,887 basehttp 124 "GET /list/116/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:22:28,894 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3382
+ERROR 2019-09-20 15:22:28,902 exception 135 Internal Server Error: /hot/116/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 76, in get
+    return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK','hot_skus':hot_skus})
+AttributeError: module 'http' has no attribute 'JsonResponse'
+ERROR 2019-09-20 15:22:29,067 basehttp 124 "GET /hot/116/ HTTP/1.1" 500 83756
+INFO 2019-09-20 15:22:35,150 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 87498
+WARNING 2019-09-20 15:22:35,190 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:22:35,191 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:22:35,309 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:22:35,313 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:22:35,591 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:22:35,609 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3382
+ERROR 2019-09-20 15:22:35,612 exception 135 Internal Server Error: /hot/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 76, in get
+    return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK','hot_skus':hot_skus})
+AttributeError: module 'http' has no attribute 'JsonResponse'
+ERROR 2019-09-20 15:22:35,772 basehttp 124 "GET /hot/115/ HTTP/1.1" 500 84792
+INFO 2019-09-20 15:22:40,779 basehttp 124 "GET /list/115/1/?sort=price HTTP/1.1" 200 87558
+WARNING 2019-09-20 15:22:40,864 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:22:40,889 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:22:41,209 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:22:41,216 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:22:41,234 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3382
+WARNING 2019-09-20 15:22:41,236 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+ERROR 2019-09-20 15:22:41,249 exception 135 Internal Server Error: /hot/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 76, in get
+    return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK','hot_skus':hot_skus})
+AttributeError: module 'http' has no attribute 'JsonResponse'
+ERROR 2019-09-20 15:22:41,401 basehttp 124 "GET /hot/115/ HTTP/1.1" 500 84802
+INFO 2019-09-20 15:22:42,714 basehttp 124 "GET /list/115/1/?sort=hot HTTP/1.1" 200 87520
+WARNING 2019-09-20 15:22:42,803 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:22:42,815 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:22:43,150 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:22:43,155 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:22:43,161 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:22:43,163 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3382
+ERROR 2019-09-20 15:22:43,176 exception 135 Internal Server Error: /hot/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 76, in get
+    return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK','hot_skus':hot_skus})
+AttributeError: module 'http' has no attribute 'JsonResponse'
+ERROR 2019-09-20 15:22:43,336 basehttp 124 "GET /hot/115/ HTTP/1.1" 500 84800
+INFO 2019-09-20 15:22:44,029 basehttp 124 "GET /list/115/1/?sort=default HTTP/1.1" 200 87498
+WARNING 2019-09-20 15:22:44,085 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:22:44,094 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:22:44,460 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:22:44,462 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:22:44,466 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:22:44,472 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3382
+ERROR 2019-09-20 15:22:44,487 exception 135 Internal Server Error: /hot/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 76, in get
+    return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK','hot_skus':hot_skus})
+AttributeError: module 'http' has no attribute 'JsonResponse'
+ERROR 2019-09-20 15:22:44,664 basehttp 124 "GET /hot/115/ HTTP/1.1" 500 84804
+WARNING 2019-09-20 15:22:51,615 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-20 15:27:11,022 basehttp 124 "GET /list/115/1/?sort=default HTTP/1.1" 200 87498
+INFO 2019-09-20 15:27:11,076 basehttp 124 "GET /static/css/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2019-09-20 15:27:11,116 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-20 15:27:11,118 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-20 15:27:11,119 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-20 15:27:11,122 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-20 15:27:11,138 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-20 15:27:11,139 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-09-20 15:27:11,166 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-20 15:27:11,175 basehttp 124 "GET /static/js/list.js HTTP/1.1" 200 1959
+INFO 2019-09-20 15:27:11,184 basehttp 124 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+WARNING 2019-09-20 15:27:11,341 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:27:11,346 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:27:11,506 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-20 15:27:11,541 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-09-20 15:27:11,565 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+WARNING 2019-09-20 15:27:11,997 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:27:12,006 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:27:12,006 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:27:12,013 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3382
+ERROR 2019-09-20 15:27:12,029 exception 135 Internal Server Error: /hot/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 76, in get
+    return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK','hot_skus':hot_skus})
+AttributeError: module 'http' has no attribute 'JsonResponse'
+ERROR 2019-09-20 15:27:12,323 basehttp 124 "GET /hot/115/ HTTP/1.1" 500 85065
+INFO 2019-09-20 15:28:55,953 basehttp 124 "GET /list/115/1/?sort=default HTTP/1.1" 200 87504
+INFO 2019-09-20 15:28:56,021 basehttp 124 "GET /static/css/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2019-09-20 15:28:56,034 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-20 15:28:56,078 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-20 15:28:56,079 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-20 15:28:56,082 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-20 15:28:56,099 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-20 15:28:56,104 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-09-20 15:28:56,113 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-20 15:28:56,146 basehttp 124 "GET /static/js/list.js HTTP/1.1" 200 1959
+INFO 2019-09-20 15:28:56,166 basehttp 124 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+WARNING 2019-09-20 15:28:56,318 base 152 Not Found: /list/115/1/sku.default_image_url
+WARNING 2019-09-20 15:28:56,322 basehttp 124 "GET /list/115/1/sku.default_image_url HTTP/1.1" 404 3439
+INFO 2019-09-20 15:28:56,584 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-09-20 15:28:56,600 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+WARNING 2019-09-20 15:28:56,909 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+WARNING 2019-09-20 15:28:57,414 base 152 Not Found: /list/115/1/sku.default_image_url
+WARNING 2019-09-20 15:28:57,461 basehttp 124 "GET /list/115/1/sku.default_image_url HTTP/1.1" 404 3439
+WARNING 2019-09-20 15:28:57,465 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:28:57,466 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3382
+ERROR 2019-09-20 15:28:57,503 exception 135 Internal Server Error: /hot/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 76, in get
+    return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK','hot_skus':hot_skus})
+AttributeError: module 'http' has no attribute 'JsonResponse'
+ERROR 2019-09-20 15:28:58,004 basehttp 124 "GET /hot/115/ HTTP/1.1" 500 85065
+INFO 2019-09-20 15:29:41,938 basehttp 124 "GET /list/115/1/?sort=default HTTP/1.1" 200 87511
+WARNING 2019-09-20 15:29:42,031 base 152 Not Found: /list/static/images/logo.png
+WARNING 2019-09-20 15:29:42,048 basehttp 124 "GET /list/static/images/logo.png HTTP/1.1" 404 3424
+WARNING 2019-09-20 15:29:42,161 base 152 Not Found: /list/static/images/logo.png
+WARNING 2019-09-20 15:29:42,170 basehttp 124 "GET /list/static/images/logo.png HTTP/1.1" 404 3424
+WARNING 2019-09-20 15:29:42,521 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:29:42,534 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3382
+ERROR 2019-09-20 15:29:42,549 exception 135 Internal Server Error: /hot/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 76, in get
+    return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK','hot_skus':hot_skus})
+AttributeError: module 'http' has no attribute 'JsonResponse'
+ERROR 2019-09-20 15:29:42,737 basehttp 124 "GET /hot/115/ HTTP/1.1" 500 84805
+WARNING 2019-09-20 15:30:53,429 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+ERROR 2019-09-20 15:31:46,957 exception 135 Internal Server Error: /hot/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 76, in get
+    return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK','hot_skus':hot_skus})
+AttributeError: module 'http' has no attribute 'JsonResponse'
+ERROR 2019-09-20 15:31:47,107 basehttp 124 "GET /hot/115/ HTTP/1.1" 500 84812
+INFO 2019-09-20 15:32:34,858 basehttp 124 "GET /list/115/1/?sort=default HTTP/1.1" 200 87498
+WARNING 2019-09-20 15:32:34,977 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:32:34,988 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:32:35,200 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:32:35,204 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:32:35,848 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:32:35,850 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3382
+ERROR 2019-09-20 15:32:35,863 exception 135 Internal Server Error: /hot/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 76, in get
+    return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK','hot_skus':hot_skus})
+AttributeError: module 'http' has no attribute 'JsonResponse'
+ERROR 2019-09-20 15:32:36,223 basehttp 124 "GET /hot/115/ HTTP/1.1" 500 84805
+INFO 2019-09-20 15:32:41,443 basehttp 124 "GET /list/115/1/?sort=price HTTP/1.1" 200 87558
+WARNING 2019-09-20 15:32:41,529 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:32:41,551 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:32:42,182 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:32:42,193 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:32:42,190 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:32:42,195 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3382
+ERROR 2019-09-20 15:32:42,214 exception 135 Internal Server Error: /hot/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 76, in get
+    return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK','hot_skus':hot_skus})
+AttributeError: module 'http' has no attribute 'JsonResponse'
+ERROR 2019-09-20 15:32:42,364 basehttp 124 "GET /hot/115/ HTTP/1.1" 500 84802
+INFO 2019-09-20 15:32:44,155 basehttp 124 "GET /list/115/1/?sort=hot HTTP/1.1" 200 87520
+WARNING 2019-09-20 15:32:44,259 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:32:44,271 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:32:44,744 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:32:44,764 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:32:44,776 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:32:44,793 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3382
+ERROR 2019-09-20 15:32:44,801 exception 135 Internal Server Error: /hot/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 76, in get
+    return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK','hot_skus':hot_skus})
+AttributeError: module 'http' has no attribute 'JsonResponse'
+ERROR 2019-09-20 15:32:45,061 basehttp 124 "GET /hot/115/ HTTP/1.1" 500 84800
+INFO 2019-09-20 15:35:02,556 basehttp 124 "GET /list/115/1/?sort=hot HTTP/1.1" 200 87520
+WARNING 2019-09-20 15:35:02,664 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:35:02,677 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:35:03,175 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:35:03,179 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3421
+WARNING 2019-09-20 15:35:03,193 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:35:03,209 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3382
+INFO 2019-09-20 15:35:03,220 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-09-20 15:38:38,937 basehttp 124 "GET /list/115/1/?sort=hot HTTP/1.1" 200 87520
+WARNING 2019-09-20 15:38:39,037 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:38:39,041 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-20 15:38:39,439 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:38:39,442 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-20 15:38:39,460 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:38:39,469 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3576
+INFO 2019-09-20 15:38:39,490 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-20 15:38:40,497 base 152 Not Found: /list/115/1/detail.html
+WARNING 2019-09-20 15:38:40,521 basehttp 124 "GET /list/115/1/detail.html HTTP/1.1" 404 3603
+INFO 2019-09-20 15:39:02,940 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 87498
+WARNING 2019-09-20 15:39:03,008 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:39:03,017 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-20 15:39:03,444 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:39:03,452 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:39:03,467 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-20 15:39:03,470 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3576
+INFO 2019-09-20 15:39:03,482 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-20 15:39:04,702 base 152 Not Found: /list/115/1/detail.html
+WARNING 2019-09-20 15:39:04,727 basehttp 124 "GET /list/115/1/detail.html HTTP/1.1" 404 3603
+INFO 2019-09-20 15:39:23,556 basehttp 124 "GET /static/detail.html HTTP/1.1" 200 14487
+INFO 2019-09-20 15:39:23,623 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 200 6281
+INFO 2019-09-20 15:39:23,663 basehttp 124 "GET /static/images/goods_450.jpg HTTP/1.1" 200 20260
+INFO 2019-09-20 15:39:23,697 basehttp 124 "GET /static/images/cat.jpg HTTP/1.1" 200 4333
+INFO 2019-09-20 15:39:23,805 basehttp 124 "GET /static/images/selected.png HTTP/1.1" 200 1060
+WARNING 2019-09-20 15:40:32,563 base 152 Not Found: /list/115/1/detail.html
+WARNING 2019-09-20 15:40:32,591 basehttp 124 "GET /list/115/1/detail.html HTTP/1.1" 404 3603
+WARNING 2019-09-20 15:40:36,295 base 152 Not Found: /list/115/1/detail.html
+WARNING 2019-09-20 15:40:36,301 basehttp 124 "GET /list/115/1/detail.html HTTP/1.1" 404 3603
+INFO 2019-09-20 15:40:43,591 basehttp 124 "GET /users/index/ HTTP/1.1" 200 88104
+WARNING 2019-09-20 15:40:44,196 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:40:44,203 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3576
+INFO 2019-09-20 15:40:46,877 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 87483
+WARNING 2019-09-20 15:40:46,931 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:40:46,959 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-20 15:40:47,324 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:40:47,340 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:40:47,346 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-20 15:40:47,349 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3576
+INFO 2019-09-20 15:40:47,374 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-20 15:40:47,745 base 152 Not Found: /list/115/1/detail.html
+WARNING 2019-09-20 15:40:47,762 basehttp 124 "GET /list/115/1/detail.html HTTP/1.1" 404 3603
+INFO 2019-09-20 15:42:09,519 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 87480
+WARNING 2019-09-20 15:42:09,604 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:42:09,606 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-20 15:42:10,002 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:42:10,024 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-20 15:42:10,031 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:42:10,034 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3576
+INFO 2019-09-20 15:42:10,046 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-20 15:42:11,444 base 152 Not Found: /detail/
+WARNING 2019-09-20 15:42:11,452 basehttp 124 "GET /detail/ HTTP/1.1" 404 3558
+INFO 2019-09-20 15:42:22,959 basehttp 124 "GET /detail/1 HTTP/1.1" 301 0
+ERROR 2019-09-20 15:42:22,961 exception 135 Internal Server Error: /detail/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() got an unexpected keyword argument 'sku_id'
+ERROR 2019-09-20 15:42:23,084 basehttp 124 "GET /detail/1/ HTTP/1.1" 500 80255
+INFO 2019-09-20 15:42:29,291 basehttp 124 "GET /detail/115 HTTP/1.1" 301 0
+ERROR 2019-09-20 15:42:29,296 exception 135 Internal Server Error: /detail/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() got an unexpected keyword argument 'sku_id'
+ERROR 2019-09-20 15:42:29,402 basehttp 124 "GET /detail/115/ HTTP/1.1" 500 80291
+INFO 2019-09-20 15:43:13,939 basehttp 124 "GET /detail/2 HTTP/1.1" 301 0
+ERROR 2019-09-20 15:43:13,943 exception 135 Internal Server Error: /detail/2/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() got an unexpected keyword argument 'sku_id'
+ERROR 2019-09-20 15:43:14,035 basehttp 124 "GET /detail/2/ HTTP/1.1" 500 80255
+INFO 2019-09-20 15:44:34,986 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 87488
+WARNING 2019-09-20 15:44:35,085 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:44:35,103 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-20 15:44:35,595 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:44:35,600 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-20 15:44:35,617 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:44:35,630 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3576
+INFO 2019-09-20 15:44:35,648 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-20 15:44:36,330 base 152 Not Found: /detail
+WARNING 2019-09-20 15:44:36,353 basehttp 124 "GET /detail?sku_id=1 HTTP/1.1" 404 3564
+WARNING 2019-09-20 15:45:01,432 base 152 Not Found: /detail/
+WARNING 2019-09-20 15:45:01,445 basehttp 124 "GET /detail/?sku_id=1 HTTP/1.1" 404 3567
+WARNING 2019-09-20 15:45:14,091 base 152 Not Found: /detail/
+WARNING 2019-09-20 15:45:14,103 basehttp 124 "GET /detail/?sku_id=1 HTTP/1.1" 404 3567
+WARNING 2019-09-20 15:46:14,548 base 152 Not Found: /detail/
+WARNING 2019-09-20 15:46:14,557 basehttp 124 "GET /detail/?sku_id=1 HTTP/1.1" 404 3567
+INFO 2019-09-20 15:46:20,186 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 87488
+WARNING 2019-09-20 15:46:20,228 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:46:20,228 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-20 15:46:20,647 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:46:20,651 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-20 15:46:20,659 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:46:20,675 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3576
+INFO 2019-09-20 15:46:20,692 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-20 15:46:21,779 base 152 Not Found: /detail
+WARNING 2019-09-20 15:46:21,780 basehttp 124 "GET /detail?sku_id=1 HTTP/1.1" 404 3564
+WARNING 2019-09-20 15:46:25,592 base 152 Not Found: /list/115/1/detail.html
+WARNING 2019-09-20 15:46:25,611 basehttp 124 "GET /list/115/1/detail.html HTTP/1.1" 404 3603
+INFO 2019-09-20 15:49:20,663 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 87494
+WARNING 2019-09-20 15:49:20,750 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:49:20,753 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-20 15:49:21,237 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:49:21,248 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-20 15:49:21,257 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:49:21,281 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3576
+INFO 2019-09-20 15:49:21,291 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-20 15:49:21,984 base 152 Not Found: /detail/
+WARNING 2019-09-20 15:49:22,004 basehttp 124 "GET /detail/?sku_id=sku.id HTTP/1.1" 404 3572
+ERROR 2019-09-20 15:50:02,374 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 54, in get
+    return render(request,"list.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/list.html", line 129, in top-level template code
+    <a href="/detail/?sku_id={{ sku.id }}"><img v-bind:src="sku.default_image_url"></a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'sku' is undefined
+ERROR 2019-09-20 15:50:02,593 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 168940
+ERROR 2019-09-20 15:50:40,850 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 54, in get
+    return render(request,"list.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/list.html", line 129, in top-level template code
+    <a href="/detail/?sku_id={{ sku.id }}"><img v-bind:src="sku.default_image_url"></a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'sku' is undefined
+ERROR 2019-09-20 15:50:41,028 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 168780
+ERROR 2019-09-20 15:51:12,464 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 54, in get
+    return render(request,"list.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/list.html", line 129, in top-level template code
+    <a href="/detail/?sku_id={{ sku.default_image_url }}"><img v-bind:src="sku.default_image_url"></a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'sku' is undefined
+ERROR 2019-09-20 15:51:12,646 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 169029
+INFO 2019-09-20 15:51:27,837 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 87489
+WARNING 2019-09-20 15:51:27,886 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:51:27,887 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-20 15:51:28,114 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-20 15:51:28,131 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-20 15:51:28,485 base 152 Not Found: /carts/simple/
+WARNING 2019-09-20 15:51:28,498 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3576
+INFO 2019-09-20 15:51:28,508 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584

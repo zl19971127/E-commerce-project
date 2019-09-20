@@ -133,7 +133,9 @@
                 {% endfor %}
 
 			</ul>
-			<a href="{{ contents.index_ytgg.url }}" class="advs"><img src="{{ contents.index_ytgg.image }}"></a>
+            {% for ytgg in contents.index_ytgg %}
+            <a href="{{ ytgg.url }}" class="advs"><img src="{{ ytgg.image.url }}"></a>
+            {% endfor %}
 		</div>
 	</div>
 
