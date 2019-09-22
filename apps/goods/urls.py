@@ -13,23 +13,24 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url, include
-from django.contrib import admin
+from django.conf.urls import url
+
+from apps.goods import views
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
 
-    url(r"^users/", include("apps.users.urls", namespace="users")),
+    # 列表页
+    url(r"^list/(?P<category_id>\d+)/(?P<page_num>\d+)/$", views.ListView.as_view(),name="list" ),
 
-    url(r"^",include("apps.oauth.urls", namespace="qqlogin")),
+    #　热销页
+    url(r"^hot/(?P<category_id>\d+)/$", views.HotGoodsView.as_view(),name="hot" ),
+
+    # 商品详情页
+    url(r"^detail/(?P<sku_id>\d+)/$", views.DetailView.as_view(),name="detail" ),
+
+    # 统计分类商品访问量
+    url(r"^detail/visit/(?P<category_id>\d+)/$", views.DetailVisitView.as_view(),name="detailvisit" ),
 
 
-    url(r"^",include("apps.areas.urls", namespace="areas")),
-
-
-    url(r"^",include("apps.goods.urls", namespace="goods")),
-
-
-    url(r"^",include("apps.carts.urls", namespace="carts")),
 
 ]

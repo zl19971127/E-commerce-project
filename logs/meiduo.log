@@ -10898,3 +10898,997 @@ WARNING 2019-09-20 15:51:28,131 basehttp 124 "GET /list/115/1/images/logo.png HT
 WARNING 2019-09-20 15:51:28,485 base 152 Not Found: /carts/simple/
 WARNING 2019-09-20 15:51:28,498 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3576
 INFO 2019-09-20 15:51:28,508 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-21 00:10:50,324 base 152 Not Found: /favicon.ico
+WARNING 2019-09-21 00:10:50,387 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3570
+INFO 2019-09-21 00:11:02,397 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 87474
+WARNING 2019-09-21 00:11:02,463 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-21 00:11:02,479 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+INFO 2019-09-21 00:11:02,532 basehttp 124 "GET /static/js/list.js HTTP/1.1" 304 0
+WARNING 2019-09-21 00:11:03,363 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-21 00:11:03,398 base 152 Not Found: /carts/simple/
+WARNING 2019-09-21 00:11:03,400 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+INFO 2019-09-21 00:11:03,418 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-21 00:11:03,420 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3576
+INFO 2019-09-21 00:21:46,701 basehttp 124 "GET /users/index/ HTTP/1.1" 200 91260
+INFO 2019-09-21 00:21:46,823 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+WARNING 2019-09-21 00:21:47,667 base 152 Not Found: /carts/simple/
+WARNING 2019-09-21 00:21:47,673 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3576
+INFO 2019-09-21 00:22:24,241 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 87474
+WARNING 2019-09-21 00:22:24,334 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-21 00:22:24,465 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-21 00:22:25,052 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-21 00:22:25,070 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-21 00:22:25,072 base 152 Not Found: /carts/simple/
+WARNING 2019-09-21 00:22:25,083 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3576
+INFO 2019-09-21 00:22:25,093 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-09-21 00:27:28,635 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 87496
+WARNING 2019-09-21 00:27:28,813 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-21 00:27:28,817 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-21 00:27:29,491 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-21 00:27:29,515 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-21 00:27:29,503 base 152 Not Found: /carts/simple/
+WARNING 2019-09-21 00:27:29,529 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3576
+INFO 2019-09-21 00:27:29,551 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-21 00:27:30,885 base 152 Not Found: /detail/
+WARNING 2019-09-21 00:27:30,896 basehttp 124 "GET /detail/?sku_id={{%20id%20}} HTTP/1.1" 404 3586
+WARNING 2019-09-21 00:27:59,744 base 152 Not Found: /detail/
+WARNING 2019-09-21 00:27:59,756 basehttp 124 "GET /detail/?{{%20id%20}} HTTP/1.1" 404 3579
+INFO 2019-09-21 00:28:43,349 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 87489
+WARNING 2019-09-21 00:28:43,416 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-21 00:28:43,439 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-21 00:28:44,275 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-21 00:28:44,277 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-21 00:28:44,298 base 152 Not Found: /carts/simple/
+WARNING 2019-09-21 00:28:44,310 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3576
+INFO 2019-09-21 00:28:44,318 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-21 00:28:44,981 base 152 Not Found: /detail/{{ id }}/
+WARNING 2019-09-21 00:28:45,008 basehttp 124 "GET /detail/%7B%7B%20id%20%7D%7D/ HTTP/1.1" 404 3597
+ERROR 2019-09-21 00:29:00,088 exception 135 Internal Server Error: /detail/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/urls/base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'contents'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 97, in get
+    return render(request, "detail.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/detail.html", line 40, in top-level template code
+    <a href="{{ url('contents:index') }}" class="logo fl"><img src="{{ static('images/logo.png') }}"></a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/urls/base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'contents' is not a registered namespace
+ERROR 2019-09-21 00:29:00,412 basehttp 124 "GET /detail/1/ HTTP/1.1" 500 173211
+INFO 2019-09-21 00:32:10,743 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 87489
+WARNING 2019-09-21 00:32:10,843 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-21 00:32:10,848 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-21 00:32:11,329 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-21 00:32:11,342 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3615
+WARNING 2019-09-21 00:32:11,351 base 152 Not Found: /carts/simple/
+WARNING 2019-09-21 00:32:11,378 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3576
+INFO 2019-09-21 00:32:11,383 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-21 00:32:12,018 base 152 Not Found: /detail/{{ id }}/
+WARNING 2019-09-21 00:32:12,035 basehttp 124 "GET /detail/%7B%7B%20id%20%7D%7D/ HTTP/1.1" 404 3597
+INFO 2019-09-21 00:32:18,761 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91270
+INFO 2019-09-21 00:32:18,816 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 304 0
+WARNING 2019-09-21 00:32:19,367 base 152 Not Found: /browse_histories/
+WARNING 2019-09-21 00:32:19,376 base 152 Not Found: /detail/visit/157/
+INFO 2019-09-21 00:32:19,377 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+WARNING 2019-09-21 00:32:19,370 base 152 Not Found: /carts/simple/
+WARNING 2019-09-21 00:32:19,380 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3576
+WARNING 2019-09-21 00:32:19,387 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3589
+WARNING 2019-09-21 00:32:19,394 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 404 3589
+WARNING 2019-09-21 00:32:19,403 base 152 Not Found: /comments/1/
+WARNING 2019-09-21 00:32:19,406 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 3570
+INFO 2019-09-22 02:47:20,094 basehttp 124 "GET /users/index/ HTTP/1.1" 200 91260
+INFO 2019-09-22 02:47:20,400 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:20,405 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:20,449 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:20,451 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:20,453 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:20,457 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:20,459 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:20,500 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:20,590 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:20,594 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:20,600 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:20,618 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:20,679 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:20,684 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:20,761 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:20,764 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:20,771 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:20,790 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:20,881 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:21,169 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+WARNING 2019-09-22 02:47:21,781 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 02:47:21,785 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+INFO 2019-09-22 02:47:39,695 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 87489
+INFO 2019-09-22 02:47:39,739 basehttp 124 "GET /static/css/jquery.pagination.css HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:39,771 basehttp 124 "GET /static/js/list.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:39,780 basehttp 124 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+WARNING 2019-09-22 02:47:39,804 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-22 02:47:39,812 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3825
+INFO 2019-09-22 02:47:39,991 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 304 0
+WARNING 2019-09-22 02:47:40,390 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-22 02:47:40,409 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 3825
+WARNING 2019-09-22 02:47:40,395 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 02:47:40,413 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+INFO 2019-09-22 02:47:40,441 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 02:47:41,567 base 152 Not Found: /list/115/1/detail.html
+WARNING 2019-09-22 02:47:41,581 basehttp 124 "GET /list/115/1/detail.html HTTP/1.1" 404 3813
+INFO 2019-09-22 02:47:53,899 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91270
+INFO 2019-09-22 02:47:53,952 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:54,002 basehttp 124 "GET /static/images/cat.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:47:54,534 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+ERROR 2019-09-22 02:47:54,536 exception 135 Internal Server Error: /detail/visit/157/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 112, in post
+    time_str = datetime.now().strftime("%Y-%M-%D")
+AttributeError: module 'datetime' has no attribute 'now'
+WARNING 2019-09-22 02:47:54,512 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 02:47:54,569 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 02:47:54,569 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 02:47:54,582 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 02:47:54,597 base 152 Not Found: /comments/1/
+WARNING 2019-09-22 02:47:54,598 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 3780
+ERROR 2019-09-22 02:47:54,728 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 500 85206
+INFO 2019-09-22 02:47:59,625 basehttp 124 "GET /detail/2/ HTTP/1.1" 200 91273
+WARNING 2019-09-22 02:48:00,612 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 02:48:00,631 base 152 Not Found: /comments/2/
+INFO 2019-09-22 02:48:00,635 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+WARNING 2019-09-22 02:48:00,635 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 02:48:00,638 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 02:48:00,644 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+ERROR 2019-09-22 02:48:00,640 exception 135 Internal Server Error: /detail/visit/157/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 112, in post
+    time_str = datetime.now().strftime("%Y-%M-%D")
+AttributeError: module 'datetime' has no attribute 'now'
+WARNING 2019-09-22 02:48:00,662 basehttp 124 "GET /comments/2/ HTTP/1.1" 404 3780
+ERROR 2019-09-22 02:48:00,814 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 500 85207
+INFO 2019-09-22 02:48:05,934 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 90223
+WARNING 2019-09-22 02:48:07,056 base 152 Not Found: /browse_histories/
+ERROR 2019-09-22 02:48:07,057 exception 135 Internal Server Error: /detail/visit/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 112, in post
+    time_str = datetime.now().strftime("%Y-%M-%D")
+AttributeError: module 'datetime' has no attribute 'now'
+WARNING 2019-09-22 02:48:07,102 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 02:48:07,103 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 02:48:07,115 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+INFO 2019-09-22 02:48:07,117 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 02:48:07,121 base 152 Not Found: /comments/3/
+WARNING 2019-09-22 02:48:07,150 basehttp 124 "GET /comments/3/ HTTP/1.1" 404 3780
+ERROR 2019-09-22 02:48:07,413 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 500 85204
+INFO 2019-09-22 02:48:12,574 basehttp 124 "GET /detail/4/ HTTP/1.1" 200 90224
+WARNING 2019-09-22 02:48:13,174 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 02:48:13,204 base 152 Not Found: /comments/4/
+INFO 2019-09-22 02:48:13,206 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 02:48:13,207 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 02:48:13,210 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 02:48:13,217 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+ERROR 2019-09-22 02:48:13,212 exception 135 Internal Server Error: /detail/visit/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 112, in post
+    time_str = datetime.now().strftime("%Y-%M-%D")
+AttributeError: module 'datetime' has no attribute 'now'
+WARNING 2019-09-22 02:48:13,238 basehttp 124 "GET /comments/4/ HTTP/1.1" 404 3780
+ERROR 2019-09-22 02:48:13,396 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 500 85204
+INFO 2019-09-22 02:48:17,253 basehttp 124 "GET /detail/4/ HTTP/1.1" 200 90224
+INFO 2019-09-22 02:48:17,285 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-22 02:48:17,304 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-22 02:48:17,306 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:48:17,309 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:48:17,314 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:48:17,334 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:48:17,347 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:48:17,358 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-22 02:48:17,403 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:48:17,440 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:48:17,442 basehttp 124 "GET /static/images/cat.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:48:17,481 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2019-09-22 02:48:18,193 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 02:48:18,199 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 02:48:18,208 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 02:48:18,228 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+ERROR 2019-09-22 02:48:18,225 exception 135 Internal Server Error: /detail/visit/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 112, in post
+    time_str = datetime.now().strftime("%Y-%M-%D")
+AttributeError: module 'datetime' has no attribute 'now'
+WARNING 2019-09-22 02:48:18,251 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 02:48:18,254 base 152 Not Found: /comments/4/
+WARNING 2019-09-22 02:48:18,254 basehttp 124 "GET /comments/4/ HTTP/1.1" 404 3780
+ERROR 2019-09-22 02:48:18,372 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 500 85338
+INFO 2019-09-22 02:49:20,331 basehttp 124 "GET /detail/4/ HTTP/1.1" 200 90224
+WARNING 2019-09-22 02:49:20,768 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 02:49:20,793 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+INFO 2019-09-22 02:49:20,796 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 02:49:20,775 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 02:49:20,804 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+ERROR 2019-09-22 02:49:20,816 exception 135 Internal Server Error: /detail/visit/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 112, in post
+    time_str = datetime.now().strftime("%Y-%m-%d")
+AttributeError: module 'datetime' has no attribute 'now'
+WARNING 2019-09-22 02:49:20,801 base 152 Not Found: /comments/4/
+WARNING 2019-09-22 02:49:20,843 basehttp 124 "GET /comments/4/ HTTP/1.1" 404 3780
+ERROR 2019-09-22 02:49:20,968 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 500 85203
+INFO 2019-09-22 02:49:27,047 basehttp 124 "GET /detail/5/ HTTP/1.1" 200 90229
+ERROR 2019-09-22 02:49:27,642 exception 135 Internal Server Error: /detail/visit/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 112, in post
+    time_str = datetime.now().strftime("%Y-%m-%d")
+AttributeError: module 'datetime' has no attribute 'now'
+WARNING 2019-09-22 02:49:27,662 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 02:49:27,687 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 02:49:27,666 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 02:49:27,694 base 152 Not Found: /comments/5/
+WARNING 2019-09-22 02:49:27,694 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+INFO 2019-09-22 02:49:27,695 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 02:49:27,714 basehttp 124 "GET /comments/5/ HTTP/1.1" 404 3780
+ERROR 2019-09-22 02:49:27,875 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 500 85204
+INFO 2019-09-22 02:50:53,449 basehttp 124 "GET /detail/5/ HTTP/1.1" 200 90229
+WARNING 2019-09-22 02:50:53,893 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 02:50:53,919 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 02:50:53,929 base 152 Not Found: /carts/simple/
+INFO 2019-09-22 02:50:53,931 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 02:50:53,932 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 02:50:53,912 base 152 Not Found: /comments/5/
+WARNING 2019-09-22 02:50:53,935 basehttp 124 "GET /comments/5/ HTTP/1.1" 404 3780
+ERROR 2019-09-22 02:50:54,029 exception 135 Internal Server Error: /detail/visit/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 115, in post
+    time_date = datetime.strptime(time_str,"%Y-%M-%D")
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 335, in _strptime
+    (bad_directive, format)) from None
+ValueError: 'D' is a bad directive in format '%Y-%M-%D'
+ERROR 2019-09-22 02:50:54,166 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 500 111766
+INFO 2019-09-22 02:50:59,641 basehttp 124 "GET /detail/4/ HTTP/1.1" 200 90224
+WARNING 2019-09-22 02:51:00,195 base 152 Not Found: /carts/simple/
+INFO 2019-09-22 02:51:00,203 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 02:51:00,204 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 02:51:00,218 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+ERROR 2019-09-22 02:51:00,207 exception 135 Internal Server Error: /detail/visit/115/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/goods/views.py", line 115, in post
+    time_date = datetime.strptime(time_str,"%Y-%M-%D")
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 335, in _strptime
+    (bad_directive, format)) from None
+ValueError: 'D' is a bad directive in format '%Y-%M-%D'
+WARNING 2019-09-22 02:51:00,202 base 152 Not Found: /comments/4/
+WARNING 2019-09-22 02:51:00,235 basehttp 124 "GET /comments/4/ HTTP/1.1" 404 3780
+WARNING 2019-09-22 02:51:00,234 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+ERROR 2019-09-22 02:51:00,434 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 500 111767
+INFO 2019-09-22 02:51:26,824 basehttp 124 "GET /detail/4/ HTTP/1.1" 200 90224
+WARNING 2019-09-22 02:51:27,303 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 02:51:27,337 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+INFO 2019-09-22 02:51:27,309 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 02:51:27,328 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 02:51:27,355 base 152 Not Found: /comments/4/
+WARNING 2019-09-22 02:51:27,356 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 02:51:27,368 basehttp 124 "GET /comments/4/ HTTP/1.1" 404 3780
+INFO 2019-09-22 02:51:27,369 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 02:51:46,082 basehttp 124 "GET /detail/4/ HTTP/1.1" 200 90224
+WARNING 2019-09-22 02:51:46,583 base 152 Not Found: /carts/simple/
+INFO 2019-09-22 02:51:46,600 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 02:51:46,601 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 02:51:46,610 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 02:51:46,615 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 02:51:46,619 base 152 Not Found: /comments/4/
+WARNING 2019-09-22 02:51:46,621 basehttp 124 "GET /comments/4/ HTTP/1.1" 404 3780
+INFO 2019-09-22 02:51:46,638 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 02:53:49,950 basehttp 124 "GET /detail/4/ HTTP/1.1" 200 90224
+INFO 2019-09-22 02:53:51,314 basehttp 124 "GET /detail/4/ HTTP/1.1" 200 90224
+INFO 2019-09-22 02:53:51,431 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-22 02:53:51,434 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-22 02:53:51,438 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:53:51,496 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:53:51,511 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:53:51,516 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:53:51,547 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-22 02:53:51,550 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:53:51,593 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:53:51,621 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:53:51,664 basehttp 124 "GET /static/images/cat.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:53:51,715 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+WARNING 2019-09-22 02:53:52,532 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 02:53:52,562 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 02:53:52,558 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 02:53:52,577 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 02:53:52,570 base 152 Not Found: /comments/4/
+WARNING 2019-09-22 02:53:52,587 basehttp 124 "GET /comments/4/ HTTP/1.1" 404 3780
+INFO 2019-09-22 02:53:52,601 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-09-22 02:54:46,197 basehttp 124 "GET /detail/4/ HTTP/1.1" 200 90224
+INFO 2019-09-22 02:54:46,991 basehttp 124 "GET /detail/4/ HTTP/1.1" 200 90224
+INFO 2019-09-22 02:54:47,095 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-22 02:54:47,097 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-22 02:54:47,100 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:54:47,151 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:54:47,159 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:54:47,168 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-22 02:54:47,209 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:54:47,216 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:54:47,222 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:54:47,261 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:54:47,284 basehttp 124 "GET /static/images/cat.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:54:47,345 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+WARNING 2019-09-22 02:54:47,978 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 02:54:47,996 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 02:54:48,051 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 02:54:48,065 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 02:54:48,076 base 152 Not Found: /comments/4/
+INFO 2019-09-22 02:54:48,092 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 02:54:48,110 basehttp 124 "GET /comments/4/ HTTP/1.1" 404 3780
+INFO 2019-09-22 02:55:56,519 basehttp 124 "GET /detail/4/ HTTP/1.1" 200 90224
+INFO 2019-09-22 02:55:56,760 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-22 02:55:56,770 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-22 02:55:56,770 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:55:56,815 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:55:56,843 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-22 02:55:56,843 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:55:56,855 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:55:56,882 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-22 02:55:56,889 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:55:56,930 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:55:56,932 basehttp 124 "GET /static/images/cat.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 02:55:57,082 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+WARNING 2019-09-22 02:55:57,729 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 02:55:57,760 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+INFO 2019-09-22 02:55:57,765 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 02:55:57,767 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 02:55:57,798 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 02:55:57,811 base 152 Not Found: /comments/4/
+WARNING 2019-09-22 02:55:57,840 basehttp 124 "GET /comments/4/ HTTP/1.1" 404 3780
+INFO 2019-09-22 02:57:36,729 basehttp 124 "GET /detail/4/ HTTP/1.1" 200 90224
+WARNING 2019-09-22 02:57:37,375 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 02:57:37,395 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 02:57:37,380 base 152 Not Found: /comments/4/
+WARNING 2019-09-22 02:57:37,398 basehttp 124 "GET /comments/4/ HTTP/1.1" 404 3780
+WARNING 2019-09-22 02:57:37,414 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 02:57:37,435 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+INFO 2019-09-22 02:57:37,449 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-09-22 03:05:58,049 basehttp 124 "GET /users/index/ HTTP/1.1" 200 91260
+INFO 2019-09-22 03:05:58,083 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-22 03:05:58,090 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-22 03:05:58,130 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-22 03:05:58,134 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-22 03:05:58,135 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-22 03:05:58,147 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-22 03:05:58,155 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-09-22 03:05:58,169 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-09-22 03:05:58,193 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-09-22 03:05:58,195 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-22 03:05:58,229 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 03:05:58,235 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 03:05:58,241 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 03:05:58,249 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 03:05:58,302 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 03:05:58,304 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 03:05:58,311 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 03:05:58,315 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 03:05:58,363 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 03:05:58,594 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+WARNING 2019-09-22 03:05:59,098 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 03:05:59,102 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+INFO 2019-09-22 03:06:05,437 basehttp 124 "GET /users/info HTTP/1.1" 301 0
+INFO 2019-09-22 03:06:05,499 basehttp 124 "GET /users/info/ HTTP/1.1" 200 6466
+INFO 2019-09-22 03:06:05,584 basehttp 124 "GET /static/images/goods/goods006.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 03:06:05,591 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2019-09-22 03:06:05,660 basehttp 124 "GET /static/images/goods/goods007.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 03:06:05,662 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 304 0
+WARNING 2019-09-22 03:06:06,075 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 03:06:06,078 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3798
+INFO 2019-09-22 03:53:08,640 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5021
+WARNING 2019-09-22 03:53:08,756 base 152 Not Found: /users/info/sku.default_image_url
+WARNING 2019-09-22 03:53:08,759 basehttp 124 "GET /users/info/sku.default_image_url HTTP/1.1" 404 6240
+WARNING 2019-09-22 03:53:08,950 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 03:53:08,954 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3798
+INFO 2019-09-22 03:53:19,228 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91270
+INFO 2019-09-22 03:53:19,774 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+WARNING 2019-09-22 03:53:19,783 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 03:53:19,784 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 03:53:19,800 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 03:53:19,802 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 03:53:19,806 base 152 Not Found: /comments/1/
+WARNING 2019-09-22 03:53:19,817 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 3780
+INFO 2019-09-22 03:53:19,916 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-22 03:53:24,461 basehttp 124 "GET /detail/2/ HTTP/1.1" 200 91273
+WARNING 2019-09-22 03:53:24,930 base 152 Not Found: /comments/2/
+WARNING 2019-09-22 03:53:24,937 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 03:53:24,958 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 03:53:24,941 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 03:53:24,990 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+INFO 2019-09-22 03:53:24,957 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+WARNING 2019-09-22 03:53:24,994 basehttp 124 "GET /comments/2/ HTTP/1.1" 404 3780
+INFO 2019-09-22 03:53:25,072 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-22 03:53:33,123 basehttp 124 "GET /detail/4/ HTTP/1.1" 200 90224
+WARNING 2019-09-22 03:53:33,707 base 152 Not Found: /comments/4/
+INFO 2019-09-22 03:53:33,717 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 03:53:33,723 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 03:53:33,727 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 03:53:33,769 basehttp 124 "GET /comments/4/ HTTP/1.1" 404 3780
+WARNING 2019-09-22 03:53:33,725 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 03:53:33,775 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+INFO 2019-09-22 03:53:33,821 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 03:53:40,640 basehttp 124 "GET /detail/13 HTTP/1.1" 301 0
+INFO 2019-09-22 03:53:41,109 basehttp 124 "GET /detail/13/ HTTP/1.1" 200 89841
+INFO 2019-09-22 03:53:41,637 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 03:53:41,642 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 03:53:41,646 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 03:53:41,647 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 03:53:41,649 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 03:53:41,655 base 152 Not Found: /comments/13/
+INFO 2019-09-22 03:53:41,668 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+WARNING 2019-09-22 03:53:41,673 basehttp 124 "GET /comments/13/ HTTP/1.1" 404 3783
+WARNING 2019-09-22 03:53:50,184 base 152 Not Found: /info
+WARNING 2019-09-22 03:53:50,206 basehttp 124 "GET /info HTTP/1.1" 404 3759
+INFO 2019-09-22 03:53:58,591 basehttp 124 "GET /users/index/ HTTP/1.1" 200 91260
+WARNING 2019-09-22 03:53:59,441 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 03:53:59,443 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+INFO 2019-09-22 03:54:03,909 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5021
+WARNING 2019-09-22 03:54:03,999 base 152 Not Found: /users/info/sku.default_image_url
+WARNING 2019-09-22 03:54:04,011 basehttp 124 "GET /users/info/sku.default_image_url HTTP/1.1" 404 6240
+WARNING 2019-09-22 03:54:05,103 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 03:54:05,105 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3798
+INFO 2019-09-22 03:54:07,452 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5021
+INFO 2019-09-22 03:54:07,483 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-22 03:54:07,485 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-22 03:54:07,487 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-22 03:54:07,488 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-22 03:54:07,489 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-22 03:54:07,511 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-22 03:54:07,533 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2019-09-22 03:54:07,553 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-09-22 03:54:07,580 base 152 Not Found: /users/info/sku.default_image_url
+WARNING 2019-09-22 03:54:07,585 basehttp 124 "GET /users/info/sku.default_image_url HTTP/1.1" 404 6240
+WARNING 2019-09-22 03:54:07,797 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 03:54:07,822 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3798
+WARNING 2019-09-22 03:54:16,809 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+WARNING 2019-09-22 03:54:40,608 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 03:54:40,637 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3798
+WARNING 2019-09-22 03:54:53,012 base 152 Not Found: /users/info/sku.default_image_url
+WARNING 2019-09-22 03:54:53,019 basehttp 124 "GET /users/info/sku.default_image_url HTTP/1.1" 404 6240
+INFO 2019-09-22 03:56:45,876 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5021
+INFO 2019-09-22 03:56:45,936 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-22 03:56:46,001 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-22 03:56:46,017 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-22 03:56:46,055 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-22 03:56:46,072 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-22 03:56:46,099 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-22 03:56:46,108 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2019-09-22 03:56:46,152 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-09-22 03:56:46,265 base 152 Not Found: /users/info/sku.default_image_url
+WARNING 2019-09-22 03:56:46,272 basehttp 124 "GET /users/info/sku.default_image_url HTTP/1.1" 404 6240
+INFO 2019-09-22 03:56:46,372 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 03:56:46,376 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2019-09-22 03:56:46,388 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 304 0
+WARNING 2019-09-22 03:56:46,574 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 03:56:46,599 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3798
+INFO 2019-09-22 03:56:57,882 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91270
+WARNING 2019-09-22 03:56:58,812 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 03:56:58,821 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 03:56:58,833 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 03:56:58,830 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 03:56:58,851 base 152 Not Found: /comments/1/
+WARNING 2019-09-22 03:56:58,864 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 3780
+INFO 2019-09-22 03:56:58,875 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-22 03:56:59,008 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:01:23,226 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 90223
+WARNING 2019-09-22 04:01:25,438 base 152 Not Found: /comments/3/
+WARNING 2019-09-22 04:01:25,486 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:01:25,490 basehttp 124 "GET /comments/3/ HTTP/1.1" 404 3780
+WARNING 2019-09-22 04:01:25,497 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:01:25,521 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 04:01:25,527 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+INFO 2019-09-22 04:01:25,570 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-09-22 04:01:25,671 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:01:53,345 basehttp 124 "GET /detail/13/ HTTP/1.1" 200 89841
+WARNING 2019-09-22 04:01:54,217 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:01:54,252 base 152 Not Found: /comments/13/
+WARNING 2019-09-22 04:01:54,258 basehttp 124 "GET /comments/13/ HTTP/1.1" 404 3783
+WARNING 2019-09-22 04:01:54,273 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:01:54,278 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 04:01:54,320 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+INFO 2019-09-22 04:01:54,417 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-09-22 04:01:54,559 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+WARNING 2019-09-22 04:02:29,444 base 152 Not Found: /157/13/
+WARNING 2019-09-22 04:02:29,462 basehttp 124 "GET /157/13/ HTTP/1.1" 404 3768
+INFO 2019-09-22 04:02:41,251 basehttp 124 "GET /list/157/1 HTTP/1.1" 301 0
+INFO 2019-09-22 04:02:43,131 basehttp 124 "GET /list/157/1/ HTTP/1.1" 200 86056
+WARNING 2019-09-22 04:02:43,332 base 152 Not Found: /list/157/1/images/logo.png
+WARNING 2019-09-22 04:02:43,352 basehttp 124 "GET /list/157/1/images/logo.png HTTP/1.1" 404 3825
+WARNING 2019-09-22 04:02:43,814 base 152 Not Found: /list/157/1/images/logo.png
+WARNING 2019-09-22 04:02:43,845 basehttp 124 "GET /list/157/1/images/logo.png HTTP/1.1" 404 3825
+INFO 2019-09-22 04:02:43,873 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+WARNING 2019-09-22 04:02:43,884 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:02:43,903 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+INFO 2019-09-22 04:02:53,890 basehttp 124 "GET /list/157/1/?sort=price HTTP/1.1" 200 86054
+WARNING 2019-09-22 04:02:54,047 base 152 Not Found: /list/157/1/images/logo.png
+WARNING 2019-09-22 04:02:54,049 basehttp 124 "GET /list/157/1/images/logo.png HTTP/1.1" 404 3825
+WARNING 2019-09-22 04:02:54,595 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:02:54,597 base 152 Not Found: /list/157/1/images/logo.png
+WARNING 2019-09-22 04:02:54,623 basehttp 124 "GET /list/157/1/images/logo.png HTTP/1.1" 404 3825
+WARNING 2019-09-22 04:02:54,631 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+INFO 2019-09-22 04:02:54,702 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-22 04:02:57,464 basehttp 124 "GET /list/157/1/?sort=hot HTTP/1.1" 200 86052
+WARNING 2019-09-22 04:02:57,747 base 152 Not Found: /list/157/1/images/logo.png
+WARNING 2019-09-22 04:02:57,749 basehttp 124 "GET /list/157/1/images/logo.png HTTP/1.1" 404 3825
+WARNING 2019-09-22 04:02:58,327 base 152 Not Found: /list/157/1/images/logo.png
+WARNING 2019-09-22 04:02:58,348 basehttp 124 "GET /list/157/1/images/logo.png HTTP/1.1" 404 3825
+WARNING 2019-09-22 04:02:58,340 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:02:58,353 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+INFO 2019-09-22 04:02:58,497 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-22 04:03:09,226 basehttp 124 "GET /detail/4/ HTTP/1.1" 200 90224
+WARNING 2019-09-22 04:03:09,946 base 152 Not Found: /comments/4/
+WARNING 2019-09-22 04:03:09,963 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:03:09,963 basehttp 124 "GET /comments/4/ HTTP/1.1" 404 3780
+WARNING 2019-09-22 04:03:09,954 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:03:09,978 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 04:03:09,980 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+INFO 2019-09-22 04:03:09,995 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-09-22 04:03:10,010 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:03:16,554 basehttp 124 "GET /detail/5/ HTTP/1.1" 200 90229
+WARNING 2019-09-22 04:03:17,448 base 152 Not Found: /comments/5/
+WARNING 2019-09-22 04:03:17,455 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:03:17,488 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 04:03:17,470 basehttp 124 "GET /comments/5/ HTTP/1.1" 404 3780
+WARNING 2019-09-22 04:03:17,464 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:03:17,496 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+INFO 2019-09-22 04:03:17,605 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-09-22 04:03:17,674 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:03:26,772 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91270
+WARNING 2019-09-22 04:03:27,483 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:03:27,499 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 04:03:27,487 base 152 Not Found: /comments/1/
+WARNING 2019-09-22 04:03:27,506 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:03:27,525 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 04:03:27,515 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 3780
+INFO 2019-09-22 04:03:27,541 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-22 04:03:27,579 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:03:53,541 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91270
+WARNING 2019-09-22 04:03:54,142 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:03:54,168 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 04:03:54,180 base 152 Not Found: /comments/1/
+WARNING 2019-09-22 04:03:54,199 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 3780
+WARNING 2019-09-22 04:03:54,214 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:03:54,215 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+INFO 2019-09-22 04:03:54,231 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-22 04:03:54,252 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:04:08,339 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 90223
+WARNING 2019-09-22 04:04:09,154 base 152 Not Found: /comments/3/
+WARNING 2019-09-22 04:04:09,164 basehttp 124 "GET /comments/3/ HTTP/1.1" 404 3780
+WARNING 2019-09-22 04:04:09,163 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:04:09,177 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 04:04:09,187 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:04:09,197 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+INFO 2019-09-22 04:04:09,219 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-09-22 04:04:09,228 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:04:44,202 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 90223
+WARNING 2019-09-22 04:04:44,894 base 152 Not Found: /comments/3/
+WARNING 2019-09-22 04:04:44,903 basehttp 124 "GET /comments/3/ HTTP/1.1" 404 3780
+WARNING 2019-09-22 04:04:44,908 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:04:44,917 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:04:44,921 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 04:04:44,920 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+INFO 2019-09-22 04:04:44,935 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-09-22 04:04:44,945 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:05:06,065 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 90223
+WARNING 2019-09-22 04:05:06,959 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:05:06,980 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 04:05:06,969 base 152 Not Found: /comments/3/
+WARNING 2019-09-22 04:05:06,990 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:05:06,991 basehttp 124 "GET /comments/3/ HTTP/1.1" 404 3780
+WARNING 2019-09-22 04:05:07,010 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+INFO 2019-09-22 04:05:07,023 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-09-22 04:05:07,048 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:05:14,492 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 90223
+WARNING 2019-09-22 04:05:15,619 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:05:15,700 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:05:15,702 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 04:05:15,749 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 04:05:15,822 base 152 Not Found: /comments/3/
+INFO 2019-09-22 04:05:15,837 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 04:05:15,870 basehttp 124 "GET /comments/3/ HTTP/1.1" 404 3780
+INFO 2019-09-22 04:05:15,899 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:05:27,966 basehttp 124 "GET /detail/4/ HTTP/1.1" 200 90224
+INFO 2019-09-22 04:05:28,584 basehttp 124 "GET /detail/4/ HTTP/1.1" 200 90224
+WARNING 2019-09-22 04:05:29,278 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:05:29,287 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 04:05:29,293 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:05:29,312 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 04:05:29,311 base 152 Not Found: /comments/4/
+WARNING 2019-09-22 04:05:29,327 basehttp 124 "GET /comments/4/ HTTP/1.1" 404 3780
+INFO 2019-09-22 04:05:29,332 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-09-22 04:05:29,353 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:05:42,845 basehttp 124 "GET /detail/4/ HTTP/1.1" 200 90224
+WARNING 2019-09-22 04:05:43,642 base 152 Not Found: /comments/4/
+WARNING 2019-09-22 04:05:43,644 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:05:43,650 basehttp 124 "GET /comments/4/ HTTP/1.1" 404 3780
+WARNING 2019-09-22 04:05:43,659 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 04:05:43,665 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:05:43,678 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+INFO 2019-09-22 04:05:43,692 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-09-22 04:05:43,717 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:05:54,410 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91270
+WARNING 2019-09-22 04:05:54,975 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:05:54,995 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 04:05:54,979 base 152 Not Found: /comments/1/
+WARNING 2019-09-22 04:05:55,000 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 3780
+WARNING 2019-09-22 04:05:55,017 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:05:55,030 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+INFO 2019-09-22 04:05:55,038 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-22 04:05:55,049 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:05:57,325 basehttp 124 "GET /detail/13/ HTTP/1.1" 200 89841
+WARNING 2019-09-22 04:05:58,790 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:05:58,818 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 04:05:58,817 base 152 Not Found: /comments/13/
+WARNING 2019-09-22 04:05:58,826 basehttp 124 "GET /comments/13/ HTTP/1.1" 404 3783
+WARNING 2019-09-22 04:05:58,814 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:05:58,844 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+INFO 2019-09-22 04:05:58,969 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-09-22 04:05:58,978 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:06:08,139 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91270
+WARNING 2019-09-22 04:06:08,576 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:06:08,603 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 04:06:08,623 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:06:08,629 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 04:06:08,656 base 152 Not Found: /comments/1/
+WARNING 2019-09-22 04:06:08,661 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 3780
+INFO 2019-09-22 04:06:08,665 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-22 04:06:08,690 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:06:14,243 basehttp 124 "GET /detail/14/ HTTP/1.1" 200 89842
+WARNING 2019-09-22 04:06:15,256 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:06:15,275 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 04:06:15,262 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:06:15,378 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 04:06:15,410 base 152 Not Found: /comments/14/
+WARNING 2019-09-22 04:06:15,411 basehttp 124 "GET /comments/14/ HTTP/1.1" 404 3783
+INFO 2019-09-22 04:06:15,424 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-09-22 04:06:15,431 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:07:10,463 basehttp 124 "GET /detail/14/ HTTP/1.1" 200 89842
+WARNING 2019-09-22 04:07:11,278 base 152 Not Found: /comments/14/
+WARNING 2019-09-22 04:07:11,300 basehttp 124 "GET /comments/14/ HTTP/1.1" 404 3783
+WARNING 2019-09-22 04:07:11,299 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:07:11,312 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 04:07:11,321 base 152 Not Found: /browse_histories/
+INFO 2019-09-22 04:07:11,332 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 04:07:11,334 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+INFO 2019-09-22 04:07:11,398 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:11:15,096 basehttp 124 "GET /detail/14/ HTTP/1.1" 200 89842
+WARNING 2019-09-22 04:11:15,723 base 152 Not Found: /comments/14/
+INFO 2019-09-22 04:11:15,728 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 04:11:15,711 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:11:15,738 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 04:11:15,731 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:11:15,741 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 04:11:15,745 basehttp 124 "GET /comments/14/ HTTP/1.1" 404 3783
+INFO 2019-09-22 04:11:15,771 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:13:16,798 basehttp 124 "GET /detail/14/ HTTP/1.1" 200 89842
+INFO 2019-09-22 04:13:17,276 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 04:13:17,287 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:13:17,292 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:13:17,293 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 04:13:17,285 base 152 Not Found: /comments/14/
+WARNING 2019-09-22 04:13:17,308 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 04:13:17,411 basehttp 124 "GET /comments/14/ HTTP/1.1" 404 3783
+INFO 2019-09-22 04:13:17,413 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:14:50,989 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91270
+INFO 2019-09-22 04:14:51,255 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91270
+WARNING 2019-09-22 04:14:52,034 base 152 Not Found: /comments/1/
+WARNING 2019-09-22 04:14:52,025 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:14:52,050 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 04:14:52,036 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:14:52,057 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 04:14:52,068 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 3780
+INFO 2019-09-22 04:14:52,092 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-22 04:14:52,130 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:15:20,243 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91270
+WARNING 2019-09-22 04:15:20,867 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:15:20,880 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 04:15:20,899 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:15:20,906 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 3799
+WARNING 2019-09-22 04:15:21,026 base 152 Not Found: /comments/1/
+WARNING 2019-09-22 04:15:21,044 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 3780
+INFO 2019-09-22 04:15:21,060 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-22 04:15:21,094 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:16:09,451 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91270
+INFO 2019-09-22 04:16:09,539 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-22 04:16:09,560 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-22 04:16:09,562 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-22 04:16:09,598 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-22 04:16:09,613 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-22 04:16:09,626 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-22 04:16:09,630 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-22 04:16:09,650 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 200 6287
+INFO 2019-09-22 04:16:09,652 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 04:16:09,690 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 04:16:09,725 basehttp 124 "GET /static/images/cat.jpg HTTP/1.1" 304 0
+WARNING 2019-09-22 04:16:10,331 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:16:10,346 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+WARNING 2019-09-22 04:16:10,372 base 152 Not Found: /comments/1/
+INFO 2019-09-22 04:16:10,383 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+WARNING 2019-09-22 04:16:10,396 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 3780
+INFO 2019-09-22 04:16:10,442 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:16:31,341 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-22 04:16:50,418 basehttp 124 "GET /users/index/ HTTP/1.1" 200 91260
+WARNING 2019-09-22 04:16:50,941 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 04:16:50,948 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3786
+INFO 2019-09-22 04:16:54,976 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5265
+WARNING 2019-09-22 04:16:55,347 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:16:55,358 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3798
+INFO 2019-09-22 04:16:58,546 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5265
+INFO 2019-09-22 04:16:58,607 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-22 04:16:58,657 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-22 04:16:58,658 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-22 04:16:58,675 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-22 04:16:58,676 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-22 04:16:58,704 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2019-09-22 04:16:58,706 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-22 04:16:58,742 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-09-22 04:16:59,014 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:16:59,019 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3798
+INFO 2019-09-22 04:17:42,899 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5265
+WARNING 2019-09-22 04:17:43,276 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:17:43,280 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3798
+INFO 2019-09-22 04:17:45,885 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5265
+WARNING 2019-09-22 04:17:46,128 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:17:46,140 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3798
+INFO 2019-09-22 04:18:13,072 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5265
+WARNING 2019-09-22 04:18:13,306 base 152 Not Found: /browse_histories/
+WARNING 2019-09-22 04:18:13,340 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3798
+INFO 2019-09-22 04:18:44,661 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5265
+INFO 2019-09-22 04:18:44,727 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-22 04:18:44,735 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-22 04:18:44,740 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-22 04:18:44,755 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-22 04:18:44,763 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-22 04:18:44,782 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-22 04:18:44,795 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 200 3211
+INFO 2019-09-22 04:18:44,805 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-22 04:19:01,216 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-22 05:45:49,699 basehttp 124 "GET /users/index/ HTTP/1.1" 200 91260
+WARNING 2019-09-22 05:45:50,303 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 05:45:50,309 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3956
+INFO 2019-09-22 05:45:55,606 basehttp 124 "GET /users/logout/ HTTP/1.1" 302 0
+INFO 2019-09-22 05:45:56,303 basehttp 124 "GET /users/index/ HTTP/1.1" 200 91260
+WARNING 2019-09-22 05:45:57,815 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 05:45:57,826 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3956
+INFO 2019-09-22 05:46:03,097 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91270
+INFO 2019-09-22 05:46:03,264 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 304 0
+WARNING 2019-09-22 05:46:04,235 base 152 Not Found: /carts/simple/
+INFO 2019-09-22 05:46:04,251 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 302 0
+WARNING 2019-09-22 05:46:04,256 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3956
+INFO 2019-09-22 05:46:04,273 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-22 05:46:04,279 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+WARNING 2019-09-22 05:46:04,282 base 152 Not Found: /comments/1/
+WARNING 2019-09-22 05:46:04,284 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 3950
+INFO 2019-09-22 05:46:04,425 basehttp 124 "GET /users/login/?next=/users/browse_histories/ HTTP/1.1" 200 2965
+INFO 2019-09-22 05:46:07,117 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-22 05:46:23,826 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 90223
+INFO 2019-09-22 05:46:24,272 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 302 0
+INFO 2019-09-22 05:46:24,275 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 05:46:24,296 base 152 Not Found: /comments/3/
+WARNING 2019-09-22 05:46:24,309 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 05:46:24,311 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3956
+WARNING 2019-09-22 05:46:24,313 basehttp 124 "GET /comments/3/ HTTP/1.1" 404 3950
+INFO 2019-09-22 05:46:24,316 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 05:46:24,392 basehttp 124 "GET /users/login/?next=/users/browse_histories/ HTTP/1.1" 200 2965
+INFO 2019-09-22 05:46:30,286 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+WARNING 2019-09-22 05:46:50,222 base 152 Not Found: /login/
+WARNING 2019-09-22 05:46:50,249 basehttp 124 "GET /login/ HTTP/1.1" 404 3935
+INFO 2019-09-22 05:48:09,786 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 302 0
+INFO 2019-09-22 05:48:09,851 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 05:48:09,922 basehttp 124 "GET /users/login/?next=/users/browse_histories/ HTTP/1.1" 200 2965
+INFO 2019-09-22 05:48:12,227 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 90241
+INFO 2019-09-22 05:48:12,796 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 302 0
+WARNING 2019-09-22 05:48:12,816 base 152 Not Found: /comments/3/
+WARNING 2019-09-22 05:48:12,836 basehttp 124 "GET /comments/3/ HTTP/1.1" 404 3950
+INFO 2019-09-22 05:48:12,816 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 05:48:12,836 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 05:48:12,949 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3956
+INFO 2019-09-22 05:48:12,980 basehttp 124 "GET /users/login/?next=/users/browse_histories/ HTTP/1.1" 200 2965
+INFO 2019-09-22 05:48:12,994 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 05:48:14,782 basehttp 124 "GET /users/login/ HTTP/1.1" 200 2965
+INFO 2019-09-22 05:48:15,048 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-09-22 05:48:15,050 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2019-09-22 05:48:15,160 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 304 0
+INFO 2019-09-22 05:48:15,201 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO 2019-09-22 05:48:15,267 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 304 0
+INFO 2019-09-22 05:48:23,182 basehttp 124 "POST /users/login/ HTTP/1.1" 302 0
+INFO 2019-09-22 05:48:23,801 basehttp 124 "GET /users/index/ HTTP/1.1" 200 91260
+WARNING 2019-09-22 05:48:24,873 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 05:48:24,875 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3956
+INFO 2019-09-22 05:48:35,361 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91288
+WARNING 2019-09-22 05:48:36,361 base 152 Not Found: /carts/simple/
+INFO 2019-09-22 05:48:36,361 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+WARNING 2019-09-22 05:48:36,370 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3956
+INFO 2019-09-22 05:48:36,377 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+WARNING 2019-09-22 05:48:36,367 base 152 Not Found: /comments/1/
+WARNING 2019-09-22 05:48:36,387 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 3950
+INFO 2019-09-22 05:48:36,388 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-22 05:48:38,225 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-22 05:49:44,403 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91288
+WARNING 2019-09-22 05:49:44,931 base 152 Not Found: /comments/1/
+INFO 2019-09-22 05:49:45,008 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+WARNING 2019-09-22 05:49:45,010 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 3950
+WARNING 2019-09-22 05:49:45,006 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 05:49:45,013 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3956
+INFO 2019-09-22 05:49:45,111 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-22 05:49:45,130 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-22 05:49:48,406 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-22 05:53:14,227 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91288
+INFO 2019-09-22 05:53:14,261 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-22 05:53:14,302 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-22 05:53:14,311 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-22 05:53:14,312 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-22 05:53:14,315 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-22 05:53:14,332 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-22 05:53:14,353 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-22 05:53:14,365 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 304 0
+INFO 2019-09-22 05:53:14,396 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 05:53:14,537 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 05:53:14,548 basehttp 124 "GET /static/images/cat.jpg HTTP/1.1" 304 0
+INFO 2019-09-22 05:53:14,612 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+WARNING 2019-09-22 05:53:15,091 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 05:53:15,095 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3956
+WARNING 2019-09-22 05:53:15,105 base 152 Not Found: /comments/1/
+INFO 2019-09-22 05:53:15,107 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+WARNING 2019-09-22 05:53:15,145 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 3950
+INFO 2019-09-22 05:53:15,186 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-22 05:53:15,187 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+WARNING 2019-09-22 05:53:17,698 base 152 Not Found: /detail/1/cart.html
+WARNING 2019-09-22 05:53:17,713 basehttp 124 "GET /detail/1/cart.html HTTP/1.1" 404 3971
+INFO 2019-09-22 05:53:51,148 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91286
+WARNING 2019-09-22 05:53:51,746 base 152 Not Found: /carts/simple/
+WARNING 2019-09-22 05:53:51,775 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3956
+INFO 2019-09-22 05:53:51,769 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+WARNING 2019-09-22 05:53:51,792 base 152 Not Found: /comments/1/
+WARNING 2019-09-22 05:53:51,794 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 3950
+INFO 2019-09-22 05:53:51,806 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-22 05:53:51,807 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+ERROR 2019-09-22 05:53:59,294 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/carts/views.py", line 94, in get
+    return render(request,"cart.html")
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: cart.html
+ERROR 2019-09-22 05:53:59,435 basehttp 124 "GET /carts/ HTTP/1.1" 500 98151
+INFO 2019-09-22 05:54:36,990 basehttp 124 "GET /carts/ HTTP/1.1" 200 4824
+INFO 2019-09-22 05:54:37,151 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-09-22 06:04:39,149 basehttp 124 "GET /carts/ HTTP/1.1" 200 5057
+INFO 2019-09-22 06:04:43,063 basehttp 124 "GET /carts/ HTTP/1.1" 200 5057
+INFO 2019-09-22 06:06:44,849 basehttp 124 "GET /carts/ HTTP/1.1" 200 5013

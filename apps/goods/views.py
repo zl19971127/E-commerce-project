@@ -1,13 +1,18 @@
+
+from datetime import datetime
+
 from django import http
 from django.core.paginator import Paginator
 from django.shortcuts import render
 from django.views import View
 
 from apps.goods import models
+from apps.goods.models import GoodsVisitCount, GoodsCategory
 from apps.goods.utils import get_categories, get_breadcrumb
+from meiduo_mall.settings.dev import logger
 from utils.response_code import RETCODE
 
-
+# 列表页
 class ListView(View):
     def get(self,request,category_id,page_num):
         try:
@@ -54,7 +59,7 @@ class ListView(View):
         return render(request,"list.html",context)
 
 
-
+#　热销页
 class HotGoodsView(View):
     """商品热销排行"""
 
@@ -75,7 +80,9 @@ class HotGoodsView(View):
         return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK','hot_skus':hot_skus})
 
 
+ # 商品分类页
 
+# 商品详情页
 class DetailView(View):
     def get(self,request,sku_id):
         try:
@@ -95,3 +102,43 @@ class DetailView(View):
             'sku': sku,
         }
         return render(request, "detail.html",context)
+
+
+# 统计分类商品访问量
+class DetailVisitView(View):
+    def post(self,request,category_id):
+        # print(category_id)
+        try:
+            category = GoodsCategory.objects.get(id = category_id)
+        except Exception as e:
+            logger.error(e)
+            return http.HttpResponseNotFound('缺少必传参数')
+        # #　用ｓｔｒｆｔｉｍｅ将日期按照格式转化为字符串
+        # time_str = datetime.now().strftime("%Y-%m-%d")
+        # # 　用strptime将字符串按照日期格式在转换成日期形式
+        # time_date = datetime.strptime(time_str,"%Y-%m-%d")
+            # 将日期按照格式转换成字符串
+        today_str = datetime.now().strftime('%Y-%m-%d')
+        # 将字符串再转换成日期格式
+        time_date = datetime.strptime(today_str, '%Y-%m-%d')
+
+        try:
+           count_data = category.goodsvisitcount_set.get(date=time_date)
+        except:
+            count_data = GoodsVisitCount()
+
+        try:
+            count_data.count += 1
+            count_data.category = category
+            count_data.save()
+        except:
+            return http.HttpResponseServerError('新增失败')
+
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK'})
+
+
+
+
+
+
+

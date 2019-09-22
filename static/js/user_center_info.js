@@ -74,7 +74,7 @@ var vm = new Vue({
         },
         // 请求浏览历史记录
         browse_histories(){
-            var url = this.host + '/browse_histories/';
+            var url = this.host + '/users/browse_histories/';
             axios.get(url, {
                     responseType: 'json'
                 })

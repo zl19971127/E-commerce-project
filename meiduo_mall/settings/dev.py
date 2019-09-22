@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "apps.oauth",
     "apps.areas",
     "apps.goods",
+    "apps.carts",
 ]
 
 MIDDLEWARE = [
@@ -187,6 +188,20 @@ CACHES = {
     "sms_code": {  # 保存短信验证码--3号库
         "BACKEND": "django_redis.cache.RedisCache",
         "LOCATION": "redis://127.0.0.1:6379/3",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    "history": { # 用户浏览记录--４号库
+            "BACKEND": "django_redis.cache.RedisCache",
+            "LOCATION": "redis://127.0.0.1:6379/4",
+            "OPTIONS": {
+                "CLIENT_CLASS": "django_redis.client.DefaultClient",
+            }
+        },
+    "carts": { # 购物车信息－－－－５号库
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/5",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }

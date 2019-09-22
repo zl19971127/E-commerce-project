@@ -7,7 +7,7 @@ from django import http
 from django.contrib.auth.views import login, logout
 
 from apps.areas.models import Area
-from apps.goods.models import GoodsChannel
+from apps.goods.models import GoodsChannel, SKU
 from utils.secret import SecretOauth
 from django.shortcuts import render, redirect
 from random import randint
@@ -409,6 +409,59 @@ class ChangePassword(View):
 
         # 返回
         return response
+
+
+
+# 保存和查询浏览记录
+class BrowseHistories(LoginRequiredMixin,View):
+    def post(self,request):
+        # 接收参数
+        sku_id = json.loads(request.body.decode()).get("sku_id")
+
+        # 校验
+        #　1.校验商品是否存在
+        try:
+            sku = SKU.objects.get(id=sku_id)
+        except:
+            return http.HttpResponseForbidden("商品不存在")
+
+        # 如果有ｓｋｕ就保存都ｒｅｄｉｓ中
+        # 链接ｒｅｄｉｓ
+        client = get_redis_connection("history")
+        history_key = request.user.id
+        # 不懂
+        redis_pipeline = client.pipeline()
+        # 去重
+        client.lrem(history_key,0,sku_id)
+
+        # 存储
+        client.lpush(history_key,sku_id)
+
+        #　截取５个
+        client.ltrim(history_key,0,4)
+        redis_pipeline.execute()
+
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK'})
+
+
+    def get(self,request):
+        # 显示用户浏览记录
+        # 链接ｒｅｄｉｓ
+        client = get_redis_connection("history")
+        sku_ids = client.lrange(request.user.id,0,-1)
+        skus = []
+        # sku_ids 是该用户浏览的商品信息
+        for sku_id in sku_ids:
+            sku = SKU.objects.get(id=sku_id)
+            skus.append({
+                "id":sku.id,
+                "name":sku.name,
+                "default_image_url":sku.default_image.url,
+                "price":sku.price
+            })
+
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK', 'skus': skus})
+
 
 
 
