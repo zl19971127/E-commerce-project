@@ -126,5 +126,37 @@ class CartsView(View):
         return render(request,"cart.html", context)
 
 
+# 首页购物车显示
+class CartSimpleView(View):
+    def get(self,request):
+        user = request.user
+        if user.is_authenticated:
+            # 链接ｒｅｄｉｓ数据库
+            client = get_redis_connection("carts")
+            # 取出所有商品数据
+            carts_data = client.hgetall(user.id)
+            # 转换格式
+            cart_dict = {int(key.decode()): json.loads(value.decode()) for key, value in carts_data.items()}
+
+        else:
+            carts_str = request.COOKIES.get("carts")
+            if carts_str:
+                cart_dict = CookieSecret.loads(carts_str)
+            else:
+                cart_dict = {}
+
+        cart_skus = []
+        sku_ids = cart_dict.keys()
+        skus = SKU.objects.filter(id__in = sku_ids)
+        for sku in skus:
+            cart_skus.append({
+                'id': sku.id,
+                'name': sku.name,
+                'count': cart_dict.get(sku.id).get('count'),
+                'default_image_url': sku.default_image.url
+            })
+        return http.JsonResponse({'code':RETCODE.OK, 'errmsg':'OK', 'cart_skus':cart_skus})
+
+
 
 

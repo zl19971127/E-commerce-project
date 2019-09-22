@@ -11892,3 +11892,255 @@ INFO 2019-09-22 05:54:37,151 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 
 INFO 2019-09-22 06:04:39,149 basehttp 124 "GET /carts/ HTTP/1.1" 200 5057
 INFO 2019-09-22 06:04:43,063 basehttp 124 "GET /carts/ HTTP/1.1" 200 5057
 INFO 2019-09-22 06:06:44,849 basehttp 124 "GET /carts/ HTTP/1.1" 200 5013
+INFO 2019-09-22 07:09:42,353 basehttp 124 "GET /users/index/ HTTP/1.1" 200 91260
+INFO 2019-09-22 07:09:43,631 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-22 07:10:06,189 basehttp 124 "GET /carts/ HTTP/1.1" 200 5013
+WARNING 2019-09-22 07:11:20,969 basehttp 124 "GET /static/cart.html HTTP/1.1" 404 1646
+WARNING 2019-09-22 07:11:46,461 basehttp 124 "GET /static/cart.html HTTP/1.1" 404 1646
+WARNING 2019-09-22 07:12:17,084 basehttp 124 "GET /static/cart.html HTTP/1.1" 404 1646
+INFO 2019-09-22 07:13:02,761 basehttp 124 "GET /users/index/ HTTP/1.1" 200 91245
+INFO 2019-09-22 07:13:03,587 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-22 07:13:04,573 basehttp 124 "GET /carts/ HTTP/1.1" 200 5013
+ERROR 2019-09-22 07:13:53,950 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 124, in get
+    return render(request,"index.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/index.html", line 60, in top-level template code
+    <a href="{{ url('carts:info') }}" class="cart_name fl">我的购物车</a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'info' not found. 'info' is not a valid view function or pattern name.
+ERROR 2019-09-22 07:13:56,569 basehttp 124 "GET /users/index/ HTTP/1.1" 500 190034
+ERROR 2019-09-22 07:14:00,398 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 124, in get
+    return render(request,"index.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/index.html", line 60, in top-level template code
+    <a href="{{ url('carts:info') }}" class="cart_name fl">我的购物车</a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'info' not found. 'info' is not a valid view function or pattern name.
+ERROR 2019-09-22 07:14:02,262 basehttp 124 "GET /users/index/ HTTP/1.1" 500 190046
+INFO 2019-09-22 07:14:33,888 basehttp 124 "GET /users/index/ HTTP/1.1" 200 91242
+INFO 2019-09-22 07:14:34,646 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-22 07:14:36,614 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-22 07:14:38,664 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-22 07:14:40,016 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5265
+INFO 2019-09-22 07:14:40,063 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2019-09-22 07:14:40,441 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-22 07:14:53,254 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-22 07:16:06,522 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-22 07:16:06,917 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-22 07:16:09,886 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-22 07:16:33,202 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-22 07:18:52,036 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-22 07:18:55,893 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-22 07:18:59,055 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 87489
+WARNING 2019-09-22 07:18:59,131 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-22 07:18:59,132 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 4178
+INFO 2019-09-22 07:18:59,138 basehttp 124 "GET /static/js/list.js HTTP/1.1" 304 0
+WARNING 2019-09-22 07:18:59,825 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-22 07:18:59,838 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 4178
+INFO 2019-09-22 07:18:59,889 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-09-22 07:18:59,897 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-22 07:19:07,262 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91286
+INFO 2019-09-22 07:19:07,311 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 304 0
+WARNING 2019-09-22 07:19:07,879 base 152 Not Found: /comments/1/
+WARNING 2019-09-22 07:19:07,885 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 4133
+INFO 2019-09-22 07:19:07,994 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-22 07:19:08,052 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-22 07:19:08,056 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-22 07:19:08,184 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-22 07:19:16,692 basehttp 124 "GET /detail/5/ HTTP/1.1" 200 90245
+INFO 2019-09-22 07:19:17,332 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-09-22 07:19:17,338 base 152 Not Found: /comments/5/
+WARNING 2019-09-22 07:19:17,365 basehttp 124 "GET /comments/5/ HTTP/1.1" 404 4133
+INFO 2019-09-22 07:19:17,374 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-22 07:19:17,375 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-22 07:19:17,393 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-22 07:19:18,994 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+ERROR 2019-09-22 07:19:29,361 exception 135 Internal Server Error: /users/index/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/users/views.py", line 124, in get
+    return render(request,"index.html",context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/index.html", line 60, in top-level template code
+    <a href="{{ url('carts:info') }}" class="cart_name fl">我的购物车</a>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'info' not found. 'info' is not a valid view function or pattern name.
+ERROR 2019-09-22 07:19:31,011 basehttp 124 "GET /users/index/ HTTP/1.1" 500 189582
+WARNING 2019-09-22 07:19:47,528 base 152 Not Found: /users/index//
+WARNING 2019-09-22 07:19:47,540 basehttp 124 "GET /users/index// HTTP/1.1" 404 6536
+INFO 2019-09-22 07:19:52,525 basehttp 124 "GET /users/index/ HTTP/1.1" 200 91195
+INFO 2019-09-22 07:19:52,791 basehttp 124 "GET /users/index/ HTTP/1.1" 200 91195
+INFO 2019-09-22 07:19:53,722 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 499
+INFO 2019-09-22 07:19:54,984 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 499
+INFO 2019-09-22 07:19:58,643 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 499
+INFO 2019-09-22 07:19:58,842 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 499
+INFO 2019-09-22 07:23:41,846 basehttp 124 "GET /users/index/ HTTP/1.1" 200 91195
+INFO 2019-09-22 07:23:42,716 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 499
+INFO 2019-09-22 07:23:46,520 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91145
+WARNING 2019-09-22 07:23:46,561 base 152 Not Found: /detail/1/sku.default_image_url
+WARNING 2019-09-22 07:23:46,572 basehttp 124 "GET /detail/1/sku.default_image_url HTTP/1.1" 404 4190
+WARNING 2019-09-22 07:23:47,486 base 152 Not Found: /comments/1/
+WARNING 2019-09-22 07:23:47,488 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 4133
+INFO 2019-09-22 07:23:47,562 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-22 07:23:47,590 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 499
+INFO 2019-09-22 07:23:47,592 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-22 07:23:47,599 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+WARNING 2019-09-22 07:23:47,801 base 152 Not Found: /detail/1/sku.default_image_url
+WARNING 2019-09-22 07:23:47,804 basehttp 124 "GET /detail/1/sku.default_image_url HTTP/1.1" 404 4190
+INFO 2019-09-22 07:24:15,598 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91149
+WARNING 2019-09-22 07:24:15,655 base 152 Not Found: /detail/1/sku.default_image_url.url
+WARNING 2019-09-22 07:24:15,691 basehttp 124 "GET /detail/1/sku.default_image_url.url HTTP/1.1" 404 4202
+WARNING 2019-09-22 07:24:16,190 base 152 Not Found: /comments/1/
+WARNING 2019-09-22 07:24:16,193 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 4133
+INFO 2019-09-22 07:24:16,239 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-22 07:24:16,290 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-22 07:24:16,291 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 499
+INFO 2019-09-22 07:24:16,329 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+WARNING 2019-09-22 07:24:16,357 base 152 Not Found: /detail/1/sku.default_image_url.url
+WARNING 2019-09-22 07:24:16,360 basehttp 124 "GET /detail/1/sku.default_image_url.url HTTP/1.1" 404 4202
+INFO 2019-09-22 07:25:06,363 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91062
+WARNING 2019-09-22 07:25:06,449 base 152 Not Found: /detail/1/sku.default_image_url
+WARNING 2019-09-22 07:25:06,453 basehttp 124 "GET /detail/1/sku.default_image_url HTTP/1.1" 404 4190
+WARNING 2019-09-22 07:25:06,934 base 152 Not Found: /comments/1/
+WARNING 2019-09-22 07:25:06,941 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 4133
+INFO 2019-09-22 07:25:07,017 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-22 07:25:07,025 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-22 07:25:07,033 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 499
+INFO 2019-09-22 07:25:07,061 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+WARNING 2019-09-22 07:25:07,110 base 152 Not Found: /detail/1/sku.default_image_url
+WARNING 2019-09-22 07:25:07,114 basehttp 124 "GET /detail/1/sku.default_image_url HTTP/1.1" 404 4190
+INFO 2019-09-22 07:25:54,752 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91078
+WARNING 2019-09-22 07:25:55,395 base 152 Not Found: /comments/1/
+WARNING 2019-09-22 07:25:55,400 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 4133
+INFO 2019-09-22 07:25:55,449 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-22 07:25:55,491 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-22 07:25:55,502 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 499
+INFO 2019-09-22 07:25:55,504 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-22 07:26:33,729 basehttp 124 "GET /list/115/1 HTTP/1.1" 301 0
+INFO 2019-09-22 07:26:34,226 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 87489
+WARNING 2019-09-22 07:26:34,300 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-22 07:26:34,327 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 4178
+WARNING 2019-09-22 07:26:34,765 base 152 Not Found: /list/115/1/images/logo.png
+WARNING 2019-09-22 07:26:34,768 basehttp 124 "GET /list/115/1/images/logo.png HTTP/1.1" 404 4178
+INFO 2019-09-22 07:26:35,023 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 499
+INFO 2019-09-22 07:26:35,030 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-09-22 07:27:27,140 basehttp 124 "GET /carts/ HTTP/1.1" 200 5287
+INFO 2019-09-22 07:27:49,579 basehttp 124 "GET /users/index/ HTTP/1.1" 200 91195
+INFO 2019-09-22 07:27:50,589 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 499
+INFO 2019-09-22 07:27:50,735 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 499
+INFO 2019-09-22 07:27:51,570 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5265
+INFO 2019-09-22 07:27:51,843 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 511
+INFO 2019-09-22 07:28:32,693 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5265
+INFO 2019-09-22 07:28:32,979 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 511
+INFO 2019-09-22 07:28:37,765 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 499
+INFO 2019-09-22 07:28:38,114 basehttp 124 "GET /users/index/ HTTP/1.1" 200 91190
+INFO 2019-09-22 07:28:38,680 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 499
+INFO 2019-09-22 07:28:38,935 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 499
+INFO 2019-09-22 07:28:39,287 basehttp 124 "GET /carts/ HTTP/1.1" 200 5287
+INFO 2019-09-22 07:28:44,338 basehttp 124 "GET /users/logout/ HTTP/1.1" 302 0
+INFO 2019-09-22 07:28:45,006 basehttp 124 "GET /users/index/ HTTP/1.1" 200 91190
+INFO 2019-09-22 07:28:45,556 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 487
+INFO 2019-09-22 07:28:46,170 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 487
+INFO 2019-09-22 07:28:46,559 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 487
+INFO 2019-09-22 07:28:47,684 basehttp 124 "GET /carts/ HTTP/1.1" 200 5281
+INFO 2019-09-22 07:28:59,229 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 487
+INFO 2019-09-22 07:29:03,963 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 487
+INFO 2019-09-22 07:29:07,655 basehttp 124 "GET /users/index/ HTTP/1.1" 200 91190
+INFO 2019-09-22 07:29:08,290 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 487
+INFO 2019-09-22 07:29:11,134 basehttp 124 "GET /users/index/ HTTP/1.1" 200 91190
+INFO 2019-09-22 07:29:11,866 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 487
+INFO 2019-09-22 07:29:17,463 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91077
+INFO 2019-09-22 07:29:18,070 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 302 0
+INFO 2019-09-22 07:29:18,123 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-22 07:29:18,124 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 487
+INFO 2019-09-22 07:29:18,132 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+WARNING 2019-09-22 07:29:18,215 base 152 Not Found: /comments/1/
+WARNING 2019-09-22 07:29:18,217 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 4133
+INFO 2019-09-22 07:29:18,236 basehttp 124 "GET /users/login/?next=/users/browse_histories/ HTTP/1.1" 200 2965
+INFO 2019-09-22 07:30:35,499 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91077
+INFO 2019-09-22 07:30:36,042 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 302 0
+INFO 2019-09-22 07:30:36,220 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+WARNING 2019-09-22 07:30:36,264 base 152 Not Found: /comments/1/
+WARNING 2019-09-22 07:30:36,442 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 4133
+INFO 2019-09-22 07:30:36,494 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-22 07:30:36,534 basehttp 124 "GET /users/login/?next=/users/browse_histories/ HTTP/1.1" 200 2965
+INFO 2019-09-22 07:30:55,768 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 487
+INFO 2019-09-22 07:31:12,535 basehttp 124 "GET /users/index/ HTTP/1.1" 200 91190
+INFO 2019-09-22 07:31:20,076 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 487
+INFO 2019-09-22 07:31:44,810 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 487
+INFO 2019-09-22 07:31:57,914 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 487

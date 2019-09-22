@@ -22,5 +22,8 @@ urlpatterns = [
     # 购物车增加商品
     url(r"^carts/$", views.CartsView.as_view(),name="carts" ),
 
+    # 首页购物车显示
+    url(r"^carts/simple/$", views.CartSimpleView.as_view(),name="cartssimple" ),
+
 
 ]
