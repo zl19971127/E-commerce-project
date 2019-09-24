@@ -13,30 +13,17 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url, include
-from django.contrib import admin
+from django.conf.urls import url
+
+from apps.payment import views
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
 
-    url(r"^users/", include("apps.users.urls", namespace="users")),
+    #  支付宝跳转支付
+    url(r"^payment/(?P<order_id>\d+)/$", views.Paymenta.as_view(),name="payment" ),
 
-    url(r"^",include("apps.oauth.urls", namespace="qqlogin")),
-
-
-    url(r"^",include("apps.areas.urls", namespace="areas")),
-
-
-    url(r"^",include("apps.goods.urls", namespace="goods")),
-
-
-    url(r"^",include("apps.carts.urls", namespace="carts")),
-
-
-    url(r"^",include("apps.orders.urls", namespace="orders")),
-
-
-    url(r"^",include("apps.payment.urls", namespace="payment")),
+    # 保存订单结果
+    url(r"^payment/status/$", views.PaymentStatus.as_view(),name="paymentstatus" ),
 
 
 

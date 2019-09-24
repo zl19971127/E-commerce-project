@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     "apps.goods",
     "apps.carts",
     "apps.orders",
+    "apps.payment",
 ]
 
 MIDDLEWARE = [
@@ -291,4 +292,11 @@ FDFS_BASE_URL = 'http://image.meiduo.site:8888/'
 
 # 指定自定义的Django文件存储类
 DEFAULT_FILE_STORAGE = 'utils.fastdfs.fastdfs_storage.FastDFSStorage'
+
+
+# 支付宝配置
+ALIPAY_APPID = '2016101300673758'
+ALIPAY_DEBUG = True
+ALIPAY_URL = 'https://openapi.alipaydev.com/gateway.do'
+ALIPAY_RETURN_URL = 'http://www.meiduo.site:8000/payment/status/'
 

@@ -105,6 +105,7 @@ class CartsView(View):
             cookie_str = request.COOKIES.get("carts")
             if cookie_str:
                 carts_dict = CookieSecret.loads(cookie_str)
+            carts_dict = {}
 
         sku_ids = carts_dict.keys()
 
@@ -120,7 +121,8 @@ class CartsView(View):
                 'price': str(sku.price),  # 从Decimal('10.2')中取出'10.2'，方便json解析
                 'amount': str(sku.price * carts_dict.get(sku.id).get('count')),
             })
-            context = ({
+
+        context = ({
                 'cart_skus': carts_skus,
             })
 

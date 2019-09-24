@@ -13756,3 +13756,1616 @@ WARNING 2019-09-24 01:11:22,354 base 152 Not Found: /orders/success/images/logo.
 WARNING 2019-09-24 01:11:22,359 basehttp 124 "GET /orders/success/images/logo.png HTTP/1.1" 404 5077
 WARNING 2019-09-24 01:11:22,516 base 152 Not Found: /orders/success/images/logo.png
 WARNING 2019-09-24 01:11:22,523 basehttp 124 "GET /orders/success/images/logo.png HTTP/1.1" 404 5077
+INFO 2019-09-24 08:44:35,852 basehttp 124 "GET /orders/success/?order_id=20190924011030%20%20%20%20%20%20%2011&payment_amount=46826&pay_method=2 HTTP/1.1" 200 3092
+WARNING 2019-09-24 08:44:36,326 base 152 Not Found: /orders/success/images/logo.png
+WARNING 2019-09-24 08:44:36,333 basehttp 124 "GET /orders/success/images/logo.png HTTP/1.1" 404 5077
+INFO 2019-09-24 08:45:18,652 basehttp 124 "GET /orders/success/?order_id=20190924011030%20%20%20%20%20%20%2011&payment_amount=46826&pay_method=2 HTTP/1.1" 200 3092
+WARNING 2019-09-24 08:45:18,801 base 152 Not Found: /orders/success/images/logo.png
+WARNING 2019-09-24 08:45:18,807 basehttp 124 "GET /orders/success/images/logo.png HTTP/1.1" 404 5077
+WARNING 2019-09-24 08:45:18,963 base 152 Not Found: /orders/success/images/logo.png
+WARNING 2019-09-24 08:45:18,973 basehttp 124 "GET /orders/success/images/logo.png HTTP/1.1" 404 5077
+WARNING 2019-09-24 08:45:22,276 base 152 Not Found: /orders/success/index.html
+WARNING 2019-09-24 08:45:22,287 basehttp 124 "GET /orders/success/index.html HTTP/1.1" 404 5062
+WARNING 2019-09-24 08:45:57,740 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 08:46:52,243 basehttp 124 "GET /orders/success/?order_id=20190924011030%20%20%20%20%20%20%2011&payment_amount=46826&pay_method=2 HTTP/1.1" 200 3102
+INFO 2019-09-24 08:46:52,934 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-24 08:46:52,935 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-24 08:46:53,114 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-24 08:46:53,179 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-24 08:46:53,314 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-09-24 08:46:53,360 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-24 08:46:53,360 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-24 08:46:53,360 basehttp 124 "GET /static/js/order_success.js HTTP/1.1" 200 1626
+WARNING 2019-09-24 08:46:54,250 base 152 Not Found: /orders/static/images/logo.png
+WARNING 2019-09-24 08:46:54,251 basehttp 124 "GET /orders/static/images/logo.png HTTP/1.1" 404 5074
+WARNING 2019-09-24 08:46:57,825 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+WARNING 2019-09-24 08:46:57,988 base 152 Not Found: /orders/static/images/logo.png
+INFO 2019-09-24 08:46:58,041 basehttp 124 "GET /static/images/success.png HTTP/1.1" 200 2738
+INFO 2019-09-24 08:46:58,042 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2019-09-24 08:46:58,042 basehttp 124 "GET /orders/static/images/logo.png HTTP/1.1" 404 5074
+INFO 2019-09-24 08:47:20,008 basehttp 124 "GET /orders/success/?order_id=20190924011030%20%20%20%20%20%20%2011&payment_amount=46826&pay_method=2 HTTP/1.1" 200 3105
+INFO 2019-09-24 08:47:20,076 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-24 08:47:20,180 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-24 08:47:20,186 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-24 08:47:20,259 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-24 08:47:20,264 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-24 08:47:20,290 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-09-24 08:47:20,293 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-24 08:47:20,296 basehttp 124 "GET /static/js/order_success.js HTTP/1.1" 200 1626
+INFO 2019-09-24 08:47:20,300 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-09-24 08:47:20,765 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2019-09-24 08:47:20,772 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 08:47:20,776 basehttp 124 "GET /static/images/success.png HTTP/1.1" 200 2738
+INFO 2019-09-24 08:53:02,714 basehttp 124 "GET /orders/success/?order_id=20190924011030%20%20%20%20%20%20%2011&payment_amount=46826&pay_method=2 HTTP/1.1" 200 3105
+INFO 2019-09-24 08:53:03,272 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-24 08:53:03,273 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-24 08:53:03,276 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-24 08:53:03,465 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-24 08:53:03,466 basehttp 124 "GET /static/js/order_success.js HTTP/1.1" 200 1626
+INFO 2019-09-24 08:53:03,467 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-24 08:53:03,533 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-09-24 08:53:03,562 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-09-24 08:53:03,730 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+WARNING 2019-09-24 08:53:04,547 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 08:53:04,554 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-09-24 08:53:04,571 basehttp 124 "GET /static/images/success.png HTTP/1.1" 200 2738
+WARNING 2019-09-24 08:53:10,566 base 152 Not Found: /orders/success/user_center_info.html
+WARNING 2019-09-24 08:53:10,683 basehttp 124 "GET /orders/success/user_center_info.html HTTP/1.1" 404 5095
+WARNING 2019-09-24 09:38:38,233 base 152 Not Found: /orders/success/user_center_info.html
+WARNING 2019-09-24 09:38:38,251 basehttp 124 "GET /orders/success/user_center_info.html HTTP/1.1" 404 5095
+INFO 2019-09-24 09:41:13,134 basehttp 124 "GET /orders/success/?order_id=20190924011030%20%20%20%20%20%20%2011&payment_amount=46826&pay_method=2 HTTP/1.1" 200 3106
+INFO 2019-09-24 09:41:21,973 basehttp 124 "GET /orders/success/?order_id=20190924011030%20%20%20%20%20%20%2011&payment_amount=46826&pay_method=2 HTTP/1.1" 200 3106
+INFO 2019-09-24 09:41:34,884 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2019-09-24 09:41:36,502 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90965
+INFO 2019-09-24 09:41:39,943 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-09-24 09:41:46,184 basehttp 124 "GET /users/info HTTP/1.1" 301 0
+INFO 2019-09-24 09:41:46,322 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5250
+INFO 2019-09-24 09:41:46,513 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:41:46,625 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 304 0
+INFO 2019-09-24 09:41:47,328 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 1321
+INFO 2019-09-24 09:41:50,420 basehttp 124 "GET /static/user_center_order.html HTTP/1.1" 304 0
+INFO 2019-09-24 09:41:50,536 basehttp 124 "GET /static/css/jquery.pagination.css HTTP/1.1" 304 0
+INFO 2019-09-24 09:41:50,542 basehttp 124 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:41:50,545 basehttp 124 "GET /static/js/user_center_order.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:42:00,232 basehttp 124 "GET /address/ HTTP/1.1" 200 8531
+INFO 2019-09-24 09:42:00,262 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:42:00,317 basehttp 124 "GET /static/images/edit.png HTTP/1.1" 304 0
+INFO 2019-09-24 09:42:01,090 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-09-24 09:42:04,706 base 152 Not Found: /templates/cart.html
+WARNING 2019-09-24 09:42:04,725 basehttp 124 "GET /templates/cart.html HTTP/1.1" 404 5044
+INFO 2019-09-24 09:42:10,890 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5250
+INFO 2019-09-24 09:42:11,264 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 1321
+ERROR 2019-09-24 09:42:12,062 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/carts/views.py", line 127, in get
+    return render(request,"cart.html", context)
+UnboundLocalError: local variable 'context' referenced before assignment
+ERROR 2019-09-24 09:42:12,292 basehttp 124 "GET /carts/ HTTP/1.1" 500 86056
+WARNING 2019-09-24 09:42:24,848 base 152 Not Found: /cart/
+WARNING 2019-09-24 09:42:24,861 basehttp 124 "GET /cart/ HTTP/1.1" 404 5002
+ERROR 2019-09-24 09:42:36,591 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/carts/views.py", line 127, in get
+    return render(request,"cart.html", context)
+UnboundLocalError: local variable 'context' referenced before assignment
+ERROR 2019-09-24 09:42:36,678 basehttp 124 "GET /carts/ HTTP/1.1" 500 85896
+ERROR 2019-09-24 09:44:02,065 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/carts/views.py", line 128, in get
+    return render(request,"cart.html", context)
+UnboundLocalError: local variable 'context' referenced before assignment
+ERROR 2019-09-24 09:44:02,159 basehttp 124 "GET /carts/ HTTP/1.1" 500 85911
+INFO 2019-09-24 09:44:20,288 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2019-09-24 09:44:21,372 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90965
+INFO 2019-09-24 09:44:23,000 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+ERROR 2019-09-24 09:44:23,733 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/carts/views.py", line 128, in get
+    return render(request,"cart.html", context)
+UnboundLocalError: local variable 'context' referenced before assignment
+ERROR 2019-09-24 09:44:23,816 basehttp 124 "GET /carts/ HTTP/1.1" 500 85936
+ERROR 2019-09-24 09:48:17,753 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view apps.carts.views.CartsView didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-24 09:48:17,929 basehttp 124 "GET /carts/ HTTP/1.1" 500 66219
+ERROR 2019-09-24 09:48:20,781 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view apps.carts.views.CartsView didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-24 09:48:20,910 basehttp 124 "GET /carts/ HTTP/1.1" 500 66219
+INFO 2019-09-24 09:48:41,735 basehttp 124 "GET /carts/ HTTP/1.1" 200 4752
+INFO 2019-09-24 09:48:46,149 basehttp 124 "GET /carts/ HTTP/1.1" 200 4752
+INFO 2019-09-24 09:48:46,225 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 09:48:46,228 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 09:48:46,265 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:48:46,289 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:48:46,298 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:48:46,317 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:48:46,324 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:48:46,327 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-24 09:49:20,548 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91077
+INFO 2019-09-24 09:49:20,656 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:49:21,919 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+WARNING 2019-09-24 09:49:22,230 base 152 Not Found: /comments/1/
+WARNING 2019-09-24 09:49:22,309 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 5020
+INFO 2019-09-24 09:49:22,429 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-09-24 09:49:23,451 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-24 09:49:23,852 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-24 09:49:28,890 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 09:49:42,945 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 09:49:47,279 basehttp 124 "GET /detail/10/ HTTP/1.1" 200 89649
+WARNING 2019-09-24 09:49:48,420 base 152 Not Found: /comments/10/
+WARNING 2019-09-24 09:49:48,443 basehttp 124 "GET /comments/10/ HTTP/1.1" 404 5023
+INFO 2019-09-24 09:49:48,618 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-24 09:49:48,962 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 251
+INFO 2019-09-24 09:49:48,966 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 545
+INFO 2019-09-24 09:49:49,138 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-24 09:49:57,263 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 09:50:04,815 basehttp 124 "GET /detail/10/ HTTP/1.1" 200 89649
+INFO 2019-09-24 09:50:04,839 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 09:50:04,886 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 09:50:04,896 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:50:04,899 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:50:04,902 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:50:04,920 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:50:04,929 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-24 09:50:04,952 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:50:04,990 basehttp 124 "GET /static/images/cat.jpg HTTP/1.1" 304 0
+INFO 2019-09-24 09:50:05,115 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+WARNING 2019-09-24 09:50:06,939 base 152 Not Found: /comments/10/
+INFO 2019-09-24 09:50:06,948 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 545
+WARNING 2019-09-24 09:50:07,003 basehttp 124 "GET /comments/10/ HTTP/1.1" 404 5023
+INFO 2019-09-24 09:50:07,098 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-24 09:50:07,107 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 526
+INFO 2019-09-24 09:50:07,411 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-24 09:50:15,781 basehttp 124 "GET /carts/ HTTP/1.1" 200 5286
+INFO 2019-09-24 09:50:22,541 basehttp 124 "PUT /carts/ HTTP/1.1" 200 349
+INFO 2019-09-24 09:50:23,023 basehttp 124 "PUT /carts/ HTTP/1.1" 200 348
+INFO 2019-09-24 09:50:23,380 basehttp 124 "PUT /carts/ HTTP/1.1" 200 348
+INFO 2019-09-24 09:50:23,932 basehttp 124 "PUT /carts/ HTTP/1.1" 200 348
+INFO 2019-09-24 09:50:24,344 basehttp 124 "PUT /carts/ HTTP/1.1" 200 348
+INFO 2019-09-24 09:50:26,348 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 5191
+INFO 2019-09-24 09:50:31,795 basehttp 124 "GET /carts/ HTTP/1.1" 200 5284
+INFO 2019-09-24 09:50:35,795 basehttp 124 "PUT /carts/ HTTP/1.1" 200 417
+INFO 2019-09-24 09:50:36,727 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 09:50:43,572 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-24 09:50:43,635 basehttp 124 "GET /orders/success/?order_id=20190924095043%20%20%20%20%20%20%2011&payment_amount=56950&pay_method=2 HTTP/1.1" 200 3106
+WARNING 2019-09-24 09:50:51,018 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 09:51:44,398 basehttp 124 "GET /orders/success/?order_id=20190924095043%20%20%20%20%20%20%2011&payment_amount=56950&pay_method=2 HTTP/1.1" 200 3094
+INFO 2019-09-24 09:51:44,456 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-24 09:51:44,466 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-24 09:51:44,514 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-24 09:51:44,517 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-24 09:51:44,521 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-24 09:51:44,557 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-09-24 09:51:44,559 basehttp 124 "GET /static/js/order_success.js HTTP/1.1" 200 1626
+INFO 2019-09-24 09:51:44,562 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-24 09:51:44,578 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2019-09-24 09:51:44,933 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 09:51:45,003 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-09-24 09:51:45,012 basehttp 124 "GET /static/images/success.png HTTP/1.1" 200 2738
+WARNING 2019-09-24 09:53:12,086 base 152 Not Found: /cart/
+WARNING 2019-09-24 09:53:12,103 basehttp 124 "GET /cart/ HTTP/1.1" 404 5002
+INFO 2019-09-24 09:53:19,191 basehttp 124 "GET /carts/ HTTP/1.1" 200 5037
+INFO 2019-09-24 09:53:55,677 basehttp 124 "PUT /carts/ HTTP/1.1" 200 416
+INFO 2019-09-24 09:53:57,039 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4747
+WARNING 2019-09-24 09:54:01,354 basehttp 124 "POST /orders/commit/ HTTP/1.1" 403 22
+WARNING 2019-09-24 09:54:05,814 basehttp 124 "POST /orders/commit/ HTTP/1.1" 403 22
+INFO 2019-09-24 09:54:08,578 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4747
+INFO 2019-09-24 09:54:08,655 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:54:08,657 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:54:08,658 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 09:54:08,659 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 09:54:08,661 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:54:08,746 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:54:08,751 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:54:08,769 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-24 09:54:09,970 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-24 09:58:00,751 basehttp 124 "GET /orders/success/?order_id=20190924095409%20%20%20%20%20%20%2011&payment_amount=18950&pay_method=2 HTTP/1.1" 200 3096
+INFO 2019-09-24 09:58:00,797 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 09:58:00,801 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 09:58:00,808 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:58:00,822 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:58:00,835 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:58:00,845 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:58:00,852 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:58:00,862 basehttp 124 "GET /static/js/order_success.js HTTP/1.1" 304 0
+INFO 2019-09-24 09:58:00,868 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-09-24 09:59:03,190 base 152 Not Found: /payment/20190924095409       11/
+WARNING 2019-09-24 09:59:03,199 basehttp 124 "GET /payment/20190924095409%20%20%20%20%20%20%2011/ HTTP/1.1" 404 5097
+INFO 2019-09-24 09:59:07,026 basehttp 124 "GET /carts/ HTTP/1.1" 200 4752
+INFO 2019-09-24 09:59:12,980 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91077
+WARNING 2019-09-24 09:59:13,385 base 152 Not Found: /comments/1/
+WARNING 2019-09-24 09:59:13,388 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 5020
+INFO 2019-09-24 09:59:13,460 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-24 09:59:13,528 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-24 09:59:13,530 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-24 09:59:13,531 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-09-24 09:59:18,634 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 09:59:24,521 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 09:59:30,414 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 90030
+WARNING 2019-09-24 09:59:31,112 base 152 Not Found: /comments/3/
+WARNING 2019-09-24 09:59:31,121 basehttp 124 "GET /comments/3/ HTTP/1.1" 404 5020
+INFO 2019-09-24 09:59:31,409 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-24 09:59:31,423 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 545
+INFO 2019-09-24 09:59:31,434 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-24 09:59:31,439 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-24 09:59:33,644 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 09:59:41,389 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 09:59:45,703 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 09:59:48,972 basehttp 124 "GET /detail/5/ HTTP/1.1" 200 90036
+INFO 2019-09-24 09:59:49,573 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 545
+INFO 2019-09-24 09:59:49,661 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-24 09:59:49,687 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-24 09:59:49,689 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 487
+WARNING 2019-09-24 09:59:49,691 base 152 Not Found: /comments/5/
+WARNING 2019-09-24 09:59:49,695 basehttp 124 "GET /comments/5/ HTTP/1.1" 404 5020
+INFO 2019-09-24 09:59:50,525 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 09:59:55,477 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 09:59:57,854 basehttp 124 "GET /detail/6 HTTP/1.1" 301 0
+INFO 2019-09-24 09:59:58,800 basehttp 124 "GET /detail/6/ HTTP/1.1" 200 90037
+WARNING 2019-09-24 09:59:59,851 base 152 Not Found: /comments/6/
+WARNING 2019-09-24 09:59:59,853 basehttp 124 "GET /comments/6/ HTTP/1.1" 404 5020
+INFO 2019-09-24 10:00:00,525 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-24 10:00:00,568 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 545
+INFO 2019-09-24 10:00:00,680 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-24 10:00:00,716 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 736
+INFO 2019-09-24 10:00:03,005 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 10:00:07,524 basehttp 124 "GET /detail/7 HTTP/1.1" 301 0
+INFO 2019-09-24 10:00:08,543 basehttp 124 "GET /detail/7/ HTTP/1.1" 200 90030
+WARNING 2019-09-24 10:00:09,171 base 152 Not Found: /comments/7/
+INFO 2019-09-24 10:00:09,182 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 545
+WARNING 2019-09-24 10:00:09,195 basehttp 124 "GET /comments/7/ HTTP/1.1" 404 5020
+INFO 2019-09-24 10:00:09,281 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-24 10:00:10,014 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 986
+INFO 2019-09-24 10:00:10,015 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-24 10:00:16,280 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 10:00:16,572 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 10:00:16,605 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 10:00:16,625 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 10:00:26,686 basehttp 124 "GET /carts/ HTTP/1.1" 200 6086
+INFO 2019-09-24 10:00:32,633 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 69
+INFO 2019-09-24 10:00:35,018 basehttp 124 "PUT /carts/ HTTP/1.1" 200 348
+INFO 2019-09-24 10:00:37,092 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+WARNING 2019-09-24 10:00:47,311 basehttp 124 "POST /orders/commit/ HTTP/1.1" 403 22
+INFO 2019-09-24 10:00:52,591 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 10:00:52,624 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 10:00:52,629 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 10:00:52,655 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 10:00:52,659 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 10:00:52,662 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 10:00:52,694 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 10:00:52,711 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 304 0
+INFO 2019-09-24 10:00:52,720 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-09-24 10:00:53,867 exception 135 Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/orders/views.py", line 99, in post
+    order_id = datetime.now().strftime("%Y%m%d%H%M%S")+("%9d") + user.id
+TypeError: Can't convert 'int' object to str implicitly
+ERROR 2019-09-24 10:00:53,920 basehttp 124 "POST /orders/commit/ HTTP/1.1" 500 86080
+ERROR 2019-09-24 10:00:56,222 exception 135 Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/orders/views.py", line 99, in post
+    order_id = datetime.now().strftime("%Y%m%d%H%M%S")+("%9d") + user.id
+TypeError: Can't convert 'int' object to str implicitly
+ERROR 2019-09-24 10:00:56,274 basehttp 124 "POST /orders/commit/ HTTP/1.1" 500 86080
+INFO 2019-09-24 10:00:57,901 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 10:00:57,942 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 10:00:57,948 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 10:00:57,953 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 10:00:57,995 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 10:00:57,997 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 10:00:58,025 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 10:00:58,029 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 304 0
+INFO 2019-09-24 10:00:58,043 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-09-24 10:01:02,492 basehttp 124 "POST /orders/commit/ HTTP/1.1" 403 22
+WARNING 2019-09-24 10:01:03,454 basehttp 124 "POST /orders/commit/ HTTP/1.1" 403 22
+WARNING 2019-09-24 10:01:05,826 basehttp 124 "POST /orders/commit/ HTTP/1.1" 403 22
+WARNING 2019-09-24 10:01:06,620 basehttp 124 "POST /orders/commit/ HTTP/1.1" 403 22
+WARNING 2019-09-24 10:01:06,805 basehttp 124 "POST /orders/commit/ HTTP/1.1" 403 22
+INFO 2019-09-24 10:01:08,020 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 10:01:08,054 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 10:01:08,058 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 10:01:08,075 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 10:01:08,077 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 10:01:08,079 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 10:01:08,111 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 304 0
+INFO 2019-09-24 10:01:08,117 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-24 10:01:08,118 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+ERROR 2019-09-24 10:01:09,082 exception 135 Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/orders/views.py", line 99, in post
+    order_id = datetime.now().strftime("%Y%m%d%H%M%S")+("%9d") + user.id
+TypeError: Can't convert 'int' object to str implicitly
+ERROR 2019-09-24 10:01:09,132 basehttp 124 "POST /orders/commit/ HTTP/1.1" 500 86080
+WARNING 2019-09-24 10:01:14,283 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 10:02:55,353 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 10:02:55,421 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-24 10:02:55,436 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-24 10:02:55,466 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-24 10:02:55,469 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-24 10:02:55,504 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-24 10:02:55,513 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-24 10:02:55,530 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-09-24 10:02:55,547 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 200 2173
+WARNING 2019-09-24 10:02:55,985 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 10:02:56,114 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-09-24 10:02:56,157 basehttp 124 "GET /static/images/pay_icons.png HTTP/1.1" 200 11917
+WARNING 2019-09-24 10:03:00,942 basehttp 124 "POST /orders/commit/ HTTP/1.1" 403 22
+WARNING 2019-09-24 10:03:05,727 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 10:03:25,199 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 10:03:25,283 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-24 10:03:25,290 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-24 10:03:25,342 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-24 10:03:25,345 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-24 10:03:25,348 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-24 10:03:25,372 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-24 10:03:25,377 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 200 2173
+INFO 2019-09-24 10:03:25,383 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2019-09-24 10:03:25,747 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 10:03:25,749 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-09-24 10:03:25,775 basehttp 124 "GET /static/images/pay_icons.png HTTP/1.1" 200 11917
+INFO 2019-09-24 10:03:30,293 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-24 10:03:30,626 basehttp 124 "GET /orders/success/?order_id=20190924100330000000011&payment_amount=22786&pay_method=2 HTTP/1.1" 200 3096
+INFO 2019-09-24 10:03:30,711 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-24 10:03:30,748 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-24 10:03:30,772 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-24 10:03:30,774 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-24 10:03:30,775 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-24 10:03:30,789 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-09-24 10:03:30,809 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-24 10:03:30,822 basehttp 124 "GET /static/js/order_success.js HTTP/1.1" 200 1626
+INFO 2019-09-24 10:03:30,983 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2019-09-24 10:03:31,897 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 10:03:32,726 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-09-24 10:03:32,742 basehttp 124 "GET /static/images/success.png HTTP/1.1" 200 2738
+WARNING 2019-09-24 10:04:48,421 basehttp 124 "POST /orders/commit/ HTTP/1.1" 403 22
+WARNING 2019-09-24 10:04:52,049 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+WARNING 2019-09-24 10:05:01,603 base 93 Method Not Allowed (GET): /orders/commit/
+WARNING 2019-09-24 10:05:01,604 basehttp 124 "GET /orders/commit/ HTTP/1.1" 405 0
+WARNING 2019-09-24 10:05:08,767 base 93 Method Not Allowed (GET): /orders/commit/
+WARNING 2019-09-24 10:05:08,767 basehttp 124 "GET /orders/commit/ HTTP/1.1" 405 0
+INFO 2019-09-24 11:39:00,259 basehttp 124 "GET /carts HTTP/1.1" 301 0
+INFO 2019-09-24 11:39:00,291 basehttp 124 "GET /carts/ HTTP/1.1" 200 5842
+INFO 2019-09-24 11:39:15,039 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91077
+INFO 2019-09-24 11:39:15,135 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91077
+INFO 2019-09-24 11:39:17,110 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-24 11:39:17,140 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-24 11:39:17,149 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+WARNING 2019-09-24 11:39:17,156 base 152 Not Found: /comments/1/
+WARNING 2019-09-24 11:39:17,207 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 5020
+INFO 2019-09-24 11:39:17,225 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 1017
+INFO 2019-09-24 11:39:23,583 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 11:39:29,870 basehttp 124 "GET /carts/ HTTP/1.1" 200 6090
+INFO 2019-09-24 11:39:36,198 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 11:39:53,256 basehttp 124 "GET /users/login/?next=/users/emails/verification/%3Ftoken%3DeyJpYXQiOjE1Njg3OTg1NDgsImFsZyI6IkhTNTEyIiwiZXhwIjoxNTY4ODIwMTQ4fQ.eyJlbWFpbCI6IiIsInVzZXJfaWQiOjEwfQ.iWDbw3Yv5AMARhPWnL9nRR-A7gR42yT3v4_v9vZZ3WKfDFS2NpHUNfGN-nRr3ObLNQVaS5W7H-AFxkUkuU6fhw HTTP/1.1" 200 2965
+INFO 2019-09-24 11:39:54,465 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-24 11:39:54,465 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-24 11:39:54,468 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-24 11:39:54,485 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-24 11:39:54,493 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-24 11:39:54,503 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-24 11:39:54,662 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 1759
+INFO 2019-09-24 11:39:54,695 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2019-09-24 11:39:57,348 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2019-09-24 11:39:58,052 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2019-09-24 11:39:58,092 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+WARNING 2019-09-24 11:39:58,120 base 152 Not Found: /favicon.ico
+WARNING 2019-09-24 11:39:58,120 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 5020
+INFO 2019-09-24 11:40:00,747 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2019-09-24 11:40:02,566 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90965
+INFO 2019-09-24 11:40:03,142 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 11:40:03,157 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-09-24 11:40:03,175 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:40:03,176 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 11:40:03,180 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:40:03,207 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:40:03,213 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:40:03,352 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-09-24 11:40:03,370 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2019-09-24 11:40:03,442 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1427
+INFO 2019-09-24 11:40:03,443 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2019-09-24 11:40:03,445 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2019-09-24 11:40:03,446 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2019-09-24 11:40:03,446 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2019-09-24 11:40:03,456 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2019-09-24 11:40:03,490 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2019-09-24 11:40:03,553 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2019-09-24 11:40:03,561 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2019-09-24 11:40:03,575 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2019-09-24 11:40:03,700 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-09-24 11:40:05,558 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-09-24 11:40:06,941 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-09-24 11:40:08,008 basehttp 124 "GET /users/login/ HTTP/1.1" 200 2965
+INFO 2019-09-24 11:40:08,123 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-09-24 11:40:08,143 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:40:08,300 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 304 0
+INFO 2019-09-24 11:40:08,337 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO 2019-09-24 11:40:08,367 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 304 0
+INFO 2019-09-24 11:40:22,075 basehttp 124 "POST /users/login/ HTTP/1.1" 302 0
+INFO 2019-09-24 11:40:22,657 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90965
+INFO 2019-09-24 11:40:23,316 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-09-24 11:40:28,272 basehttp 124 "GET /carts/ HTTP/1.1" 200 4752
+INFO 2019-09-24 11:40:28,584 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 200 8354
+INFO 2019-09-24 11:40:51,412 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91077
+WARNING 2019-09-24 11:40:54,379 base 152 Not Found: /comments/1/
+INFO 2019-09-24 11:40:54,379 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+WARNING 2019-09-24 11:40:54,412 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 5020
+INFO 2019-09-24 11:40:54,488 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-24 11:40:54,492 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-24 11:40:54,509 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 1223
+INFO 2019-09-24 11:41:00,782 basehttp 124 "GET /detail/1 HTTP/1.1" 301 0
+INFO 2019-09-24 11:41:01,282 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91077
+INFO 2019-09-24 11:41:01,401 basehttp 124 "GET /static/images/cat.jpg HTTP/1.1" 200 4333
+INFO 2019-09-24 11:41:01,437 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 200 6287
+WARNING 2019-09-24 11:41:01,808 base 152 Not Found: /comments/1/
+INFO 2019-09-24 11:41:01,815 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+WARNING 2019-09-24 11:41:01,849 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 5020
+INFO 2019-09-24 11:41:01,905 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-24 11:41:01,907 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-24 11:41:01,920 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-24 11:41:05,721 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 11:41:08,775 basehttp 124 "GET /carts/ HTTP/1.1" 200 4998
+INFO 2019-09-24 11:41:13,953 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4730
+INFO 2019-09-24 11:41:14,035 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 200 2173
+INFO 2019-09-24 11:41:14,266 basehttp 124 "GET /static/images/pay_icons.png HTTP/1.1" 200 11917
+WARNING 2019-09-24 11:41:16,479 basehttp 124 "POST /orders/commit/ HTTP/1.1" 403 22
+WARNING 2019-09-24 11:41:25,412 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 11:41:45,828 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 11:41:45,902 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 11:41:45,907 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 11:41:45,930 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:41:45,934 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:41:45,936 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:41:45,965 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:41:45,984 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:41:45,995 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-24 11:41:46,064 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2019-09-24 11:41:46,071 basehttp 124 "GET /static/images/pay_icons.png HTTP/1.1" 304 0
+WARNING 2019-09-24 11:42:06,220 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+ERROR 2019-09-24 11:42:39,739 exception 135 Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/orders/views.py", line 187, in post
+    transaction.savepoint_commit()
+TypeError: savepoint_commit() missing 1 required positional argument: 'sid'
+ERROR 2019-09-24 11:42:39,972 basehttp 124 "POST /orders/commit/ HTTP/1.1" 500 90308
+ERROR 2019-09-24 11:42:42,308 exception 135 Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/orders/views.py", line 187, in post
+    transaction.savepoint_commit()
+TypeError: savepoint_commit() missing 1 required positional argument: 'sid'
+ERROR 2019-09-24 11:42:42,363 basehttp 124 "POST /orders/commit/ HTTP/1.1" 500 89847
+WARNING 2019-09-24 11:43:15,917 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 11:44:01,331 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 11:44:04,329 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4730
+INFO 2019-09-24 11:45:04,336 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-24 11:45:04,376 basehttp 124 "GET /orders/success/?order_id=20190924114414000000012&payment_amount=34174&pay_method=2 HTTP/1.1" 200 3096
+INFO 2019-09-24 11:45:04,473 basehttp 124 "GET /static/js/order_success.js HTTP/1.1" 200 1626
+INFO 2019-09-24 11:45:04,631 basehttp 124 "GET /static/images/success.png HTTP/1.1" 200 2738
+WARNING 2019-09-24 11:45:26,713 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 11:46:00,444 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91077
+INFO 2019-09-24 11:46:00,785 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-24 11:46:00,863 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-24 11:46:00,864 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-24 11:46:00,940 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+WARNING 2019-09-24 11:46:00,952 base 152 Not Found: /comments/1/
+WARNING 2019-09-24 11:46:00,965 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 5020
+INFO 2019-09-24 11:46:04,523 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 11:46:07,505 basehttp 124 "GET /carts/ HTTP/1.1" 200 4998
+WARNING 2019-09-24 11:46:23,071 base 152 Not Found: /orders/settlement/cart.html
+WARNING 2019-09-24 11:46:23,089 basehttp 124 "GET /orders/settlement/cart.html HTTP/1.1" 404 5068
+INFO 2019-09-24 11:46:28,522 basehttp 124 "GET /carts/ HTTP/1.1" 200 6090
+INFO 2019-09-24 11:46:33,071 basehttp 124 "GET /carts/ HTTP/1.1" 200 6090
+INFO 2019-09-24 11:46:33,130 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 11:46:33,131 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:46:33,132 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:46:33,132 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:46:33,135 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 11:46:33,139 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:46:33,176 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:46:33,180 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-24 11:46:38,890 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 11:46:58,835 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4730
+INFO 2019-09-24 11:47:03,559 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 54
+INFO 2019-09-24 11:47:28,723 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-24 11:47:28,766 basehttp 124 "GET /orders/success/?order_id=20190924114718000000012&payment_amount=34174&pay_method=2 HTTP/1.1" 200 3096
+INFO 2019-09-24 11:47:57,752 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 11:47:57,779 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 11:47:57,783 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 11:47:57,802 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:47:57,804 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:47:57,805 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:47:57,828 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:47:57,833 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:47:57,845 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-24 11:47:58,993 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 54
+INFO 2019-09-24 11:48:17,482 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91077
+INFO 2019-09-24 11:48:17,864 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-24 11:48:17,946 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-09-24 11:48:17,948 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-24 11:48:17,950 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+WARNING 2019-09-24 11:48:17,952 base 152 Not Found: /comments/1/
+WARNING 2019-09-24 11:48:17,965 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 5020
+INFO 2019-09-24 11:48:21,242 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 11:48:23,932 basehttp 124 "GET /carts/ HTTP/1.1" 200 4998
+INFO 2019-09-24 11:48:26,564 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4730
+INFO 2019-09-24 11:48:34,494 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 11:48:34,535 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 11:48:34,547 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 11:48:34,550 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:48:34,552 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:48:34,554 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:48:34,584 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:48:34,592 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:48:34,597 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-09-24 11:48:39,015 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 11:48:45,199 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 54
+INFO 2019-09-24 11:49:03,166 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 11:49:03,273 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-24 11:49:03,277 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-24 11:49:03,277 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-24 11:49:03,310 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-24 11:49:03,331 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-24 11:49:03,351 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-24 11:49:03,359 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 200 2173
+INFO 2019-09-24 11:49:03,378 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2019-09-24 11:49:03,909 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 11:49:03,930 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-09-24 11:49:03,944 basehttp 124 "GET /static/images/pay_icons.png HTTP/1.1" 200 11917
+INFO 2019-09-24 11:49:15,279 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-24 11:49:15,318 basehttp 124 "GET /orders/success/?order_id=20190924114905000000011&payment_amount=34174&pay_method=2 HTTP/1.1" 200 3096
+INFO 2019-09-24 11:49:15,371 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-24 11:49:15,379 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-24 11:49:15,395 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-24 11:49:15,431 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-24 11:49:15,439 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-24 11:49:15,444 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-24 11:49:15,451 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-09-24 11:49:15,471 basehttp 124 "GET /static/js/order_success.js HTTP/1.1" 200 1626
+INFO 2019-09-24 11:49:15,497 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-09-24 11:49:15,850 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-09-24 11:49:15,858 basehttp 124 "GET /static/images/success.png HTTP/1.1" 200 2738
+WARNING 2019-09-24 11:49:15,971 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+WARNING 2019-09-24 11:49:59,976 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 11:50:34,288 basehttp 124 "GET /orders/success/?order_id=20190924114905000000011&payment_amount=34174&pay_method=2 HTTP/1.1" 200 3096
+INFO 2019-09-24 11:50:34,374 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-24 11:50:34,381 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-24 11:50:34,429 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-24 11:50:34,437 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-24 11:50:34,439 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-24 11:50:34,471 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-09-24 11:50:34,472 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-24 11:50:34,487 basehttp 124 "GET /static/js/order_success.js HTTP/1.1" 200 1626
+INFO 2019-09-24 11:50:34,497 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-09-24 11:50:34,725 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2019-09-24 11:50:34,735 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 11:50:34,742 basehttp 124 "GET /static/images/success.png HTTP/1.1" 200 2738
+INFO 2019-09-24 11:51:24,661 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4730
+INFO 2019-09-24 11:51:24,752 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 11:51:24,774 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 11:51:24,777 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:51:24,800 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:51:24,817 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:51:24,834 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:51:24,846 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:51:25,020 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-24 11:51:25,105 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2019-09-24 11:51:25,116 basehttp 124 "GET /static/images/pay_icons.png HTTP/1.1" 304 0
+INFO 2019-09-24 11:51:26,021 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 54
+INFO 2019-09-24 11:51:29,365 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4730
+INFO 2019-09-24 11:51:29,429 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 11:51:29,438 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 11:51:29,443 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:51:29,454 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:51:29,460 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:51:29,472 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:51:29,482 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:51:29,588 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-24 11:51:29,875 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2019-09-24 11:51:29,885 basehttp 124 "GET /static/images/pay_icons.png HTTP/1.1" 304 0
+INFO 2019-09-24 11:51:31,104 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 54
+INFO 2019-09-24 11:57:26,609 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91077
+INFO 2019-09-24 11:57:27,019 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+WARNING 2019-09-24 11:57:27,051 base 152 Not Found: /comments/1/
+WARNING 2019-09-24 11:57:27,057 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 5020
+INFO 2019-09-24 11:57:27,060 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-24 11:57:27,064 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-24 11:57:27,081 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 1017
+INFO 2019-09-24 11:57:33,362 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 11:57:36,157 basehttp 124 "GET /carts/ HTTP/1.1" 200 6090
+INFO 2019-09-24 11:57:39,145 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 11:57:46,621 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4730
+INFO 2019-09-24 11:57:46,726 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 11:57:46,726 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 11:57:46,730 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:57:46,742 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:57:46,758 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:57:46,761 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:57:46,774 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:57:46,969 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-24 11:57:47,088 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2019-09-24 11:57:47,095 basehttp 124 "GET /static/images/pay_icons.png HTTP/1.1" 304 0
+INFO 2019-09-24 11:57:49,463 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 54
+INFO 2019-09-24 11:58:13,962 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-24 11:58:13,988 basehttp 124 "GET /orders/success/?order_id=20190924115803000000011&payment_amount=34174&pay_method=2 HTTP/1.1" 200 3096
+INFO 2019-09-24 11:59:21,725 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2019-09-24 11:59:22,099 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90965
+INFO 2019-09-24 11:59:22,317 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-09-24 11:59:22,329 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-09-24 11:59:22,345 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-09-24 11:59:22,390 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-09-24 11:59:22,396 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-09-24 11:59:22,448 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-09-24 11:59:22,457 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-09-24 11:59:22,463 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-09-24 11:59:22,527 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+INFO 2019-09-24 11:59:22,601 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-09-24 11:59:23,078 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 1017
+INFO 2019-09-24 11:59:24,555 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91077
+INFO 2019-09-24 11:59:25,149 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+WARNING 2019-09-24 11:59:25,310 base 152 Not Found: /comments/1/
+WARNING 2019-09-24 11:59:25,349 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 5020
+INFO 2019-09-24 11:59:25,419 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-24 11:59:25,434 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-24 11:59:25,450 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 1017
+INFO 2019-09-24 11:59:33,099 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 11:59:46,823 basehttp 124 "GET /carts/ HTTP/1.1" 200 6090
+INFO 2019-09-24 12:00:02,488 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 12:00:09,169 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4730
+INFO 2019-09-24 12:00:09,221 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 12:00:09,229 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 12:00:09,237 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:00:09,245 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:00:09,250 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:00:09,260 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:00:09,262 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:00:09,352 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-24 12:00:09,463 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2019-09-24 12:00:09,472 basehttp 124 "GET /static/images/pay_icons.png HTTP/1.1" 304 0
+INFO 2019-09-24 12:00:51,205 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-24 12:00:51,229 basehttp 124 "GET /orders/success/?order_id=20190924120040000000011&payment_amount=34174&pay_method=2 HTTP/1.1" 200 3096
+INFO 2019-09-24 12:01:20,848 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4730
+INFO 2019-09-24 12:01:20,921 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 12:01:20,925 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 12:01:20,927 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:01:20,945 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:01:20,957 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:01:20,961 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:01:20,971 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:01:21,113 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-24 12:01:21,277 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2019-09-24 12:01:21,285 basehttp 124 "GET /static/images/pay_icons.png HTTP/1.1" 304 0
+INFO 2019-09-24 12:01:21,831 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 54
+INFO 2019-09-24 12:03:56,459 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91077
+INFO 2019-09-24 12:03:57,160 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91077
+INFO 2019-09-24 12:03:57,981 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-24 12:03:58,045 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+WARNING 2019-09-24 12:03:58,053 base 152 Not Found: /comments/1/
+INFO 2019-09-24 12:03:58,058 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+WARNING 2019-09-24 12:03:58,072 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 5020
+INFO 2019-09-24 12:03:58,094 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 1017
+INFO 2019-09-24 12:04:01,154 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 12:04:09,797 basehttp 124 "GET /carts/ HTTP/1.1" 200 6090
+INFO 2019-09-24 12:04:13,211 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 12:05:20,043 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-24 12:05:20,182 basehttp 124 "GET /orders/success/?order_id=20190924120431000000011&payment_amount=34174&pay_method=2 HTTP/1.1" 200 3096
+INFO 2019-09-24 12:06:30,672 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4730
+INFO 2019-09-24 12:06:30,757 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 12:06:30,766 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 12:06:30,789 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:06:30,798 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:06:30,811 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:06:30,819 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:06:30,824 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:06:30,912 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-24 12:06:31,013 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2019-09-24 12:06:31,019 basehttp 124 "GET /static/images/pay_icons.png HTTP/1.1" 304 0
+INFO 2019-09-24 12:06:31,636 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 54
+INFO 2019-09-24 12:07:20,898 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91077
+INFO 2019-09-24 12:07:21,602 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91077
+INFO 2019-09-24 12:07:22,272 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+WARNING 2019-09-24 12:07:22,422 base 152 Not Found: /comments/1/
+WARNING 2019-09-24 12:07:22,439 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 5020
+INFO 2019-09-24 12:07:22,463 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+INFO 2019-09-24 12:07:22,498 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-24 12:07:22,509 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 1017
+INFO 2019-09-24 12:07:29,231 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 12:07:34,521 basehttp 124 "GET /carts/ HTTP/1.1" 200 6090
+INFO 2019-09-24 12:07:38,356 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 12:07:41,030 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4730
+INFO 2019-09-24 12:07:41,119 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 12:07:41,123 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 12:07:41,148 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:07:41,152 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:07:41,186 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:07:41,198 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:07:41,201 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:07:41,322 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-24 12:07:41,454 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2019-09-24 12:07:41,463 basehttp 124 "GET /static/images/pay_icons.png HTTP/1.1" 304 0
+INFO 2019-09-24 12:08:36,499 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 51
+INFO 2019-09-24 12:08:36,723 basehttp 124 "GET /orders/success/?order_id=undefined&payment_amount=34174&pay_method=2 HTTP/1.1" 200 3082
+INFO 2019-09-24 12:18:30,084 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90965
+INFO 2019-09-24 12:18:31,982 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 1223
+INFO 2019-09-24 12:18:32,182 basehttp 124 "GET / HTTP/1.1" 302 0
+WARNING 2019-09-24 12:18:32,255 base 152 Not Found: /favicon.ico
+WARNING 2019-09-24 12:18:32,271 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 5020
+INFO 2019-09-24 12:18:34,651 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90965
+INFO 2019-09-24 12:18:37,049 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-24 12:18:39,783 basehttp 124 "GET /carts/ HTTP/1.1" 200 6090
+INFO 2019-09-24 12:18:49,482 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 12:18:55,453 basehttp 124 "GET /carts/ HTTP/1.1" 200 4998
+INFO 2019-09-24 12:19:07,855 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4730
+INFO 2019-09-24 12:19:08,243 basehttp 124 "GET /static/images/pay_icons.png HTTP/1.1" 200 8192
+INFO 2019-09-24 12:19:22,605 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-24 12:19:22,678 basehttp 124 "GET /orders/success/?order_id=20190924121912000000012&payment_amount=34174&pay_method=2 HTTP/1.1" 200 3096
+INFO 2019-09-24 12:19:22,827 basehttp 124 "GET /static/js/order_success.js HTTP/1.1" 200 1626
+INFO 2019-09-24 12:19:44,108 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 12:19:44,166 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 12:19:44,169 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 12:19:44,195 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:19:44,203 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:19:44,252 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:19:44,272 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:19:44,283 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:19:44,302 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-24 12:19:44,412 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2019-09-24 12:19:44,417 basehttp 124 "GET /static/images/pay_icons.png HTTP/1.1" 304 0
+INFO 2019-09-24 12:19:45,127 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 54
+INFO 2019-09-24 12:22:31,085 basehttp 124 "GET /carts/ HTTP/1.1" 200 4752
+WARNING 2019-09-24 12:22:36,102 base 152 Not Found: /detail/
+WARNING 2019-09-24 12:22:36,124 basehttp 124 "GET /detail/ HTTP/1.1" 404 5008
+INFO 2019-09-24 12:22:42,740 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 91077
+INFO 2019-09-24 12:22:43,337 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-24 12:22:43,512 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-09-24 12:22:43,556 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+WARNING 2019-09-24 12:22:43,570 base 152 Not Found: /comments/1/
+INFO 2019-09-24 12:22:43,582 basehttp 124 "POST /users/browse_histories/ HTTP/1.1" 200 29
+WARNING 2019-09-24 12:22:43,585 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 5020
+INFO 2019-09-24 12:22:55,879 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-24 12:22:58,352 basehttp 124 "GET /carts/ HTTP/1.1" 200 4998
+INFO 2019-09-24 12:23:01,661 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4730
+INFO 2019-09-24 12:24:26,313 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-24 12:24:26,390 basehttp 124 "GET /orders/success/?order_id=20190924122416000000012&payment_amount=34174&pay_method=2 HTTP/1.1" 200 3096
+INFO 2019-09-24 12:24:56,659 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 12:24:56,716 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 12:24:56,717 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 12:24:56,718 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:24:56,726 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:24:56,755 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:24:56,789 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:24:56,808 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:24:56,815 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-24 12:24:57,471 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 54
+INFO 2019-09-24 12:54:51,666 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4710
+INFO 2019-09-24 12:54:51,706 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 12:54:51,735 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 12:54:51,737 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:54:51,742 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:54:51,757 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:54:51,767 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:54:51,773 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 304 0
+INFO 2019-09-24 12:54:51,778 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-24 12:54:53,479 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 54
+INFO 2019-09-24 12:55:04,702 basehttp 124 "GET /carts/ HTTP/1.1" 200 6090
+INFO 2019-09-24 12:55:07,083 basehttp 124 "PUT /carts/ HTTP/1.1" 200 349
+INFO 2019-09-24 12:55:07,838 basehttp 124 "PUT /carts/ HTTP/1.1" 200 378
+INFO 2019-09-24 12:55:09,628 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4731
+WARNING 2019-09-24 12:55:19,058 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 12:55:23,219 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-24 12:55:23,267 basehttp 124 "GET /orders/success/?order_id=20190924125513000000011&payment_amount=19507&pay_method=2 HTTP/1.1" 200 3096
+ERROR 2019-09-24 12:55:27,305 exception 135 Internal Server Error: /payment/20190924125513000000011/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/payment/views.py", line 31, in get
+    debug=settings.ALIPAY_DEBUG
+TypeError: __init__() got an unexpected keyword argument 'ppid'
+ERROR 2019-09-24 12:55:27,433 basehttp 124 "GET /payment/20190924125513000000011/ HTTP/1.1" 500 91141
+ERROR 2019-09-24 12:55:29,718 exception 135 Internal Server Error: /payment/20190924125513000000011/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/payment/views.py", line 31, in get
+    debug=settings.ALIPAY_DEBUG
+TypeError: __init__() got an unexpected keyword argument 'ppid'
+ERROR 2019-09-24 12:55:29,766 basehttp 124 "GET /payment/20190924125513000000011/ HTTP/1.1" 500 91141
+ERROR 2019-09-24 12:55:30,238 exception 135 Internal Server Error: /payment/20190924125513000000011/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/payment/views.py", line 31, in get
+    debug=settings.ALIPAY_DEBUG
+TypeError: __init__() got an unexpected keyword argument 'ppid'
+ERROR 2019-09-24 12:55:30,287 basehttp 124 "GET /payment/20190924125513000000011/ HTTP/1.1" 500 91141
+ERROR 2019-09-24 12:55:30,516 exception 135 Internal Server Error: /payment/20190924125513000000011/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/payment/views.py", line 31, in get
+    debug=settings.ALIPAY_DEBUG
+TypeError: __init__() got an unexpected keyword argument 'ppid'
+ERROR 2019-09-24 12:55:30,581 basehttp 124 "GET /payment/20190924125513000000011/ HTTP/1.1" 500 91141
+ERROR 2019-09-24 12:55:30,623 exception 135 Internal Server Error: /payment/20190924125513000000011/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/payment/views.py", line 31, in get
+    debug=settings.ALIPAY_DEBUG
+TypeError: __init__() got an unexpected keyword argument 'ppid'
+ERROR 2019-09-24 12:55:30,682 basehttp 124 "GET /payment/20190924125513000000011/ HTTP/1.1" 500 91141
+ERROR 2019-09-24 12:56:25,374 exception 135 Internal Server Error: /payment/20190924125513000000011/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/payment/views.py", line 31, in get
+    debug=settings.ALIPAY_DEBUG
+TypeError: __init__() got an unexpected keyword argument 'ppid'
+ERROR 2019-09-24 12:56:25,423 basehttp 124 "GET /payment/20190924125513000000011/ HTTP/1.1" 500 91141
+INFO 2019-09-24 13:58:50,061 basehttp 124 "GET /orders/success/?order_id=20190924125513000000011&payment_amount=19507&pay_method=2 HTTP/1.1" 200 3096
+INFO 2019-09-24 13:58:50,123 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 13:58:50,144 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 13:58:50,136 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 13:58:50,154 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 13:58:50,174 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 13:58:50,177 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 13:58:50,193 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-24 13:58:50,211 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-24 13:58:50,213 basehttp 124 "GET /static/js/order_success.js HTTP/1.1" 304 0
+INFO 2019-09-24 13:58:50,413 basehttp 124 "GET /orders/success/?order_id=20190924125513000000011&payment_amount=19507&pay_method=2 HTTP/1.1" 200 3096
+ERROR 2019-09-24 13:58:53,913 exception 135 Internal Server Error: /payment/20190924125513000000011/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/payment/views.py", line 30, in get
+    debug=settings.ALIPAY_DEBUG
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/alipay/__init__.py", line 81, in __init__
+    self._load_key()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/alipay/__init__.py", line 94, in _load_key
+    with open(self._alipay_public_key_path) as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/payment/keys/alipay_public_key.pem'
+ERROR 2019-09-24 13:58:53,999 basehttp 124 "GET /payment/20190924125513000000011/ HTTP/1.1" 500 100736
+ERROR 2019-09-24 13:58:54,914 exception 135 Internal Server Error: /payment/20190924125513000000011/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/payment/views.py", line 30, in get
+    debug=settings.ALIPAY_DEBUG
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/alipay/__init__.py", line 81, in __init__
+    self._load_key()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/alipay/__init__.py", line 94, in _load_key
+    with open(self._alipay_public_key_path) as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/payment/keys/alipay_public_key.pem'
+ERROR 2019-09-24 13:58:55,017 basehttp 124 "GET /payment/20190924125513000000011/ HTTP/1.1" 500 100736
+ERROR 2019-09-24 13:58:57,279 exception 135 Internal Server Error: /payment/20190924125513000000011/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/payment/views.py", line 30, in get
+    debug=settings.ALIPAY_DEBUG
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/alipay/__init__.py", line 81, in __init__
+    self._load_key()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/alipay/__init__.py", line 94, in _load_key
+    with open(self._alipay_public_key_path) as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/payment/keys/alipay_public_key.pem'
+ERROR 2019-09-24 13:58:57,332 basehttp 124 "GET /payment/20190924125513000000011/ HTTP/1.1" 500 100736
+WARNING 2019-09-24 13:58:59,637 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 14:00:19,299 basehttp 124 "GET /orders/success/?order_id=20190924125513000000011&payment_amount=19507&pay_method=2 HTTP/1.1" 200 3096
+INFO 2019-09-24 14:00:19,385 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-24 14:00:19,402 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-24 14:00:19,426 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-24 14:00:19,438 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-24 14:00:19,455 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-24 14:00:19,489 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-09-24 14:00:19,502 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-24 14:00:19,502 basehttp 124 "GET /static/js/order_success.js HTTP/1.1" 200 1626
+INFO 2019-09-24 14:00:19,564 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-09-24 14:00:20,454 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-09-24 14:00:20,469 basehttp 124 "GET /static/images/success.png HTTP/1.1" 200 2738
+WARNING 2019-09-24 14:00:20,603 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 14:00:23,110 basehttp 124 "GET /payment/20190924125513000000011/ HTTP/1.1" 200 899
+WARNING 2019-09-24 14:03:26,089 base 152 Not Found: /payment/status/
+WARNING 2019-09-24 14:03:26,104 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190924125513000000011&method=alipay.trade.page.pay.return&total_amount=19507.00&sign=QzzLReySLiWItdSHtdmY26%2BUxELqFms2ThUSHfmkL7xFNbx6Xo2ICJX97ONpEC9AGeXuTDwlpvRiKYZGegons9gogsWiailzbwYtO3FN8dUjO6QoVwDFCZyieWYeWaVwRFM1MMqEhfvIaOEalxyLBsOkkam9C1Mf4YmX1du3GJJyhWYMp7Lus49SjfgGlhbcdeFPJU7hE89%2FL7BYdM%2B0ZK%2FjbQdkC%2Bqb3iGWe%2BaiwoU5%2FGVocppKknltxyHfYnoLhKfr98CCm5ge9AshCCjsGaDxyQCJoEvzDhZqzViW5LiTM%2B7YKk8vQdXyIJSKvvP%2FVy0y2Hqq3HfOJH5DkkaHzQ%3D%3D&trade_no=2019092422001425621000132081&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-24+22%3A02%3A49 HTTP/1.1" 404 5934
+ERROR 2019-09-24 14:26:56,443 exception 135 Internal Server Error: /payment/status/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/payment/views.py", line 87, in get
+    return render(request, 'pay_success.html', context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/templates/pay_success.html", line 57, in top-level template code
+    <p><a href="{{ url('users:info', args=(1, )) }}">您可以在【用户中心】->【我的订单】查看该订单</a></p>
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'info' with arguments '(1,)' not found. 1 pattern(s) tried: ['users/info/$']
+ERROR 2019-09-24 14:26:56,624 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190924125513000000011&method=alipay.trade.page.pay.return&total_amount=19507.00&sign=QzzLReySLiWItdSHtdmY26%2BUxELqFms2ThUSHfmkL7xFNbx6Xo2ICJX97ONpEC9AGeXuTDwlpvRiKYZGegons9gogsWiailzbwYtO3FN8dUjO6QoVwDFCZyieWYeWaVwRFM1MMqEhfvIaOEalxyLBsOkkam9C1Mf4YmX1du3GJJyhWYMp7Lus49SjfgGlhbcdeFPJU7hE89%2FL7BYdM%2B0ZK%2FjbQdkC%2Bqb3iGWe%2BaiwoU5%2FGVocppKknltxyHfYnoLhKfr98CCm5ge9AshCCjsGaDxyQCJoEvzDhZqzViW5LiTM%2B7YKk8vQdXyIJSKvvP%2FVy0y2Hqq3HfOJH5DkkaHzQ%3D%3D&trade_no=2019092422001425621000132081&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-24+22%3A02%3A49 HTTP/1.1" 500 164578
+ERROR 2019-09-24 14:28:05,237 exception 135 Internal Server Error: /payment/status/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '2019092422001425621000132081' for key 'trade_id'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/payment/views.py", line 77, in get
+    trade_id=trade_id
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1062, "Duplicate entry '2019092422001425621000132081' for key 'trade_id'")
+ERROR 2019-09-24 14:28:05,606 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190924125513000000011&method=alipay.trade.page.pay.return&total_amount=19507.00&sign=QzzLReySLiWItdSHtdmY26%2BUxELqFms2ThUSHfmkL7xFNbx6Xo2ICJX97ONpEC9AGeXuTDwlpvRiKYZGegons9gogsWiailzbwYtO3FN8dUjO6QoVwDFCZyieWYeWaVwRFM1MMqEhfvIaOEalxyLBsOkkam9C1Mf4YmX1du3GJJyhWYMp7Lus49SjfgGlhbcdeFPJU7hE89%2FL7BYdM%2B0ZK%2FjbQdkC%2Bqb3iGWe%2BaiwoU5%2FGVocppKknltxyHfYnoLhKfr98CCm5ge9AshCCjsGaDxyQCJoEvzDhZqzViW5LiTM%2B7YKk8vQdXyIJSKvvP%2FVy0y2Hqq3HfOJH5DkkaHzQ%3D%3D&trade_no=2019092422001425621000132081&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-24+22%3A02%3A49 HTTP/1.1" 500 250599
+ERROR 2019-09-24 14:28:07,573 exception 135 Internal Server Error: /payment/status/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '2019092422001425621000132081' for key 'trade_id'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/payment/views.py", line 77, in get
+    trade_id=trade_id
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1062, "Duplicate entry '2019092422001425621000132081' for key 'trade_id'")
+ERROR 2019-09-24 14:28:07,714 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190924125513000000011&method=alipay.trade.page.pay.return&total_amount=19507.00&sign=QzzLReySLiWItdSHtdmY26%2BUxELqFms2ThUSHfmkL7xFNbx6Xo2ICJX97ONpEC9AGeXuTDwlpvRiKYZGegons9gogsWiailzbwYtO3FN8dUjO6QoVwDFCZyieWYeWaVwRFM1MMqEhfvIaOEalxyLBsOkkam9C1Mf4YmX1du3GJJyhWYMp7Lus49SjfgGlhbcdeFPJU7hE89%2FL7BYdM%2B0ZK%2FjbQdkC%2Bqb3iGWe%2BaiwoU5%2FGVocppKknltxyHfYnoLhKfr98CCm5ge9AshCCjsGaDxyQCJoEvzDhZqzViW5LiTM%2B7YKk8vQdXyIJSKvvP%2FVy0y2Hqq3HfOJH5DkkaHzQ%3D%3D&trade_no=2019092422001425621000132081&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-24+22%3A02%3A49 HTTP/1.1" 500 250601
+ERROR 2019-09-24 14:30:03,224 exception 135 Internal Server Error: /payment/status/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '2019092422001425621000132081' for key 'trade_id'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/payment/views.py", line 77, in get
+    trade_id=trade_id
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1062, "Duplicate entry '2019092422001425621000132081' for key 'trade_id'")
+ERROR 2019-09-24 14:30:03,580 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190924125513000000011&method=alipay.trade.page.pay.return&total_amount=19507.00&sign=QzzLReySLiWItdSHtdmY26%2BUxELqFms2ThUSHfmkL7xFNbx6Xo2ICJX97ONpEC9AGeXuTDwlpvRiKYZGegons9gogsWiailzbwYtO3FN8dUjO6QoVwDFCZyieWYeWaVwRFM1MMqEhfvIaOEalxyLBsOkkam9C1Mf4YmX1du3GJJyhWYMp7Lus49SjfgGlhbcdeFPJU7hE89%2FL7BYdM%2B0ZK%2FjbQdkC%2Bqb3iGWe%2BaiwoU5%2FGVocppKknltxyHfYnoLhKfr98CCm5ge9AshCCjsGaDxyQCJoEvzDhZqzViW5LiTM%2B7YKk8vQdXyIJSKvvP%2FVy0y2Hqq3HfOJH5DkkaHzQ%3D%3D&trade_no=2019092422001425621000132081&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-24+22%3A02%3A49 HTTP/1.1" 500 250601
+INFO 2019-09-24 14:31:42,242 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190924125513000000011&method=alipay.trade.page.pay.return&total_amount=19507.00&sign=QzzLReySLiWItdSHtdmY26%2BUxELqFms2ThUSHfmkL7xFNbx6Xo2ICJX97ONpEC9AGeXuTDwlpvRiKYZGegons9gogsWiailzbwYtO3FN8dUjO6QoVwDFCZyieWYeWaVwRFM1MMqEhfvIaOEalxyLBsOkkam9C1Mf4YmX1du3GJJyhWYMp7Lus49SjfgGlhbcdeFPJU7hE89%2FL7BYdM%2B0ZK%2FjbQdkC%2Bqb3iGWe%2BaiwoU5%2FGVocppKknltxyHfYnoLhKfr98CCm5ge9AshCCjsGaDxyQCJoEvzDhZqzViW5LiTM%2B7YKk8vQdXyIJSKvvP%2FVy0y2Hqq3HfOJH5DkkaHzQ%3D%3D&trade_no=2019092422001425621000132081&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-24+22%3A02%3A49 HTTP/1.1" 200 3187
+WARNING 2019-09-24 14:31:42,302 base 152 Not Found: /payment/static/css/main.css
+WARNING 2019-09-24 14:31:42,307 base 152 Not Found: /payment/static/css/reset.css
+WARNING 2019-09-24 14:31:42,309 basehttp 124 "GET /payment/static/css/reset.css HTTP/1.1" 404 5456
+WARNING 2019-09-24 14:31:42,311 basehttp 124 "GET /payment/static/css/main.css HTTP/1.1" 404 5453
+WARNING 2019-09-24 14:31:42,322 base 152 Not Found: /payment/static/js/host.js
+WARNING 2019-09-24 14:31:42,334 basehttp 124 "GET /payment/static/js/host.js HTTP/1.1" 404 5447
+WARNING 2019-09-24 14:31:42,331 base 152 Not Found: /payment/static/js/vue-2.5.16.js
+WARNING 2019-09-24 14:31:42,337 basehttp 124 "GET /payment/static/js/vue-2.5.16.js HTTP/1.1" 404 5465
+WARNING 2019-09-24 14:31:42,371 base 152 Not Found: /payment/static/js/axios-0.18.0.min.js
+WARNING 2019-09-24 14:31:42,375 basehttp 124 "GET /payment/static/js/axios-0.18.0.min.js HTTP/1.1" 404 5483
+WARNING 2019-09-24 14:31:42,379 base 152 Not Found: /payment/static/images/logo.png
+WARNING 2019-09-24 14:31:42,387 basehttp 124 "GET /payment/static/images/logo.png HTTP/1.1" 404 5462
+INFO 2019-09-24 14:31:54,319 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5250
+INFO 2019-09-24 14:31:54,834 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 1259
+WARNING 2019-09-24 14:32:35,626 base 152 Not Found: /payment/static/css/main.css
+WARNING 2019-09-24 14:32:35,639 base 152 Not Found: /payment/static/js/vue-2.5.16.js
+WARNING 2019-09-24 14:32:35,747 base 152 Not Found: /payment/static/js/host.js
+WARNING 2019-09-24 14:32:35,757 base 152 Not Found: /payment/static/css/reset.css
+WARNING 2019-09-24 14:32:35,762 basehttp 124 "GET /payment/static/js/host.js HTTP/1.1" 404 5447
+WARNING 2019-09-24 14:32:35,789 basehttp 124 "GET /payment/static/css/reset.css HTTP/1.1" 404 5456
+WARNING 2019-09-24 14:32:35,885 basehttp 124 "GET /payment/static/js/vue-2.5.16.js HTTP/1.1" 404 5465
+WARNING 2019-09-24 14:32:35,904 basehttp 124 "GET /payment/static/css/main.css HTTP/1.1" 404 5453
+ERROR 2019-09-24 14:32:38,052 exception 135 Internal Server Error: /payment/status/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '2019092422001425621000132081' for key 'trade_id'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/payment/views.py", line 77, in get
+    trade_id=trade_id
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1062, "Duplicate entry '2019092422001425621000132081' for key 'trade_id'")
+ERROR 2019-09-24 14:32:38,241 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190924125513000000011&method=alipay.trade.page.pay.return&total_amount=19507.00&sign=QzzLReySLiWItdSHtdmY26%2BUxELqFms2ThUSHfmkL7xFNbx6Xo2ICJX97ONpEC9AGeXuTDwlpvRiKYZGegons9gogsWiailzbwYtO3FN8dUjO6QoVwDFCZyieWYeWaVwRFM1MMqEhfvIaOEalxyLBsOkkam9C1Mf4YmX1du3GJJyhWYMp7Lus49SjfgGlhbcdeFPJU7hE89%2FL7BYdM%2B0ZK%2FjbQdkC%2Bqb3iGWe%2BaiwoU5%2FGVocppKknltxyHfYnoLhKfr98CCm5ge9AshCCjsGaDxyQCJoEvzDhZqzViW5LiTM%2B7YKk8vQdXyIJSKvvP%2FVy0y2Hqq3HfOJH5DkkaHzQ%3D%3D&trade_no=2019092422001425621000132081&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-24+22%3A02%3A49 HTTP/1.1" 500 250600
+INFO 2019-09-24 14:32:48,225 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190924125513000000011&method=alipay.trade.page.pay.return&total_amount=19507.00&sign=QzzLReySLiWItdSHtdmY26%2BUxELqFms2ThUSHfmkL7xFNbx6Xo2ICJX97ONpEC9AGeXuTDwlpvRiKYZGegons9gogsWiailzbwYtO3FN8dUjO6QoVwDFCZyieWYeWaVwRFM1MMqEhfvIaOEalxyLBsOkkam9C1Mf4YmX1du3GJJyhWYMp7Lus49SjfgGlhbcdeFPJU7hE89%2FL7BYdM%2B0ZK%2FjbQdkC%2Bqb3iGWe%2BaiwoU5%2FGVocppKknltxyHfYnoLhKfr98CCm5ge9AshCCjsGaDxyQCJoEvzDhZqzViW5LiTM%2B7YKk8vQdXyIJSKvvP%2FVy0y2Hqq3HfOJH5DkkaHzQ%3D%3D&trade_no=2019092422001425621000132081&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-24+22%3A02%3A49 HTTP/1.1" 200 3208
+INFO 2019-09-24 14:32:48,270 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-24 14:32:48,285 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-24 14:32:48,288 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-24 14:32:48,309 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-24 14:32:48,322 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-24 14:32:48,331 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-24 14:32:48,573 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2019-09-24 14:32:48,584 basehttp 124 "GET /static/images/success.png HTTP/1.1" 304 0
+INFO 2019-09-24 14:32:51,350 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5250
+INFO 2019-09-24 14:32:51,814 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 1259
+ERROR 2019-09-24 14:42:39,792 exception 135 Internal Server Error: /payment/status/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '2019092422001425621000132081' for key 'trade_id'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/payment/views.py", line 77, in get
+    trade_id=trade_id
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1062, "Duplicate entry '2019092422001425621000132081' for key 'trade_id'")
+ERROR 2019-09-24 14:42:40,087 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190924125513000000011&method=alipay.trade.page.pay.return&total_amount=19507.00&sign=QzzLReySLiWItdSHtdmY26%2BUxELqFms2ThUSHfmkL7xFNbx6Xo2ICJX97ONpEC9AGeXuTDwlpvRiKYZGegons9gogsWiailzbwYtO3FN8dUjO6QoVwDFCZyieWYeWaVwRFM1MMqEhfvIaOEalxyLBsOkkam9C1Mf4YmX1du3GJJyhWYMp7Lus49SjfgGlhbcdeFPJU7hE89%2FL7BYdM%2B0ZK%2FjbQdkC%2Bqb3iGWe%2BaiwoU5%2FGVocppKknltxyHfYnoLhKfr98CCm5ge9AshCCjsGaDxyQCJoEvzDhZqzViW5LiTM%2B7YKk8vQdXyIJSKvvP%2FVy0y2Hqq3HfOJH5DkkaHzQ%3D%3D&trade_no=2019092422001425621000132081&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-24+22%3A02%3A49 HTTP/1.1" 500 250598
+INFO 2019-09-24 14:42:53,721 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190924125513000000011&method=alipay.trade.page.pay.return&total_amount=19507.00&sign=QzzLReySLiWItdSHtdmY26%2BUxELqFms2ThUSHfmkL7xFNbx6Xo2ICJX97ONpEC9AGeXuTDwlpvRiKYZGegons9gogsWiailzbwYtO3FN8dUjO6QoVwDFCZyieWYeWaVwRFM1MMqEhfvIaOEalxyLBsOkkam9C1Mf4YmX1du3GJJyhWYMp7Lus49SjfgGlhbcdeFPJU7hE89%2FL7BYdM%2B0ZK%2FjbQdkC%2Bqb3iGWe%2BaiwoU5%2FGVocppKknltxyHfYnoLhKfr98CCm5ge9AshCCjsGaDxyQCJoEvzDhZqzViW5LiTM%2B7YKk8vQdXyIJSKvvP%2FVy0y2Hqq3HfOJH5DkkaHzQ%3D%3D&trade_no=2019092422001425621000132081&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-24+22%3A02%3A49 HTTP/1.1" 200 3222
