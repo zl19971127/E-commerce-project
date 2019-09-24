@@ -13503,4 +13503,256 @@ INFO 2019-09-23 14:59:52,256 basehttp 124 "GET /static/images/pay_icons.png HTTP
 WARNING 2019-09-23 14:59:52,272 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
 WARNING 2019-09-23 15:00:00,912 base 152 Not Found: /orders/success/
 WARNING 2019-09-23 15:00:00,932 basehttp 124 "GET /orders/success/?order_id=20190923145948%20%20%20%20%20%20%2011&payment_amount=84054&pay_method=2 HTTP/1.1" 404 4944
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    WARNING 2019-09-24 00:19:52,613 base 152 Not Found: /favicon.ico
+WARNING 2019-09-24 00:19:52,621 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 5020
+INFO 2019-09-24 00:19:58,599 basehttp 124 "GET /orders/success/?order_id=20190923145948%20%20%20%20%20%20%2011&payment_amount=84054&pay_method=2 HTTP/1.1" 200 3099
+WARNING 2019-09-24 00:19:58,744 base 152 Not Found: /orders/success/images/logo.png
+INFO 2019-09-24 00:19:58,776 basehttp 124 "GET /static/js/order_success.js HTTP/1.1" 200 1626
+WARNING 2019-09-24 00:19:58,788 basehttp 124 "GET /orders/success/images/logo.png HTTP/1.1" 404 5077
+WARNING 2019-09-24 00:19:58,915 base 152 Not Found: /orders/success/images/logo.png
+WARNING 2019-09-24 00:19:58,982 basehttp 124 "GET /orders/success/images/logo.png HTTP/1.1" 404 5077
+INFO 2019-09-24 00:20:56,337 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2019-09-24 00:20:57,165 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90965
+INFO 2019-09-24 00:20:57,237 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-09-24 00:20:57,262 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-24 00:20:57,273 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-24 00:20:57,380 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-09-24 00:20:58,919 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 1316
+INFO 2019-09-24 00:21:07,531 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 1316
+INFO 2019-09-24 00:21:08,615 basehttp 124 "GET /carts/ HTTP/1.1" 200 6135
+INFO 2019-09-24 00:21:16,125 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 5202
+WARNING 2019-09-24 00:21:24,014 basehttp 124 "POST /orders/commit/ HTTP/1.1" 403 22
+WARNING 2019-09-24 00:21:31,105 basehttp 124 "POST /orders/commit/ HTTP/1.1" 403 22
+WARNING 2019-09-24 00:21:34,018 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 00:21:50,674 basehttp 124 "PUT /carts/ HTTP/1.1" 200 379
+INFO 2019-09-24 00:21:51,578 basehttp 124 "PUT /carts/ HTTP/1.1" 200 391
+INFO 2019-09-24 00:21:57,340 basehttp 124 "PUT /carts/ HTTP/1.1" 200 414
+INFO 2019-09-24 00:21:59,171 basehttp 124 "PUT /carts/ HTTP/1.1" 200 415
+INFO 2019-09-24 00:22:02,611 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 5221
+WARNING 2019-09-24 00:22:08,713 basehttp 124 "POST /orders/commit/ HTTP/1.1" 403 22
+WARNING 2019-09-24 00:22:12,176 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 00:24:27,930 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 5221
+INFO 2019-09-24 00:24:28,017 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-24 00:24:28,029 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-24 00:24:28,030 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-24 00:24:28,037 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-24 00:24:28,081 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-24 00:24:28,179 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-24 00:24:28,181 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 200 2173
+INFO 2019-09-24 00:24:28,220 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-09-24 00:24:28,639 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-09-24 00:24:28,644 basehttp 124 "GET /static/images/pay_icons.png HTTP/1.1" 200 11917
+WARNING 2019-09-24 00:24:28,806 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 00:24:45,023 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-24 00:24:45,122 basehttp 124 "GET /orders/success/?order_id=20190924002444%20%20%20%20%20%20%2011&payment_amount=7186&pay_method=2 HTTP/1.1" 200 3099
+INFO 2019-09-24 00:24:45,294 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-24 00:24:45,314 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-24 00:24:45,367 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-24 00:24:45,390 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-24 00:24:45,392 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-24 00:24:45,442 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-24 00:24:45,446 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-09-24 00:24:45,478 basehttp 124 "GET /static/js/order_success.js HTTP/1.1" 200 1626
+WARNING 2019-09-24 00:24:45,634 base 152 Not Found: /orders/success/images/logo.png
+WARNING 2019-09-24 00:24:45,648 basehttp 124 "GET /orders/success/images/logo.png HTTP/1.1" 404 5077
+WARNING 2019-09-24 00:24:45,776 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 00:24:45,901 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-09-24 00:24:45,985 basehttp 124 "GET /static/images/success.png HTTP/1.1" 200 2738
+WARNING 2019-09-24 00:24:46,056 base 152 Not Found: /orders/success/images/logo.png
+WARNING 2019-09-24 00:24:46,081 basehttp 124 "GET /orders/success/images/logo.png HTTP/1.1" 404 5077
+INFO 2019-09-24 00:25:16,634 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4254
+INFO 2019-09-24 00:25:16,671 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-24 00:25:16,680 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-24 00:25:16,719 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-24 00:25:16,724 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-24 00:25:16,729 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-24 00:25:16,749 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-24 00:25:16,778 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 200 2173
+INFO 2019-09-24 00:25:16,782 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-09-24 00:25:17,010 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-09-24 00:25:17,015 basehttp 124 "GET /static/images/pay_icons.png HTTP/1.1" 200 11917
+WARNING 2019-09-24 00:25:17,016 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 00:25:19,323 basehttp 124 "GET /carts/ HTTP/1.1" 200 5566
+INFO 2019-09-24 00:25:19,358 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-24 00:25:19,369 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-24 00:25:19,396 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-24 00:25:19,400 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-24 00:25:19,401 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-24 00:25:19,418 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-24 00:25:19,446 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-09-24 00:25:19,453 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 200 8354
+WARNING 2019-09-24 00:25:19,708 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 00:25:20,067 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-09-24 00:25:24,213 basehttp 124 "PUT /carts/ HTTP/1.1" 200 378
+INFO 2019-09-24 00:25:25,160 basehttp 124 "PUT /carts/ HTTP/1.1" 200 390
+INFO 2019-09-24 00:25:29,605 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 5202
+INFO 2019-09-24 00:25:29,721 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-24 00:25:29,740 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-24 00:25:29,766 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-24 00:25:29,789 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-24 00:25:29,790 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-24 00:25:29,816 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-24 00:25:29,824 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 200 2173
+INFO 2019-09-24 00:25:29,833 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-09-24 00:25:30,216 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2019-09-24 00:25:30,217 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-09-24 00:25:30,264 basehttp 124 "GET /static/images/pay_icons.png HTTP/1.1" 200 11917
+INFO 2019-09-24 00:25:43,725 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-24 00:25:43,766 basehttp 124 "GET /orders/success/?order_id=20190924002543%20%20%20%20%20%20%2011&payment_amount=65945&pay_method=2 HTTP/1.1" 200 3099
+INFO 2019-09-24 00:25:43,864 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-09-24 00:25:43,866 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-09-24 00:25:43,877 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-09-24 00:25:43,897 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-09-24 00:25:43,909 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-09-24 00:25:43,909 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-09-24 00:25:43,932 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-09-24 00:25:43,970 basehttp 124 "GET /static/js/order_success.js HTTP/1.1" 200 1626
+WARNING 2019-09-24 00:25:44,081 base 152 Not Found: /orders/success/images/logo.png
+WARNING 2019-09-24 00:25:44,098 basehttp 124 "GET /orders/success/images/logo.png HTTP/1.1" 404 5077
+INFO 2019-09-24 00:25:44,359 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-09-24 00:25:44,361 basehttp 124 "GET /static/images/success.png HTTP/1.1" 200 2738
+WARNING 2019-09-24 00:25:44,363 base 152 Not Found: /orders/success/images/logo.png
+WARNING 2019-09-24 00:25:44,370 basehttp 124 "GET /orders/success/images/logo.png HTTP/1.1" 404 5077
+WARNING 2019-09-24 00:25:44,386 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+ERROR 2019-09-24 01:05:55,837 exception 135 Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/orders/views.py", line 160, in post
+    redis_client.hdel(user.id,*carts_dict)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/client.py", line 2637, in hdel
+    return self.execute_command('HDEL', name, *keys)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/client.py", line 775, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/connection.py", line 642, in read_response
+    raise response
+redis.exceptions.ResponseError: wrong number of arguments for 'hdel' command
+ERROR 2019-09-24 01:05:55,978 basehttp 124 "POST /orders/commit/ HTTP/1.1" 500 105002
+INFO 2019-09-24 01:06:01,105 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4254
+ERROR 2019-09-24 01:06:03,979 exception 135 Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/orders/views.py", line 160, in post
+    redis_client.hdel(user.id,*carts_dict)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/client.py", line 2637, in hdel
+    return self.execute_command('HDEL', name, *keys)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/client.py", line 775, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/connection.py", line 642, in read_response
+    raise response
+redis.exceptions.ResponseError: wrong number of arguments for 'hdel' command
+ERROR 2019-09-24 01:06:04,046 basehttp 124 "POST /orders/commit/ HTTP/1.1" 500 105002
+ERROR 2019-09-24 01:06:05,240 exception 135 Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/orders/views.py", line 160, in post
+    redis_client.hdel(user.id,*carts_dict)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/client.py", line 2637, in hdel
+    return self.execute_command('HDEL', name, *keys)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/client.py", line 775, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/connection.py", line 642, in read_response
+    raise response
+redis.exceptions.ResponseError: wrong number of arguments for 'hdel' command
+ERROR 2019-09-24 01:06:05,307 basehttp 124 "POST /orders/commit/ HTTP/1.1" 500 105002
+ERROR 2019-09-24 01:06:06,460 exception 135 Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/orders/views.py", line 160, in post
+    redis_client.hdel(user.id,*carts_dict)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/client.py", line 2637, in hdel
+    return self.execute_command('HDEL', name, *keys)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/client.py", line 775, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/connection.py", line 642, in read_response
+    raise response
+redis.exceptions.ResponseError: wrong number of arguments for 'hdel' command
+ERROR 2019-09-24 01:06:06,514 basehttp 124 "POST /orders/commit/ HTTP/1.1" 500 105003
+ERROR 2019-09-24 01:06:07,056 exception 135 Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/orders/views.py", line 160, in post
+    redis_client.hdel(user.id,*carts_dict)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/client.py", line 2637, in hdel
+    return self.execute_command('HDEL', name, *keys)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/client.py", line 775, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/redis/connection.py", line 642, in read_response
+    raise response
+redis.exceptions.ResponseError: wrong number of arguments for 'hdel' command
+ERROR 2019-09-24 01:06:07,114 basehttp 124 "POST /orders/commit/ HTTP/1.1" 500 105003
+INFO 2019-09-24 01:10:12,243 basehttp 124 "GET /carts/ HTTP/1.1" 200 5020
+INFO 2019-09-24 01:10:14,988 basehttp 124 "GET /carts/ HTTP/1.1" 200 5020
+INFO 2019-09-24 01:10:25,721 basehttp 124 "PUT /carts/ HTTP/1.1" 200 378
+INFO 2019-09-24 01:10:26,673 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4731
+INFO 2019-09-24 01:10:30,568 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-24 01:10:30,596 basehttp 124 "GET /orders/success/?order_id=20190924011030%20%20%20%20%20%20%2011&payment_amount=46826&pay_method=2 HTTP/1.1" 200 3155
+WARNING 2019-09-24 01:10:30,708 basehttp 124 "GET /static/static/css/reset.css HTTP/1.1" 404 1679
+WARNING 2019-09-24 01:10:30,710 basehttp 124 "GET /static/static/css/main.css HTTP/1.1" 404 1676
+WARNING 2019-09-24 01:10:30,711 basehttp 124 "GET /static/static/js/host.js HTTP/1.1" 404 1670
+WARNING 2019-09-24 01:10:30,732 basehttp 124 "GET /static/static/js/vue-2.5.16.js HTTP/1.1" 404 1688
+WARNING 2019-09-24 01:10:30,743 basehttp 124 "GET /static/static/js/axios-0.18.0.min.js HTTP/1.1" 404 1706
+WARNING 2019-09-24 01:10:30,776 basehttp 124 "GET /static/static/js/jquery-1.12.4.min.js HTTP/1.1" 404 1709
+WARNING 2019-09-24 01:10:30,793 basehttp 124 "GET /static/static/js/common.js HTTP/1.1" 404 1676
+WARNING 2019-09-24 01:10:30,801 basehttp 124 "GET /static/static/js/order_success.js HTTP/1.1" 404 1697
+WARNING 2019-09-24 01:10:30,822 base 152 Not Found: /orders/success/images/logo.png
+WARNING 2019-09-24 01:10:30,848 basehttp 124 "GET /orders/success/images/logo.png HTTP/1.1" 404 5077
+INFO 2019-09-24 01:11:22,229 basehttp 124 "GET /orders/success/?order_id=20190924011030%20%20%20%20%20%20%2011&payment_amount=46826&pay_method=2 HTTP/1.1" 200 3099
+WARNING 2019-09-24 01:11:22,354 base 152 Not Found: /orders/success/images/logo.png
+WARNING 2019-09-24 01:11:22,359 basehttp 124 "GET /orders/success/images/logo.png HTTP/1.1" 404 5077
+WARNING 2019-09-24 01:11:22,516 base 152 Not Found: /orders/success/images/logo.png
+WARNING 2019-09-24 01:11:22,523 basehttp 124 "GET /orders/success/images/logo.png HTTP/1.1" 404 5077
