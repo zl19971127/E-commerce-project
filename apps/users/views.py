@@ -252,6 +252,10 @@ class Login(View):
                 # 设置cookie
                 response.set_cookie("username",user.username,max_age=3600*24*15)
 
+                # 合并购物车
+                from apps.carts.utils import merge_cart_cookie_to_redis
+                merge_cart_cookie_to_redis(request, response)
+
                 return response
 
 
@@ -461,6 +465,10 @@ class BrowseHistories(LoginRequiredMixin,View):
             })
 
         return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK', 'skus': skus})
+
+
+
+
 
 
 

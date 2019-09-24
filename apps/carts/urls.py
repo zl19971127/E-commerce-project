@@ -19,11 +19,17 @@ from apps.carts import views
 
 urlpatterns = [
 
-    # 购物车增加商品
+    # 购物车增加商品，展示，修改，删除
     url(r"^carts/$", views.CartsView.as_view(),name="carts" ),
 
     # 首页购物车显示
     url(r"^carts/simple/$", views.CartSimpleView.as_view(),name="cartssimple" ),
+
+
+    # 全选购物车
+    url(r"^carts/selection/$", views.CartSelectionView.as_view(),name="cartsselection" ),
+
+
 
 
 ]

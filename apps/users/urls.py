@@ -63,6 +63,8 @@ urlpatterns = [
     # 保存用户的浏览记录
     url(r"^browse_histories/$", views.BrowseHistories.as_view(), name="brow"),
 
+
+
     # 如果路由是：www.meiduo.site:8000 就改成/users/index/
 
 ]

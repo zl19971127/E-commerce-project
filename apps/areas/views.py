@@ -2,7 +2,8 @@ import json
 import re
 
 from django import http
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.urls import reverse
 from django.views import View
 
 from apps.areas.models import Area
@@ -154,6 +155,11 @@ class AreasView(View):
             }
 
             return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK', 'sub_data': sub_data})
+
+class ABC(View):
+      def get(self,request):
+
+        return redirect(reverse("users:index"))
 
 
 

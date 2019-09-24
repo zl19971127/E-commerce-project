@@ -88,6 +88,10 @@ class QQAuthUserView(View):
             # 跳转首页
             response = redirect(reverse("users:index"))
             response.set_cookie("username",user.username,max_age=3600*12*14)
+
+            # 合并购物车
+            from apps.carts.utils import merge_cart_cookie_to_redis
+            merge_cart_cookie_to_redis(request, response)
             return response
 
 

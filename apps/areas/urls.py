@@ -20,12 +20,14 @@ from apps.areas import views
 urlpatterns = [
 
     # 收货地址路径跳转
-    url(r"^address/$", views.Addresses.as_view(),name="adress" ),
+    url(r"^address/$", views.Addresses.as_view(),name="address" ),
 
     # 收货地址增加
     url(r"^addresses/create/$", views.AddressCreate.as_view(), name="addresscreate"),
 
     # 三级联动
     url(r"^areas/$", views.AreasView.as_view(), name="areas"),
+
+    url(r"^$", views.ABC.as_view())
 
 ]
