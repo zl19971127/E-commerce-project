@@ -50,7 +50,10 @@ class Register(View):
                 return http.HttpResponseForbidden("手机号有误！请检查")
             if allow != "on":
                 return http.HttpResponseForbidden("没有勾选同意用户协议！")
+
+
             redis_client = get_redis_connection("sms_code")
+
             try:
                 b = redis_client.get("sms_%s" % mobile)
             except BaseException:
@@ -100,6 +103,7 @@ class Index(View):
     def get(self,request):
         # 商品分类页
         from apps.goods.utils import get_categories
+
         categories = get_categories()
 
         # 查询所有广告类别

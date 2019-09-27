@@ -272,7 +272,7 @@ class OrderCommitView(LoginRequiredMixin, View):
                                 return http.JsonResponse({'code': RETCODE.STOCKERR, 'errmsg': '库存不足'})
 
                             # 模拟资源抢夺
-                            time.sleep(10)
+                            # time.sleep(10)
                             # sku减少库存, 增加销量
                             # sku.stock -= sku_count
                             # sku.sales += sku_count

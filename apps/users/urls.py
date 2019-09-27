@@ -34,6 +34,7 @@ urlpatterns = [
     # 图形验证码的路由
     url(r"^image_codes/(?P<uuid>[\w-]+)/$", views.Captcha.as_view(),name="captcha" ),
 
+
     # 手机验证码判断的路由
     url(r"^sms_codes/(?P<mobile>1[3-9]\d{9})/$", views.Sms_codes.as_view(),name="smacodes" ),
 

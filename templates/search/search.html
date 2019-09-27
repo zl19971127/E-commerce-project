@@ -4,13 +4,13 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>美多商城-商品搜索</title>
-    <link rel="stylesheet" type="text/css" href="css/jquery.pagination.css">
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script type="text/javascript" src="js/host.js"></script>
-    <script type="text/javascript" src="js/vue-2.5.16.js"></script>
-    <script type="text/javascript" src="js/axios-0.18.0.min.js"></script>
-    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../static/css/jquery.pagination.css">
+	<link rel="stylesheet" type="text/css" href="../../static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../static/css/main.css">
+    <script type="text/javascript" src="../../static/js/host.js"></script>
+    <script type="text/javascript" src="../../static/js/vue-2.5.16.js"></script>
+    <script type="text/javascript" src="../../static/js/axios-0.18.0.min.js"></script>
+    <script type="text/javascript" src="../../static/js/jquery-1.12.4.min.js"></script>
 </head>
 <body>
     <div id="app" v-cloak>
@@ -47,7 +47,7 @@
 	</div>
 
 	<div class="search_bar clearfix">
-		<a href="/" class="logo fl"><img src="images/logo.png"></a>
+		<a href="/" class="logo fl"><img src="../../static/images/logo.png"></a>
 		<div class="search_wrap fl">
 			<form method="get" action="/search/" class="search_con">
                 <input type="text" class="input_text fl" name="q" placeholder="搜索商品">
@@ -62,42 +62,28 @@
 		</div>
 	</div>
 
-    <div class="main_wrap clearfix">
-        <div class=" clearfix">
-            <ul class="goods_type_list clearfix">
-                <li>
-                    <a href="detail.html"><img src="images/goods/goods003.jpg"></a>
-                    <h4><a href="detail.html">360手机 N6 Pro 全网通 6GB+128GB 极夜黑</a></h4>
-                    <div class="operate">
-                        <span class="price">￥16.80</span>
-                        <span class="unit">台</span>
-                        <a href="#" class="add_goods" title="加入购物车"></a>
-                    </div>
-                </li>
-                <li>
-                    <a href="#"><img src="images/goods/goods005.jpg"></a>
-                    <h4><a href="#">360手机 N6 Pro 全网通 6GB+128GB 极夜黑</a></h4>
-                    <div class="operate">
-                        <span class="price">￥10.00</span>
-                        <span class="unit">台</span>
-                        <a href="#" class="add_goods" title="加入购物车"></a>
-                    </div>
-                </li>
-                <li>
-                    <a href="#"><img src="images/goods/goods002.jpg"></a>
-                    <h4><a href="#">360手机 N6 Pro 全网通 6GB+128GB 极夜黑</a></h4>
-                    <div class="operate">
-                        <span class="price">￥28.80</span>
-                        <span class="unit">台</span>
-                        <a href="#" class="add_goods" title="加入购物车"></a>
-                    </div>
-                </li>
-            </ul>
-            <div class="pagenation">
-                <div id="pagination" class="page"></div>
-            </div>
+ <div class="main_wrap clearfix">
+    <div class=" clearfix">
+        <ul class="goods_type_list clearfix">
+            {% for result in page %}
+            <li>
+                {# object取得才是sku对象 #}
+                <a href="/detail/{{ result.object.id }}.html"><img src="{{ result.object.default_image.url }}"></a>
+                <h4><a href="/detail/{{ result.object.id }}/">{{ result.object.name }}</a></h4>
+                <div class="operate">
+                    <span class="price">￥{{ result.object.price }}</span>
+                    <span>{{ result.object.comments }}评价</span>
+                </div>
+            </li>
+            {% else %}
+                <p>没有找到您要查询的商品。</p>
+            {% endfor %}
+        </ul>
+        <div class="pagenation">
+            <div id="pagination" class="page"></div>
         </div>
     </div>
+</div>
 
 	<div class="footer">
 		<div class="foot_link">
@@ -113,15 +99,15 @@
 		<p>电话：010-****888    京ICP备*******8号</p>
 	</div>
     </div>
-    <script type="text/javascript" src="js/jquery.pagination.min.js"></script>
+    <script type="text/javascript" src="../../static/js/jquery.pagination.min.js"></script>
     <script>
         $(function () {
             $('#pagination').pagination({
-                currentPage: 1,
-                totalPage: 3,
+                currentPage: {{ page.number }},
+                totalPage: {{ paginator.num_pages }},
                 callback:function (current) {
                     // location.href = '/search/?q=iphone&amp;page=1';
-                    // location.href = '/search/?q=iphone&page=' + current;
+                     window.location.href = '/search/?q={{ query }}&page=' + current;
                 }
             })
         });

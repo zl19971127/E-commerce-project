@@ -38,6 +38,11 @@ urlpatterns = [
 
     url(r"^",include("apps.payment.urls", namespace="payment")),
 
+    #　　搜索
+    url(r'^search/', include('haystack.urls')),
+
+    url(r'^', include('apps.shixun.urls',namespace="shixun")),
+
 
 
 ]

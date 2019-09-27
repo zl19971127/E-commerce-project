@@ -46,7 +46,18 @@ INSTALLED_APPS = [
     "apps.carts",
     "apps.orders",
     "apps.payment",
+    "django_crontab", # 定时任务
+    "haystack", # 全文检索
+    "apps.shixun",
 ]
+
+CRONJOBS = [
+    # 每1分钟生成一次首页静态文件
+    ('* * * */10 *', 'apps.users.crons.generate_static_index_html', '>> ' + os.path.join(BASE_DIR, 'logs/crontab.log'))
+]
+
+# 解决crontab中的中文问题
+CRONTAB_COMMAND_PREFIX = 'LANG_ALL=zh_cn.UTF-8'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -300,3 +311,22 @@ ALIPAY_DEBUG = True
 ALIPAY_URL = 'https://openapi.alipaydev.com/gateway.do'
 ALIPAY_RETURN_URL = 'http://www.meiduo.site:8000/payment/status/'
 
+# Haystack
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
+        'URL': 'http://192.168.163.132:9200/', # Elasticsearch服务器ip地址，端口号固定为9200
+        'INDEX_NAME': 'meiduo', # Elasticsearch建立的索引库的名称
+    },
+}
+
+# 当添加、修改、删除数据时，自动生成索引
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
+
+# 搜索一页有几条记录
+HAYSTACK_SEARCH_RESULTS_PER_PAGE = 5
+
+# 微博登陆配置
+APP_KEY='3305669385'
+APP_SECRET='74c7bea69d5fc64f5c3b80c802325276'
+REDIRECT_URL='http://www.meiduo.site:8000/sina_callback'
