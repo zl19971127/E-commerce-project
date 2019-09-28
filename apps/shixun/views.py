@@ -1,12 +1,13 @@
 import json
 import re
-from audioop import reverse
 from random import randint
 
 from django import http
 from django.conf import settings
 from django.contrib.auth import login
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render, redirect
+from django.urls import reverse
 from django.views import View
 from django_redis import get_redis_connection
 
@@ -192,9 +193,10 @@ class SianLogin(View):
 
 # 微博绑定页面显示
 class SianCallback(View):
-    def get(self,request):
+    def get(self,requests):
         # 接收参数
-        code = request.GET.get("code")
+        code = requests.GET.get("code")
+
         # 微博连接
         from utils import sinaweibopy3
         client = sinaweibopy3.APIClient(
@@ -209,18 +211,24 @@ class SianCallback(View):
         result = client.request_access_token(code)
         access_token = result.access_token
         uid = result.uid
+
         uid = int(uid)
         # print(type(uid))
         try:
             user_sian = OAuthSinaUser.objects.get(uid=uid)
         except Exception as e:
             logger.error(e)
-            return render(request, 'sina_callback.html', context={'uid': uid})
+            return render(requests, 'sina_callback.html', context={'uid': str(uid)})
         else:
             user = user_sian.user
             user = User.objects.get(id=user.id)
-            login(request, user)
-            response = http.JsonResponse({"status": 5000})
+            login(requests, user)
+
+            # response = http.JsonResponse({"status": 5000})
+            response = redirect(reverse("users:index"))
+            # response = http.HttpResponseRedirect(reverse('users:index'))
+            # response = render(requests,"index.html",context={'uid': str(uid)})
+
             response.set_cookie("username", user.username, max_age=14 * 24 * 3600)
             # try:
             #     OAuthSinaUser.objects.create(uid=uid,user_id=user.id)
@@ -325,6 +333,29 @@ class OauthSinaUser(View):
         return response
 
 
+
+
+# 我的订单
+
+class OrderInfo(LoginRequiredMixin,View):
+    def get(self,reques,page_num):
+        # 接收参数
+        # 校验参数
+        # 查询数据库获得订单
+        """
+         # 每页显示的内容
+            "page_orders": page_orders,
+            # 总页数
+            'total_page': total_page,
+            # 当前页
+            'page_num': page_num,
+        """
+        # 将以上参数查询
+        contex = {
+            # 每页显示的内容
+        }
+
+        #  拼接参数，返回给前端
 
 
 

@@ -46,6 +46,10 @@ urlpatterns = [
     url(r"^oauth/sina/user/$", views.OauthSinaUser.as_view(),name="oauthsinauser" ),
 
 
+    # 我的订单
+    url(r"^orders/info/(?P<page_num>\d+)/$", views.OrderInfo.as_view(),name="orderinfo" ),
+
+
 
 
 
