@@ -47,7 +47,15 @@ urlpatterns = [
 
 
     # 我的订单
-    url(r"^orders/info/(?P<page_num>\d+)/$", views.OrderInfo.as_view(),name="orderinfo" ),
+    url(r"^orders/info/(?P<page_num>\d+)/$", views.OrderInfoa.as_view(),name="orderinfo" ),
+
+
+    # 评价订单商品
+    url(r"^orders/comment/$", views.OrderComment.as_view(),name="ordercomment" ),
+
+
+    # 详情页展示评价信息
+    url(r"^comments/(?P<sku_id>\d+)/$", views.Comments.as_view(),name="comments" ),
 
 
 

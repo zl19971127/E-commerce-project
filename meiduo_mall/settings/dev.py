@@ -315,7 +315,7 @@ ALIPAY_RETURN_URL = 'http://www.meiduo.site:8000/payment/status/'
 HAYSTACK_CONNECTIONS = {
     'default': {
         'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
-        'URL': 'http://192.168.163.132:9200/', # Elasticsearch服务器ip地址，端口号固定为9200
+        'URL': 'http://192.168.163.133:9200/', # Elasticsearch服务器ip地址，端口号固定为9200
         'INDEX_NAME': 'meiduo', # Elasticsearch建立的索引库的名称
     },
 }

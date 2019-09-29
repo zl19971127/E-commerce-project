@@ -6,16 +6,22 @@ from django import http
 from django.conf import settings
 from django.contrib.auth import login
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.core.paginator import Paginator
 from django.shortcuts import render, redirect
 from django.urls import reverse
 from django.views import View
 from django_redis import get_redis_connection
 
+from apps.goods.models import SKU
+from apps.orders.models import OrderInfo, OrderGoods
 from apps.shixun.models import OAuthSinaUser
 from apps.users.models import User
 from meiduo_mall.settings.dev import logger
 
 # 跳转忘记密码的页面
+from utils.response_code import RETCODE
+
+
 class FindPassword(View):
     def get(self,request):
         return render(request,"find_password.html")
@@ -337,25 +343,240 @@ class OauthSinaUser(View):
 
 # 我的订单
 
-class OrderInfo(LoginRequiredMixin,View):
-    def get(self,reques,page_num):
-        # 接收参数
-        # 校验参数
+class OrderInfoa(LoginRequiredMixin,View):
+    def get(self,request,page_num):
         # 查询数据库获得订单
-        """
-         # 每页显示的内容
-            "page_orders": page_orders,
-            # 总页数
-            'total_page': total_page,
-            # 当前页
-            'page_num': page_num,
-        """
-        # 将以上参数查询
-        contex = {
-            # 每页显示的内容
-        }
+        user = request.user
+        try:
+            # orderinfo = OrderInfo.object.filter(user_id=user.id)
+            orderinfos = OrderInfo.objects.filter(user_id=user.id).order_by("-create_time")
+        except Exception as e:
+            logger.error(e)
+            return http.HttpResponseForbidden("数据库查询失败")
 
+        for orderinfo in orderinfos:
+            # order_id = orderinfo.order_id
+            # total_amount = orderinfo.total_amount
+            # freight = orderinfo.freight
+            # create_time = orderinfo.create_time
+            #
+            # page_orders = {
+            #     "order_id":order_id,
+            #     "total_amount":total_amount,
+            #     "freight":freight,
+            #     "create_time":create_time,
+            # }
+            # 绑定订单状态
+            orderinfo.status_name = OrderInfo.ORDER_STATUS_CHOICES[orderinfo.status - 1][1]
+            # 绑定支付方式
+            orderinfo.pay_method_name = OrderInfo.PAY_METHOD_CHOICES[orderinfo.pay_method -1][1]
+            orderinfo.sku_list = []
+            # 查询订单商品
+            order_goods = orderinfo.skus.all()
+            for order_good in order_goods:
+                sku = order_good.sku
+                sku.count = order_good.count
+                sku.amount = sku.price * sku.count
+                orderinfo.sku_list.append(sku)
+        # 将以上参数查询
+        # context = {
+        #     # 每页显示的内容
+        #     "page_orders": page_orders,
+        #     # 总页数
+        #     'total_page': 2,
+        #     # 当前页
+        #     'page_num': page_num,
+        # }
+
+        # 分页
+        page_num = int(page_num)
+        try:
+            paginator = Paginator(orderinfos,5)
+            page_orders = paginator.page(page_num)
+            total_page = paginator.num_pages
+        except Exception as e:
+            return http.HttpResponseNotFound('订单不存在')
+
+        context = {
+                # 每页显示的内容
+                "page_orders": page_orders,
+                # 总页数
+                'total_page': total_page,
+                # 当前页
+                'page_num': page_num,
+        }
         #  拼接参数，返回给前端
+        return render(request,"user_center_order.html",context)
+
+
+
+# 评价订单的商品
+class OrderComment(LoginRequiredMixin,View):
+    def get(self,request):
+
+        order_id = request.GET.get("order_id")
+        # orderinfo = OrderInfo.objects.get(order_id=order_id)
+        # ordergoods = orderinfo.ordergoods_set
+        # skuids = ordergoods.sku_id
+        # 获取订单商品表中该订单所有的商品
+
+        # 校验参数
+        try:
+            OrderInfo.objects.get(order_id=order_id, user=request.user)
+        except OrderInfo.DoesNotExist:
+            return http.HttpResponseNotFound('订单不存在')
+
+        uncomment_goods_list =[]
+        # 取出所有商品
+        try:
+            goods = OrderGoods.objects.filter(order_id=order_id, is_commented=False)
+        except Exception as e:
+            return http.HttpResponseServerError('订单商品信息出错')
+        # 用for循环将所有商品遍历出来
+        test = {}
+        for good in goods:
+            sku = SKU.objects.get(id=good.sku_id)
+
+            test = {
+                    'order_id': order_id,
+                    'sku_id': sku.id,
+                    'name': sku.name,
+                    'price': str(good.price),
+                    'default_image_url': sku.default_image.url,
+                    'comment': good.comment,
+                    'score':good.score,
+                    # 'score':sku.id,
+                    'is_anonymous': str(good.is_anonymous),
+                    # 'is_anonymous': sku.id,
+            }
+            # test = {
+            #         'order_id': good.order.order_id,
+            #     'sku_id': good.sku.id,
+            #     'name': good.sku.name,
+            #     'price': str(good.price),
+            #     'default_image_url': good.sku.default_image.url,
+            #     'comment': good.comment,
+            #     'score': good.score,
+            #     'is_anonymous': str(good.is_anonymous),
+            # }
+            uncomment_goods_list.append(test)
+
+        context = {"uncomment_goods_list":uncomment_goods_list}
+
+        return render(request,"goods_judge.html",context)
+
+    # 评价订单商品
+    def post(self,request):
+        # 接收参数
+        json_dict = json.loads(request.body.decode())
+        order_id = json_dict.get("order_id")
+        sku_id = json_dict.get("sku_id")
+        score = json_dict.get("score")
+        comment = json_dict.get("comment")
+        is_anonymous = json_dict.get("is_anonymous")
+
+        # 校验参数
+        if not all([order_id,sku_id,score,comment]):
+            return http.HttpResponseForbidden("参数不全")
+        # 判断订单是否存在
+        try:
+            OrderInfo.objects.get(order_id=order_id)
+        except Exception as e:
+            logger.error(e)
+            return http.HttpResponseForbidden("订单不存在")
+        # 判断商品是否在订单内是否存在，是否未评价
+        try:
+            ordergoods = OrderGoods.objects.get(order_id=order_id,sku=sku_id,is_commented=False)
+        except Exception as e:
+            logger.error(e)
+            return http.HttpResponseForbidden("商品不存在或已评价")
+
+        # 增加创建时间，和用户的判断
+        create_time = ordergoods.create_time
+
+        #　将得分，评论，是否匿名评价，未评价改为已评价 修改数据库
+        try:
+            # ordergoods = OrderGoods.objects.get(sku=sku_id)
+            # ordergoods.score = score
+            # ordergoods.comment = comment
+            # ordergoods.is_anonymous = is_anonymous
+            # ordergoods.is_commented = True
+            # ordergoods.save()
+            OrderGoods.objects.filter(sku=sku_id,create_time=create_time).update(score=score,comment=comment,is_anonymous=is_anonymous,is_commented=True)
+        except Exception as e:
+            logger.error(e)
+            return http.HttpResponseForbidden("评价失败")
+
+        # 增加sku和spu的评价数量
+        sku = SKU.objects.get(id=ordergoods.sku_id)
+        sku.comments += 1
+        sku.save()
+        sku.spu.comments += 1
+        sku.spu.save()
+        # try:
+        #     orderinfo = OrderInfo.objects.get(order_id=order_id)
+        #     orderinfo.ORDER_STATUS_CHOICES = orderinfo.ORDER_STATUS_CHOICES[1][1]
+        # except Exception as e:
+        #     logger.error(e)
+
+        # 返回响应的结果
+        return http.JsonResponse({'code': RETCODE.OK,'errmsg': '评价成功'})
+
+
+# 详情页评论显示
+class Comments(View):
+    def get(self,request,sku_id):
+        # 校验参数
+        try:
+           ordergoods_list = OrderGoods.objects.filter(sku=sku_id,is_commented=True)
+        except Exception as e:
+            logger.error(e)
+            return http.HttpResponseForbidden("商品不存在")
+        comment_list =[]
+        for ordergoods in ordergoods_list:
+
+            # 查询数据库 评价的用户，评价内容，分数，是否匿名评价
+            order_id = ordergoods.order_id
+            try:
+                orderinfo = OrderInfo.objects.get(order_id=order_id)
+            except Exception as e:
+                logger.error(e)
+                return http.HttpResponseForbidden("订单号有误")
+            try:
+                user = User.objects.get(id=orderinfo.user_id)
+            except Exception as e:
+                logger.error(e)
+                return http.HttpResponseForbidden("用户名有误")
+            username = user.username
+            comment = ordergoods.comment
+            score = ordergoods.score
+            is_anonymous = ordergoods.is_anonymous
+
+             # 判断是否匿名评价
+            if is_anonymous==True:
+                comment_list.append(
+                    {
+                        "username": "匿名",
+                        "comment": comment,
+                        "score": score
+                    })
+
+            else:
+                comment_list.append(
+                    {
+                        "username": username,
+                        "comment": comment,
+                        "score": score
+                    })
+
+        return http.JsonResponse(
+            {
+                "code": "0",
+                "errmsg": "OK",
+                "comment_list": comment_list
+            }
+        )
+
 
 
 

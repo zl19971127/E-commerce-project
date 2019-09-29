@@ -201,7 +201,7 @@ class OrderCommitView(LoginRequiredMixin, View):
             json_dict = json.loads(request.body.decode())
             address_id = json_dict.get("address_id")
             pay_method = json_dict.get("pay_method")
-
+            pay_method = int(pay_method)
              # 校验参数
             if not all([address_id, pay_method]):
                 return http.HttpResponseForbidden('缺少必传参数')
