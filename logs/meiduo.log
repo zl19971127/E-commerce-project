@@ -24051,3 +24051,56 @@ INFO 2019-09-29 09:34:49,234 basehttp 124 "POST /orders/comment/ HTTP/1.1" 200 5
 INFO 2019-09-29 09:35:05,470 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5230
 INFO 2019-09-29 09:35:05,882 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
 INFO 2019-09-29 09:35:08,040 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9417
+INFO 2019-09-29 09:42:11,843 basehttp 124 "GET /carts HTTP/1.1" 301 0
+INFO 2019-09-29 09:42:11,920 basehttp 124 "GET /carts/ HTTP/1.1" 200 5000
+WARNING 2019-09-29 09:42:18,025 base 152 Not Found: /cart
+WARNING 2019-09-29 09:42:18,041 basehttp 124 "GET /cart HTTP/1.1" 404 7711
+INFO 2019-09-29 09:42:36,403 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4254
+WARNING 2019-09-29 09:42:41,867 base 152 Not Found: /orders/
+WARNING 2019-09-29 09:42:41,879 basehttp 124 "GET /orders/ HTTP/1.1" 404 7720
+INFO 2019-09-29 09:43:34,690 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2019-09-29 09:43:35,421 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90972
+INFO 2019-09-29 09:43:36,559 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-29 09:43:37,437 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5230
+INFO 2019-09-29 09:43:37,847 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 09:43:41,992 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9417
+WARNING 2019-09-29 09:47:58,985 base 152 Not Found: /logout
+WARNING 2019-09-29 09:47:59,003 basehttp 124 "GET /logout HTTP/1.1" 404 7717
+WARNING 2019-09-29 09:48:14,868 base 152 Not Found: /users
+WARNING 2019-09-29 09:48:14,879 basehttp 124 "GET /users HTTP/1.1" 404 7714
+WARNING 2019-09-29 09:48:33,310 base 152 Not Found: /users/
+WARNING 2019-09-29 09:48:33,323 basehttp 124 "GET /users/ HTTP/1.1" 404 10114
+WARNING 2019-09-29 09:57:07,198 base 152 Not Found: /adress
+WARNING 2019-09-29 09:57:07,210 basehttp 124 "GET /adress HTTP/1.1" 404 7717
+WARNING 2019-09-29 09:57:12,378 base 152 Not Found: /adresses
+WARNING 2019-09-29 09:57:12,390 basehttp 124 "GET /adresses HTTP/1.1" 404 7723
+INFO 2019-09-29 09:58:04,803 basehttp 124 "GET /address HTTP/1.1" 301 0
+INFO 2019-09-29 09:58:05,066 basehttp 124 "GET /address/ HTTP/1.1" 200 8543
+INFO 2019-09-29 09:58:05,136 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 200 13616
+INFO 2019-09-29 09:58:05,212 basehttp 124 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2019-09-29 09:58:06,154 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-09-29 10:01:11,733 basehttp 124 "GET /address/ HTTP/1.1" 200 8522
+INFO 2019-09-29 10:01:12,211 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-09-29 10:01:14,759 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5192
+INFO 2019-09-29 10:01:15,096 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 10:01:16,372 basehttp 124 "GET /carts/ HTTP/1.1" 200 5007
+INFO 2019-09-29 10:01:18,135 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9379
+INFO 2019-09-29 10:01:20,885 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5192
+INFO 2019-09-29 10:01:21,153 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 10:01:26,945 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9379
+INFO 2019-09-29 10:01:28,557 basehttp 124 "GET /address/ HTTP/1.1" 200 8522
+INFO 2019-09-29 10:01:28,955 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-09-29 10:01:29,957 basehttp 124 "GET /users/password/ HTTP/1.1" 200 5210
+INFO 2019-09-29 10:01:30,099 basehttp 124 "GET /static/js/user_center_pass.js HTTP/1.1" 200 1493
+INFO 2019-09-29 10:01:31,503 basehttp 124 "GET /address/ HTTP/1.1" 200 8522
+INFO 2019-09-29 10:01:31,845 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-09-29 10:01:32,876 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9379
+INFO 2019-09-29 10:01:34,238 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5192
+INFO 2019-09-29 10:01:34,425 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 10:01:56,548 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2019-09-29 10:01:56,732 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2019-09-29 10:01:58,032 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90972
+INFO 2019-09-29 10:01:58,048 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90972
+INFO 2019-09-29 10:01:58,784 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-29 10:01:59,823 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-29 10:02:02,521 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9379
