@@ -23638,3 +23638,416 @@ INFO 2019-09-29 07:38:14,757 basehttp 124 "GET /static/images/goods/goods003.jpg
 INFO 2019-09-29 07:38:14,854 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
 INFO 2019-09-29 07:38:14,963 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
 INFO 2019-09-29 07:38:17,380 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-09-29 08:01:38,743 basehttp 124 "GET /users/login/ HTTP/1.1" 200 3144
+INFO 2019-09-29 08:01:38,868 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2019-09-29 08:01:38,885 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 2255
+INFO 2019-09-29 08:01:39,314 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2019-09-29 08:01:39,379 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2019-09-29 08:01:39,382 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2019-09-29 08:01:39,396 basehttp 124 "GET /static/images/weibo16.png HTTP/1.1" 200 3412
+INFO 2019-09-29 08:01:52,066 basehttp 124 "POST /users/login/ HTTP/1.1" 302 0
+INFO 2019-09-29 08:01:54,845 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90972
+INFO 2019-09-29 08:01:56,168 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-09-29 08:01:58,722 basehttp 124 "GET /carts/ HTTP/1.1" 200 4752
+INFO 2019-09-29 08:01:58,741 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-09-29 08:01:58,852 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 200 8354
+WARNING 2019-09-29 08:02:09,535 base 152 Not Found: /detile/1
+WARNING 2019-09-29 08:02:09,577 basehttp 124 "GET /detile/1 HTTP/1.1" 404 7723
+INFO 2019-09-29 08:02:25,884 basehttp 124 "GET /detail/1 HTTP/1.1" 301 0
+INFO 2019-09-29 08:02:28,532 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 90782
+INFO 2019-09-29 08:02:28,683 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 200 6281
+WARNING 2019-09-29 08:02:29,269 base 152 Not Found: /browse_histories/
+INFO 2019-09-29 08:02:29,350 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+WARNING 2019-09-29 08:02:29,352 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 7751
+INFO 2019-09-29 08:02:29,541 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-29 08:02:29,632 basehttp 124 "GET /comments/1/ HTTP/1.1" 200 112
+INFO 2019-09-29 08:02:29,881 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-29 08:02:39,276 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-29 08:02:50,574 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 89735
+WARNING 2019-09-29 08:02:51,686 base 152 Not Found: /browse_histories/
+INFO 2019-09-29 08:02:51,735 basehttp 124 "GET /comments/3/ HTTP/1.1" 200 49
+WARNING 2019-09-29 08:02:51,807 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 7751
+INFO 2019-09-29 08:02:51,812 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-29 08:02:51,996 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 545
+INFO 2019-09-29 08:02:52,122 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-29 08:02:55,325 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-29 08:03:06,062 basehttp 124 "GET /detail/8/ HTTP/1.1" 200 89736
+WARNING 2019-09-29 08:03:07,107 base 152 Not Found: /browse_histories/
+INFO 2019-09-29 08:03:07,109 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 545
+INFO 2019-09-29 08:03:07,189 basehttp 124 "GET /comments/8/ HTTP/1.1" 200 49
+WARNING 2019-09-29 08:03:07,240 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 7751
+INFO 2019-09-29 08:03:07,306 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-29 08:03:07,380 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 487
+INFO 2019-09-29 08:03:08,125 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-29 08:03:11,350 basehttp 124 "GET /carts/ HTTP/1.1" 200 5535
+INFO 2019-09-29 08:03:13,598 basehttp 124 "PUT /carts/ HTTP/1.1" 200 378
+INFO 2019-09-29 08:03:14,615 basehttp 124 "PUT /carts/ HTTP/1.1" 200 379
+INFO 2019-09-29 08:03:16,720 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4730
+INFO 2019-09-29 08:03:16,832 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 200 2173
+INFO 2019-09-29 08:03:16,848 basehttp 124 "GET /static/images/pay_icons.png HTTP/1.1" 200 11917
+INFO 2019-09-29 08:03:19,746 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 54
+INFO 2019-09-29 08:03:28,677 basehttp 124 "GET /carts/ HTTP/1.1" 200 5537
+INFO 2019-09-29 08:03:31,228 basehttp 124 "PUT /carts/ HTTP/1.1" 200 349
+INFO 2019-09-29 08:03:32,060 basehttp 124 "PUT /carts/ HTTP/1.1" 200 377
+INFO 2019-09-29 08:03:33,065 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4747
+INFO 2019-09-29 08:03:35,904 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-29 08:03:35,976 basehttp 124 "GET /orders/success/?order_id=20190929080335000000012&payment_amount=6509&pay_method=2 HTTP/1.1" 200 3095
+INFO 2019-09-29 08:03:36,119 basehttp 124 "GET /static/js/order_success.js HTTP/1.1" 200 1626
+INFO 2019-09-29 08:03:36,352 basehttp 124 "GET /static/images/success.png HTTP/1.1" 200 2738
+INFO 2019-09-29 08:03:38,610 basehttp 124 "GET /payment/20190929080335000000012/ HTTP/1.1" 200 906
+INFO 2019-09-29 08:04:45,416 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190929080335000000012&method=alipay.trade.page.pay.return&total_amount=6509.00&sign=lyCkIixnRnC4Qkn%2BuKssyL8E%2B6eHezpaCh4UcTb2kmYFi43ZdIoiG385jhbvBHPG7LPck1z5loZ6AkXGU8pD4xZ1%2Bap0GF3a%2BYRElY%2BHoZtbEyFHchnzn8PGQjEYHjKSkPsME7InfD83JkVXaIlBS50nYZ3XhXTiDEXTq09mnyoWh0rOSOi4dio7W5Cv7NylNIEla9LOLjO%2FhD2WMhR8dUSaoUkiN%2BAhlgIKPVVq8xj%2FGMHVhW1N9Ic9gjjWNEw0NvirK%2F0dqPYnf1W0i%2BpIlaLmkJ9d4a%2B3gFVYTXKoglj7IS7doXJbxVF6B2NhnO7Gtq%2B0B396Sls9yYFLU0ZJWQ%3D%3D&trade_no=2019092922001425621000135057&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-29+16%3A04%3A33 HTTP/1.1" 200 3222
+INFO 2019-09-29 08:04:52,234 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5230
+INFO 2019-09-29 08:04:52,318 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 200 3211
+INFO 2019-09-29 08:04:52,494 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2019-09-29 08:04:52,495 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+INFO 2019-09-29 08:04:52,787 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 08:04:55,016 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 5900
+INFO 2019-09-29 08:04:55,148 basehttp 124 "GET /static/js/user_center_order.js HTTP/1.1" 200 2046
+INFO 2019-09-29 08:04:59,281 basehttp 124 "GET /orders/comment/?order_id=20190929080335000000012 HTTP/1.1" 200 4986
+INFO 2019-09-29 08:04:59,368 basehttp 124 "GET /static/js/goods_judge.js HTTP/1.1" 200 5210
+INFO 2019-09-29 08:04:59,417 basehttp 124 "GET /static/images/stars.png HTTP/1.1" 200 2688
+INFO 2019-09-29 08:07:43,311 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2019-09-29 08:07:45,070 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2019-09-29 08:07:48,648 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90972
+INFO 2019-09-29 08:07:49,784 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90972
+INFO 2019-09-29 08:07:51,269 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 488
+INFO 2019-09-29 08:07:52,352 basehttp 124 "GET /carts/ HTTP/1.1" 200 5269
+INFO 2019-09-29 08:07:56,091 basehttp 124 "PUT /carts/ HTTP/1.1" 200 378
+INFO 2019-09-29 08:07:57,280 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4748
+INFO 2019-09-29 08:08:00,346 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-29 08:08:00,458 basehttp 124 "GET /orders/success/?order_id=20190929080800000000012&payment_amount=7998&pay_method=2 HTTP/1.1" 200 3095
+INFO 2019-09-29 08:08:02,739 basehttp 124 "GET /payment/20190929080800000000012/ HTTP/1.1" 200 888
+INFO 2019-09-29 08:08:39,883 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190929080800000000012&method=alipay.trade.page.pay.return&total_amount=7998.00&sign=kjuONV85WEERjAZLR%2BUKE6WbecSUIOM3sxxNzSill6oXowWWDj4M9DZhvtxn2Ri1S%2BdtceGMYhKSsTzXayRF7TWMTpHsG1J90mqcAhEUnRPVm5FarBAqzm7%2BvFs%2FwgFnOx4Nkzb6ujfwOiY35EhmOl1YKK5LB4XAbIV%2FG76mcHRZ2C6ey1VsKhFMstdQzRuWEh%2B%2BjwbAEojGrr2iys%2FZxdb%2FZHOfL%2FOk8uDPNvuxENyHxjsit6QLAOSfZBim8viDFu3jgeedzCX9dueB9BIVfr6lwBs20PrgrMf4FJK6H23JtpqAnRa3kLxHybl15HLZ%2FnGiQA6yTtVZI8T0FnVdHA%3D%3D&trade_no=2019092922001425621000136237&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-29+16%3A08%3A33 HTTP/1.1" 200 3222
+INFO 2019-09-29 08:08:41,833 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5230
+INFO 2019-09-29 08:08:42,288 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 08:08:44,128 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 7060
+INFO 2019-09-29 08:08:46,675 basehttp 124 "GET /orders/comment/?order_id=20190929080800000000012 HTTP/1.1" 200 4987
+ERROR 2019-09-29 08:09:16,725 views 491 OrderGoods matching query does not exist.
+WARNING 2019-09-29 08:09:16,731 basehttp 124 "POST /orders/comment/ HTTP/1.1" 403 27
+ERROR 2019-09-29 08:09:29,415 views 519 'OrderInfo' object has no attribute 'update'
+INFO 2019-09-29 08:09:31,690 basehttp 124 "POST /orders/comment/ HTTP/1.1" 200 51
+WARNING 2019-09-29 08:09:35,209 base 152 Not Found: /orders/comment/user_center_info.html
+WARNING 2019-09-29 08:09:35,231 basehttp 124 "GET /orders/comment/user_center_info.html HTTP/1.1" 404 7807
+INFO 2019-09-29 08:09:39,931 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2019-09-29 08:09:40,282 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2019-09-29 08:09:43,005 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90972
+INFO 2019-09-29 08:09:44,183 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-29 08:09:44,280 basehttp 124 "GET /users/info HTTP/1.1" 301 0
+INFO 2019-09-29 08:09:44,455 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5230
+INFO 2019-09-29 08:09:45,089 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 08:09:46,162 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 7060
+INFO 2019-09-29 08:13:56,512 basehttp 124 "GET /detail/8/ HTTP/1.1" 200 89736
+WARNING 2019-09-29 08:13:57,348 base 152 Not Found: /browse_histories/
+WARNING 2019-09-29 08:13:57,365 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 7751
+INFO 2019-09-29 08:13:57,382 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 545
+INFO 2019-09-29 08:13:57,480 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-29 08:13:57,495 basehttp 124 "GET /comments/8/ HTTP/1.1" 200 167
+INFO 2019-09-29 08:13:57,535 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-29 08:14:55,147 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-29 08:14:58,012 basehttp 124 "GET /carts/ HTTP/1.1" 200 5268
+INFO 2019-09-29 08:15:01,365 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4748
+INFO 2019-09-29 08:15:04,529 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-29 08:15:04,618 basehttp 124 "GET /orders/success/?order_id=20190929081504000000012&payment_amount=7998&pay_method=2 HTTP/1.1" 200 3095
+INFO 2019-09-29 08:15:07,074 basehttp 124 "GET /payment/20190929081504000000012/ HTTP/1.1" 200 896
+INFO 2019-09-29 08:15:58,156 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190929081504000000012&method=alipay.trade.page.pay.return&total_amount=7998.00&sign=Ojgwzurlt%2FRHhyOr81Ur2hsdTTd5pYthF%2FTW7XTPy8cEqEl%2B9EMoMmImZSCGQBI4XeWC13SM0PNzm7apVXSSMsXbgpkxadArlaPtLdctCtQeQRIetV%2FjOn5fP0ukiPswVtY029nho4umxLkDclbW5qDjGueqaFrsYk99YakaVbCKOZmBBrmCbzJWF0Dyu%2F4Zf%2Bd5ImWjbcUf8MeS%2BWs5e329ZP%2BahC4j19dt2XVA5hTyN%2Fmn7%2BIuAg9GEtlhDGeFOIllDXRxO8q%2FogHX6ADlsbierVkQmr2cPXpneCPXgVUXlnABOpo8tI2HLRDH9X%2BYTxpfM7a6SYiZN7rXNMVzhg%3D%3D&trade_no=2019092922001425621000135058&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-29+16%3A15%3A43 HTTP/1.1" 200 3222
+INFO 2019-09-29 08:16:00,970 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5230
+INFO 2019-09-29 08:16:01,483 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 08:16:03,265 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 8220
+INFO 2019-09-29 08:16:05,647 basehttp 124 "GET /orders/comment/?order_id=20190929081504000000012 HTTP/1.1" 200 4987
+INFO 2019-09-29 08:28:11,269 basehttp 124 "GET /detail/14/ HTTP/1.1" 200 89354
+WARNING 2019-09-29 08:28:11,989 base 152 Not Found: /browse_histories/
+WARNING 2019-09-29 08:28:11,996 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 7751
+INFO 2019-09-29 08:28:12,063 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-29 08:28:12,097 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 545
+INFO 2019-09-29 08:28:12,302 basehttp 124 "GET /comments/14/ HTTP/1.1" 200 411
+INFO 2019-09-29 08:28:12,317 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-29 08:28:14,014 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-29 08:28:19,527 basehttp 124 "GET /detail/4/ HTTP/1.1" 200 89736
+WARNING 2019-09-29 08:28:20,298 base 152 Not Found: /browse_histories/
+WARNING 2019-09-29 08:28:20,321 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 7751
+INFO 2019-09-29 08:28:20,383 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 525
+INFO 2019-09-29 08:28:20,399 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-29 08:28:20,436 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 545
+INFO 2019-09-29 08:28:20,446 basehttp 124 "GET /comments/4/ HTTP/1.1" 200 49
+INFO 2019-09-29 08:28:21,882 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-29 08:28:25,115 basehttp 124 "GET /carts/ HTTP/1.1" 200 5553
+INFO 2019-09-29 08:28:27,215 basehttp 124 "PUT /carts/ HTTP/1.1" 200 379
+INFO 2019-09-29 08:28:28,320 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4763
+INFO 2019-09-29 08:28:31,544 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-29 08:28:31,590 basehttp 124 "GET /orders/success/?order_id=20190929082831000000012&payment_amount=3798&pay_method=2 HTTP/1.1" 200 3095
+INFO 2019-09-29 08:28:33,799 basehttp 124 "GET /payment/20190929082831000000012/ HTTP/1.1" 200 898
+INFO 2019-09-29 08:29:24,714 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190929082831000000012&method=alipay.trade.page.pay.return&total_amount=3798.00&sign=bkXBqvPL8Ylch%2FHbbDCkWTSfMtZLtr2UiQYLBV%2BWEyAmBVFEcqeLlqw7ElJjbT3T2dUYCNRbjmzXkVTnh0i8jpqbut4DyGqJjfa7quKlfwkUi4boZuymetHwmVaurkG779mCnnVtzuPgFspvM7i5b4QSWRiupDHN40Yya41aJxj29P2bPFzqkMaQKKNhyUurG9p3fo%2Bmev9oWNxnoSExGkcYA96%2BlI6HR4wXi4%2FQTRYDay3JsVzUoTHU8kXyiWSB52olGfEQAQ4ufsLyt%2BQvu9VwH5c6mEO9cpipRwoU8lDciPL%2BfM8r7qAMVXSYWMDamjb4uQ35QvgAlAhZwSikTw%3D%3D&trade_no=2019092922001425621000135059&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-29+16%3A29%3A11 HTTP/1.1" 200 3222
+INFO 2019-09-29 08:29:39,808 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5230
+INFO 2019-09-29 08:29:40,276 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 08:29:43,557 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9395
+INFO 2019-09-29 08:29:45,915 basehttp 124 "GET /orders/comment/?order_id=20190929082831000000012 HTTP/1.1" 200 5003
+INFO 2019-09-29 08:31:25,979 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2019-09-29 08:31:26,757 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2019-09-29 08:31:32,251 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90972
+INFO 2019-09-29 08:31:32,596 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90972
+INFO 2019-09-29 08:31:34,139 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 488
+INFO 2019-09-29 08:31:34,942 basehttp 124 "GET /carts/ HTTP/1.1" 200 5269
+INFO 2019-09-29 08:31:37,310 basehttp 124 "PUT /carts/ HTTP/1.1" 200 378
+INFO 2019-09-29 08:31:38,450 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4748
+INFO 2019-09-29 08:31:41,470 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-29 08:31:41,599 basehttp 124 "GET /orders/success/?order_id=20190929083141000000012&payment_amount=7998&pay_method=2 HTTP/1.1" 200 3095
+INFO 2019-09-29 08:31:43,687 basehttp 124 "GET /payment/20190929083141000000012/ HTTP/1.1" 200 892
+INFO 2019-09-29 08:34:19,270 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190929083141000000012&method=alipay.trade.page.pay.return&total_amount=7998.00&sign=SZG41rJpadK7VagRnYCMJI9dLeS57Zo7HWMlSSwgiK6Jo8KRHfbtIqcGN%2FM1JF%2Br5sIa8aeTv0pQ96haFp0jD8ryz%2FrKfjrEAYeBV%2F8HOOk7%2F2LcXxSaIfboqW8ZWEYpYIDwFYbAWpU9sVAiM%2FVrUj1Qr3UfGif4aERIz7VJbWDfK6p2yk6fTD%2B%2BZhEbvwBLcNkRo08jxBm3YCH6WH7K53a8VQkSOcVtofsBuXqrVgkEule3cNmRHsibmBquKgD%2BMh1XHFiavJ49TyF%2FemWhYMswKkxykiV7l62P1l6fPyltwXyN0ELY1mXn%2BLkpG6eKBrkNjj75Hm95GVMqs5WxeQ%3D%3D&trade_no=2019092922001425621000135060&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-29+16%3A34%3A05 HTTP/1.1" 200 3222
+INFO 2019-09-29 08:34:20,770 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5230
+INFO 2019-09-29 08:34:21,330 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 08:34:22,713 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9415
+INFO 2019-09-29 08:34:25,417 basehttp 124 "GET /orders/comment/?order_id=20190929083141000000012 HTTP/1.1" 200 4987
+INFO 2019-09-29 08:36:46,333 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2019-09-29 08:36:49,289 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90972
+WARNING 2019-09-29 08:36:49,863 base 152 Not Found: /info
+WARNING 2019-09-29 08:36:49,886 basehttp 124 "GET /info HTTP/1.1" 404 7711
+INFO 2019-09-29 08:36:50,629 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-29 08:37:03,803 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5230
+INFO 2019-09-29 08:37:04,242 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 08:37:06,541 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9415
+INFO 2019-09-29 08:37:18,139 basehttp 124 "GET /detail/8/ HTTP/1.1" 200 89736
+INFO 2019-09-29 08:37:19,290 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 545
+INFO 2019-09-29 08:37:19,379 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+WARNING 2019-09-29 08:37:19,485 base 152 Not Found: /browse_histories/
+WARNING 2019-09-29 08:37:19,505 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 7751
+INFO 2019-09-29 08:37:19,579 basehttp 124 "GET /comments/8/ HTTP/1.1" 200 283
+INFO 2019-09-29 08:37:19,681 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-29 08:37:21,938 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-29 08:37:24,461 basehttp 124 "GET /carts/ HTTP/1.1" 200 5268
+INFO 2019-09-29 08:37:27,239 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4748
+INFO 2019-09-29 08:37:29,689 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-29 08:37:29,788 basehttp 124 "GET /orders/success/?order_id=20190929083729000000012&payment_amount=7998&pay_method=2 HTTP/1.1" 200 3095
+INFO 2019-09-29 08:37:31,760 basehttp 124 "GET /payment/20190929083729000000012/ HTTP/1.1" 200 902
+INFO 2019-09-29 08:38:30,072 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190929083729000000012&method=alipay.trade.page.pay.return&total_amount=7998.00&sign=OsWBbGnhz3jTFB1QinukwY9386NOMLEeCr8yHb5zHpgFHxoKU9gwEaiKbi5MfpRWohQVls1V2VztLKXFaOqc5qyg156gYamulrefI2wss1%2FtjjDXp11KTwfm3HK2dsPDkiwyYHA%2BZzyq8QUlZt%2Fbp1PLCzwPG3edtodfg5%2FOFeb3BHLzsdcVUnOFQwhEtKYBFwv297gek9ISuDwOon4Zl2JMgiQDZAV5PGW8eecJQalHvQjX4ArMc%2FjCBHyjLlhWBEevYCRFLStG7ZXvxqRsdIoG7YkCX1Gk21FzrQrAmtPDqzb8JQnf0Jdv4DftPXsrFt4chSw4duWItMVKu0ZYiA%3D%3D&trade_no=2019092922001425621000135061&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-29+16%3A38%3A15 HTTP/1.1" 200 3222
+INFO 2019-09-29 08:38:31,602 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5230
+INFO 2019-09-29 08:38:32,164 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 08:38:32,994 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9416
+INFO 2019-09-29 08:38:34,772 basehttp 124 "GET /orders/comment/?order_id=20190929083729000000012 HTTP/1.1" 200 4987
+INFO 2019-09-29 08:42:14,507 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 89735
+INFO 2019-09-29 08:42:16,005 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 545
+INFO 2019-09-29 08:42:16,189 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+WARNING 2019-09-29 08:42:16,215 base 152 Not Found: /browse_histories/
+WARNING 2019-09-29 08:42:16,249 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 7751
+INFO 2019-09-29 08:42:16,282 basehttp 124 "GET /comments/3/ HTTP/1.1" 200 166
+INFO 2019-09-29 08:42:16,391 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-29 08:42:17,162 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-29 08:42:20,673 basehttp 124 "GET /carts/ HTTP/1.1" 200 5267
+INFO 2019-09-29 08:42:23,427 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4747
+INFO 2019-09-29 08:42:26,283 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-29 08:42:26,404 basehttp 124 "GET /orders/success/?order_id=20190929084226000000012&payment_amount=6509&pay_method=2 HTTP/1.1" 200 3095
+INFO 2019-09-29 08:42:29,652 basehttp 124 "GET /payment/20190929084226000000012/ HTTP/1.1" 200 894
+INFO 2019-09-29 08:43:18,100 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190929084226000000012&method=alipay.trade.page.pay.return&total_amount=6509.00&sign=DFdzwN5qBDxCBPOLzUetCthF1mA4ikr4MnVabF8EJJ1bXZ75rFCv%2BCkM44l6ydW6QTG2QE3xHP0NT9IvEg4gCZ7XWtAPHi9AcjaZ9vglbI3%2BRGSnohINrDatacG0qcMmEeq3rOv62oeT1q%2B6GGE%2B%2BnhrHMLuVH9eK9n0yRcke4ZYF1cSaAH%2BdUr4UVH54RDBfutj1o64xV673GCJRTBuNOh3ej7ADpDS3IM6Zuv8443sEx1%2F5250OhxDqFPlNhoFYxrFLe5Z3R0IUNYfh1REE37YqvzEn31x7hKDjBn%2Fkj2IucrP04YBHKQ69YwCtzrJDn1IWz4XdpST3%2B%2F29FJB5g%3D%3D&trade_no=2019092922001425621000135062&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-29+16%3A43%3A13 HTTP/1.1" 200 3222
+INFO 2019-09-29 08:43:20,373 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5230
+INFO 2019-09-29 08:43:20,884 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 08:43:22,396 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9415
+INFO 2019-09-29 08:43:26,241 basehttp 124 "GET /orders/comment/?order_id=20190929084226000000012 HTTP/1.1" 200 4986
+INFO 2019-09-29 08:44:20,967 basehttp 124 "POST /orders/comment/ HTTP/1.1" 200 51
+WARNING 2019-09-29 08:44:25,010 base 152 Not Found: /orders/comment/user_center_info.html
+WARNING 2019-09-29 08:44:25,027 basehttp 124 "GET /orders/comment/user_center_info.html HTTP/1.1" 404 7807
+INFO 2019-09-29 08:44:27,631 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2019-09-29 08:44:28,842 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2019-09-29 08:44:30,917 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90972
+INFO 2019-09-29 08:44:32,510 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90972
+INFO 2019-09-29 08:44:33,667 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-29 08:44:35,320 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5230
+INFO 2019-09-29 08:44:35,941 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 08:44:37,479 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9415
+INFO 2019-09-29 08:48:03,063 basehttp 124 "GET /detail/4/ HTTP/1.1" 200 89736
+WARNING 2019-09-29 08:48:04,409 base 152 Not Found: /browse_histories/
+INFO 2019-09-29 08:48:04,415 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 545
+INFO 2019-09-29 08:48:04,435 basehttp 124 "GET /comments/4/ HTTP/1.1" 200 155
+WARNING 2019-09-29 08:48:04,458 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 7751
+INFO 2019-09-29 08:48:04,479 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-29 08:48:04,652 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-29 08:48:05,969 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-29 08:48:12,394 basehttp 124 "GET /carts/ HTTP/1.1" 200 5268
+INFO 2019-09-29 08:48:15,231 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4748
+INFO 2019-09-29 08:48:18,795 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-29 08:48:18,886 basehttp 124 "GET /orders/success/?order_id=20190929084818000000012&payment_amount=7998&pay_method=2 HTTP/1.1" 200 3095
+INFO 2019-09-29 08:48:21,261 basehttp 124 "GET /payment/20190929084818000000012/ HTTP/1.1" 200 896
+INFO 2019-09-29 08:49:02,748 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190929084818000000012&method=alipay.trade.page.pay.return&total_amount=7998.00&sign=hFkM7YIhMiH1Vdwm9yyXm%2BpjwDhQcsXaGfT47CYds0EhGKy9Y2FVYEJyM%2BO%2F3%2BSOZUnLAh9V3xm6MxEG0zR6%2BXLb0J%2FmXdOtTSQhkfC7jqOMNzPsspVv3o9LF3YovdWPUrZPtP9ClDURctVSxVUbY3KO%2F1gPyFLrWppA%2FZDuQJ5cMNifh4q4XD46fAWh3fmT2uD9OSXLcEbNDdh%2BvqKr1XB6NCXPB2gemQ5rp6uq7LChU5CkamNixXkN2EMMmd4B4UYonXajp%2BJPXGhmIkV4igzJQjwdJ6wUiigIzj9WtRhvPUCsWUKriuXqfMU7S3cKsuQDxcqolUO%2BTEl3tt2cxA%3D%3D&trade_no=2019092922001425621000135063&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-29+16%3A48%3A58 HTTP/1.1" 200 3222
+INFO 2019-09-29 08:49:04,748 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5230
+INFO 2019-09-29 08:49:05,335 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 08:49:07,457 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9415
+INFO 2019-09-29 08:49:09,922 basehttp 124 "GET /orders/comment/?order_id=20190929084818000000012 HTTP/1.1" 200 4987
+INFO 2019-09-29 08:49:10,150 basehttp 124 "GET /static/js/goods_judge.js HTTP/1.1" 304 0
+ERROR 2019-09-29 08:49:37,062 exception 135 Internal Server Error: /orders/comment/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/shixun/views.py", line 526, in post
+    print(ordergood.orderinfo_set.status)
+AttributeError: 'OrderGoods' object has no attribute 'orderinfo_set'
+ERROR 2019-09-29 08:49:37,667 basehttp 124 "POST /orders/comment/ HTTP/1.1" 500 95244
+INFO 2019-09-29 08:50:58,445 basehttp 124 "GET /detail/8/ HTTP/1.1" 200 89736
+INFO 2019-09-29 08:50:58,666 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-29 08:50:58,668 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-09-29 08:50:58,669 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-29 08:50:58,677 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-29 08:50:58,687 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-29 08:50:58,688 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-29 08:50:58,751 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 304 0
+INFO 2019-09-29 08:50:59,915 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 545
+INFO 2019-09-29 08:51:00,339 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+WARNING 2019-09-29 08:51:00,364 base 152 Not Found: /browse_histories/
+WARNING 2019-09-29 08:51:00,394 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 7751
+INFO 2019-09-29 08:51:00,444 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-29 08:51:00,483 basehttp 124 "GET /comments/8/ HTTP/1.1" 200 345
+INFO 2019-09-29 08:51:00,912 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-29 08:51:11,264 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-29 08:51:15,782 basehttp 124 "GET /carts/ HTTP/1.1" 200 5269
+INFO 2019-09-29 08:51:18,476 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4752
+INFO 2019-09-29 08:51:20,983 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-29 08:51:21,059 basehttp 124 "GET /orders/success/?order_id=20190929085120000000012&payment_amount=15986&pay_method=2 HTTP/1.1" 200 3096
+INFO 2019-09-29 08:51:22,853 basehttp 124 "GET /payment/20190929085120000000012/ HTTP/1.1" 200 893
+INFO 2019-09-29 08:51:23,962 basehttp 124 "GET /payment/20190929085120000000012/ HTTP/1.1" 200 893
+INFO 2019-09-29 08:52:06,000 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190929085120000000012&method=alipay.trade.page.pay.return&total_amount=15986.00&sign=PXKmdjrxmfUO7jcQZ7M%2B3LKlKfqXj7TyJ1BnvIWWpI0MdGQtRF5J0A8WI1gFhNbLGie9Ku%2BlGfrKyGgEVGBNwn3g6%2Ffru%2BIX71c19bLR6tLjQrUtIzdTDVSx%2BFtbnISohrAsCUinZ0D%2BKWL1PYXmn0d3KrvokUDvTngYo6VPLcPd5H7ZQra83ACIdldWncYqS3%2FSdBHfviRqy9uKA2h3UiaNlxLYb34vSiBKS%2FEZB0ljvkjlFOEKHJdIGhmbOduGWiaV5XENlTvIffWz0otCFN1MTEj0GFn4xfO3LkYeHOIP%2BoIohZZSoDTdcB666doVU8bEr1SJRhN%2F3oUjkkBK0Q%3D%3D&trade_no=2019092922001425621000138012&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-29+16%3A51%3A51 HTTP/1.1" 200 3222
+INFO 2019-09-29 08:52:09,760 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5230
+INFO 2019-09-29 08:52:10,219 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 08:52:11,573 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9402
+INFO 2019-09-29 08:52:13,119 basehttp 124 "GET /orders/comment/?order_id=20190929085120000000012 HTTP/1.1" 200 4987
+INFO 2019-09-29 08:52:36,666 basehttp 124 "POST /orders/comment/ HTTP/1.1" 200 51
+INFO 2019-09-29 08:52:48,016 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5230
+INFO 2019-09-29 08:52:48,461 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 08:52:50,619 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9402
+INFO 2019-09-29 08:55:21,130 basehttp 124 "GET /detail/8/ HTTP/1.1" 200 89736
+INFO 2019-09-29 08:55:22,152 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 545
+INFO 2019-09-29 08:55:22,303 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+WARNING 2019-09-29 08:55:22,352 base 152 Not Found: /browse_histories/
+WARNING 2019-09-29 08:55:22,395 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 7751
+INFO 2019-09-29 08:55:22,462 basehttp 124 "GET /comments/8/ HTTP/1.1" 200 404
+INFO 2019-09-29 08:55:22,567 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-29 08:55:24,443 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-29 08:55:27,835 basehttp 124 "GET /carts/ HTTP/1.1" 200 5268
+INFO 2019-09-29 08:55:30,543 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4748
+INFO 2019-09-29 08:55:33,657 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-29 08:55:33,751 basehttp 124 "GET /orders/success/?order_id=20190929085533000000012&payment_amount=7998&pay_method=2 HTTP/1.1" 200 3095
+INFO 2019-09-29 08:55:36,017 basehttp 124 "GET /payment/20190929085533000000012/ HTTP/1.1" 200 896
+INFO 2019-09-29 08:56:16,802 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190929085533000000012&method=alipay.trade.page.pay.return&total_amount=7998.00&sign=iQVvNDK2MUQO9yw1avnpIwKhDjyY1H2azAzcPuD9yQIb5%2FqSPD5cPNVsxH6%2BTw43i1KCWIa%2Fy9jHG%2B%2FhFO7UrhZKi1rIEyo%2FGdS%2BwJXVAKeVmb8xBIFCIrozwO0bJ4dn6MRSPjgSPrDfFM0aH6a0vqROCiRz9kDrobsGKfq6ZJECQPACXMpw4k0jJV7hkp%2FxSX%2FnVHRVZ%2FeVUxvqnmH41Wer2mjRo453Q8XcvTEpz0t1yd20dK1ufUCqD%2Byf6P3rDld1OYDA8oeI2TdFll92743a3htUBxfk%2FHf1R3f05W%2FAsmfAiySYUCd1CYhQ%2FGwqwl19RHNQn%2FLa00H%2FMWHe9Q%3D%3D&trade_no=2019092922001425621000135064&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-29+16%3A56%3A02 HTTP/1.1" 200 3222
+INFO 2019-09-29 08:56:19,318 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5230
+INFO 2019-09-29 08:56:19,724 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 08:56:22,059 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9402
+INFO 2019-09-29 08:56:23,901 basehttp 124 "GET /orders/comment/?order_id=20190929085533000000012 HTTP/1.1" 200 4987
+INFO 2019-09-29 08:56:37,494 basehttp 124 "POST /orders/comment/ HTTP/1.1" 200 51
+INFO 2019-09-29 08:56:42,937 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2019-09-29 08:56:45,601 basehttp 124 "GET /users/index/ HTTP/1.1" 200 90972
+INFO 2019-09-29 08:56:46,744 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-29 08:56:48,448 basehttp 124 "GET /carts/ HTTP/1.1" 200 4999
+INFO 2019-09-29 08:56:51,307 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5230
+INFO 2019-09-29 08:56:51,562 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 08:56:53,369 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9402
+INFO 2019-09-29 08:57:17,865 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9402
+INFO 2019-09-29 08:57:17,942 basehttp 124 "GET /static/css/jquery.pagination.css HTTP/1.1" 304 0
+INFO 2019-09-29 08:57:17,949 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-09-29 08:57:17,957 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-09-29 08:57:18,064 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-09-29 08:57:18,066 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-09-29 08:57:18,078 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-09-29 08:57:18,141 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-09-29 08:57:18,157 basehttp 124 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2019-09-29 08:57:18,180 basehttp 124 "GET /static/js/user_center_order.js HTTP/1.1" 304 0
+INFO 2019-09-29 08:57:18,200 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-09-29 08:58:32,121 basehttp 124 "GET /detail/8/ HTTP/1.1" 200 89736
+INFO 2019-09-29 08:58:33,012 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 545
+WARNING 2019-09-29 08:58:33,040 base 152 Not Found: /browse_histories/
+WARNING 2019-09-29 08:58:33,087 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 7751
+INFO 2019-09-29 08:58:33,103 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-29 08:58:33,278 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-29 08:58:33,315 basehttp 124 "GET /comments/8/ HTTP/1.1" 200 466
+INFO 2019-09-29 08:58:34,407 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-29 08:58:36,883 basehttp 124 "GET /carts/ HTTP/1.1" 200 5268
+INFO 2019-09-29 08:58:38,830 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4748
+INFO 2019-09-29 08:58:40,915 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-29 08:58:40,998 basehttp 124 "GET /orders/success/?order_id=20190929085840000000012&payment_amount=7998&pay_method=2 HTTP/1.1" 200 3095
+INFO 2019-09-29 08:58:43,046 basehttp 124 "GET /payment/20190929085840000000012/ HTTP/1.1" 200 896
+INFO 2019-09-29 08:58:45,029 basehttp 124 "GET /payment/20190929085840000000012/ HTTP/1.1" 200 894
+INFO 2019-09-29 08:59:25,376 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190929085840000000012&method=alipay.trade.page.pay.return&total_amount=7998.00&sign=C3jaEbrc7ilVtGWKxVKyMASHqMlOHK%2BqqmcciXu%2BYH0tUgLtyoMX8ywH1VqAwJZMgXKyDEH9tMPKGmioxZpxCDfoBs41N6dhX%2FavK2h8c5nA8mbQcfg5Oe7IAU4dgQ3DBnQCu4RwFTRCS471%2BUr96qymxhBqGdsJfegqk%2BjjjN%2By2QWyx3H4278jGtKwbJusSUXD1UPcRAT1DZS9N4YqCtXUtIkJj51%2Bly8iEc3e4wSMQMRWfTaiKtWcQqrUPJ388D33u9UoYa6mksrRqNPUYOaLmA0J71Gj8T8%2BXXD8ZyN80TV50myF0fyR6rgX07sI%2FJjkSL9I5m1X1QC06hzsKg%3D%3D&trade_no=2019092922001425621000136238&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-29+16%3A59%3A11 HTTP/1.1" 200 3222
+INFO 2019-09-29 08:59:27,270 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5230
+INFO 2019-09-29 08:59:27,810 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 08:59:29,304 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9402
+INFO 2019-09-29 08:59:30,682 basehttp 124 "GET /orders/comment/?order_id=20190929085840000000012 HTTP/1.1" 200 4987
+ERROR 2019-09-29 08:59:41,281 exception 135 Internal Server Error: /orders/comment/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/contrib/auth/mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_project/meiduo_mall/apps/shixun/views.py", line 528, in post
+    ordergood.order.save()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 905, in _save_table
+    forced_update)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/base.py", line 955, in _do_update
+    return filtered._update(values) > 0
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/query.py", line 664, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1204, in execute_sql
+    cursor = super(SQLUpdateCompiler, self).execute_sql(result_type)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 876, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1170, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 770, in get_db_prep_save
+    prepared=False)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 762, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/home/python/.virtualenvs/meidou_mall/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 1853, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '待发货'
+ERROR 2019-09-29 08:59:42,073 basehttp 124 "POST /orders/comment/ HTTP/1.1" 500 152878
+INFO 2019-09-29 09:31:53,321 basehttp 124 "GET /detail/2/ HTTP/1.1" 200 90785
+INFO 2019-09-29 09:31:54,342 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 479
+INFO 2019-09-29 09:31:54,402 basehttp 124 "GET /comments/2/ HTTP/1.1" 200 49
+WARNING 2019-09-29 09:31:54,486 base 152 Not Found: /browse_histories/
+INFO 2019-09-29 09:31:54,504 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+WARNING 2019-09-29 09:31:54,515 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 7751
+INFO 2019-09-29 09:31:54,602 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-29 09:32:06,915 basehttp 124 "GET /carts/ HTTP/1.1" 200 4999
+INFO 2019-09-29 09:32:10,095 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4274
+WARNING 2019-09-29 09:32:15,453 base 152 Not Found: /browse_histories/
+WARNING 2019-09-29 09:32:15,498 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 7751
+INFO 2019-09-29 09:32:15,564 basehttp 124 "POST /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2019-09-29 09:32:22,673 basehttp 124 "GET /detail/13 HTTP/1.1" 301 0
+INFO 2019-09-29 09:32:25,304 basehttp 124 "GET /detail/13/ HTTP/1.1" 200 89353
+INFO 2019-09-29 09:32:26,137 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 545
+INFO 2019-09-29 09:32:26,273 basehttp 124 "GET /comments/13/ HTTP/1.1" 200 49
+WARNING 2019-09-29 09:32:26,298 base 152 Not Found: /browse_histories/
+WARNING 2019-09-29 09:32:26,374 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 7751
+INFO 2019-09-29 09:32:26,401 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-09-29 09:32:26,415 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 250
+INFO 2019-09-29 09:32:37,038 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-09-29 09:32:42,083 basehttp 124 "GET /carts/ HTTP/1.1" 200 5283
+INFO 2019-09-29 09:32:44,690 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4762
+INFO 2019-09-29 09:32:49,361 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 90
+INFO 2019-09-29 09:32:49,442 basehttp 124 "GET /orders/success/?order_id=20190929093249000000012&payment_amount=3398&pay_method=2 HTTP/1.1" 200 3095
+INFO 2019-09-29 09:32:52,253 basehttp 124 "GET /payment/20190929093249000000012/ HTTP/1.1" 200 896
+INFO 2019-09-29 09:34:17,289 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190929093249000000012&method=alipay.trade.page.pay.return&total_amount=3398.00&sign=VZpekA9CpLRDePNQsNciXAvKmiHAWMtjpxtbMe5YeNq7IrI%2FkDgLRiIPQCiLt75e%2BsVDstSKWe9GK7bnYywGW1cOQo1DXrNX5iGgScwJdPaigHYGKn0f9u8YQh9xVSosBamNVta%2BtEzMarLOpFCPiZqxQyJz4LPwVBbERxzjB5g3jEfm1%2BMA35R9ie%2B9MJVA9mi4Bi1RvM39PMJXRz0vCX63YO1%2FNNu6lXEh5KaHPdU6hVit3gQYQVoGyDI3fOTZGXuq38L1qav9Du4Nn5VWzH8XCYOiH4wrP7LaQ7fRY5EErFMw8nLHh9lLwmRxbf9npRH2rspPye8DXgPiLYmiLA%3D%3D&trade_no=2019092922001425621000136239&auth_app_id=2016101300673758&version=1.0&app_id=2016101300673758&sign_type=RSA2&seller_id=2088102179330871&timestamp=2019-09-29+17%3A33%3A39 HTTP/1.1" 200 3222
+INFO 2019-09-29 09:34:19,970 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5230
+INFO 2019-09-29 09:34:20,441 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 09:34:22,876 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9417
+INFO 2019-09-29 09:34:25,735 basehttp 124 "GET /orders/comment/?order_id=20190929093249000000012 HTTP/1.1" 200 5002
+INFO 2019-09-29 09:34:49,234 basehttp 124 "POST /orders/comment/ HTTP/1.1" 200 51
+INFO 2019-09-29 09:35:05,470 basehttp 124 "GET /users/info/ HTTP/1.1" 200 5230
+INFO 2019-09-29 09:35:05,882 basehttp 124 "GET /users/browse_histories/ HTTP/1.1" 200 254
+INFO 2019-09-29 09:35:08,040 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 9417

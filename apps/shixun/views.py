@@ -513,11 +513,20 @@ class OrderComment(LoginRequiredMixin,View):
         sku.save()
         sku.spu.comments += 1
         sku.spu.save()
-        # try:
-        #     orderinfo = OrderInfo.objects.get(order_id=order_id)
-        #     orderinfo.ORDER_STATUS_CHOICES = orderinfo.ORDER_STATUS_CHOICES[1][1]
-        # except Exception as e:
-        #     logger.error(e)
+        try:
+            ordergoods = OrderGoods.objects.filter(order_id=order_id)
+            # print(ordergoods,type(ordergoods))
+        except Exception as e:
+            logger.error(e)
+        for ordergood in ordergoods:
+            # print(ordergood.sku.id,type(ordergood.id))
+            # print("*"*30)
+            # print(sku_id,type(sku_id))
+            if ordergood.sku.id == sku_id:
+                print(ordergood.order.status)
+                # ordergood.order.status = OrderInfo.ORDER_STATUS_CHOICES[1][1]
+                ordergood.order.status = 5
+                ordergood.order.save()
 
         # 返回响应的结果
         return http.JsonResponse({'code': RETCODE.OK,'errmsg': '评价成功'})
