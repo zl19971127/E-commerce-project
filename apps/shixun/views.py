@@ -68,7 +68,21 @@ class Account(View):
         try:
             user = User.objects.get(username=username)
         except Exception as e:
-            return http.JsonResponse({"status":5004, "mobile":None, "access_token":"abc"})
+            try:
+                user = User.objects.get(mobile=username)
+            except Exception as e:
+                return http.JsonResponse({"status": 5004, "mobile": None, "access_token": "abc"})
+            else:
+                access_token = "abc"
+                mobile = user.mobile
+                status = 5000
+            count = {
+                "status": status,
+                "mobile": mobile,
+                "access_token": access_token
+            }
+            return http.JsonResponse(count)
+            # return http.JsonResponse({"status":5004, "mobile":None, "access_token":"abc"})
         else:
             access_token = "abc"
             mobile = user.mobile
