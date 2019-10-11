@@ -227,10 +227,12 @@ class Login(View):
         #　数据库查询
 
         try:
+            # django自带的认证方法
             from django.contrib.auth import authenticate
-            user = authenticate(username= username,password=password)
+            user = authenticate(request,username= username,password=password)
         except User.DoesNotExist as e:
             logger.error(e)
+            return http.HttpResponseForbidden("查无此人")
 
 
         # 判断是否记住登陆

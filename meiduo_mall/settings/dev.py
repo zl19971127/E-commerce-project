@@ -46,9 +46,17 @@ INSTALLED_APPS = [
     "apps.carts",
     "apps.orders",
     "apps.payment",
+    "apps.shixun",
+    "apps.meiduo_admin",
+
+    # 第三方
     "django_crontab", # 定时任务
     "haystack", # 全文检索
-    "apps.shixun",
+    "rest_framework",# ｒｓｔ
+    'corsheaders', #CORS跨域
+
+
+
 ]
 
 CRONJOBS = [
@@ -60,10 +68,12 @@ CRONJOBS = [
 CRONTAB_COMMAND_PREFIX = 'LANG_ALL=zh_cn.UTF-8'
 
 MIDDLEWARE = [
+
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -272,7 +282,7 @@ logger = logging.getLogger('django')
 # 指定本项目用户模型
 AUTH_USER_MODEL = 'users.User'
 
-# 指定自定义的用户认证后端
+# 指定自定义的用户认证后端,authenticate方法定义的位置
 AUTHENTICATION_BACKENDS = ['apps.users.utils.UsernameMobileAuthBackend']
 
 # 设置重定向的路由
@@ -315,7 +325,7 @@ ALIPAY_RETURN_URL = 'http://www.meiduo.site:8000/payment/status/'
 HAYSTACK_CONNECTIONS = {
     'default': {
         'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
-        'URL': 'http://192.168.163.133:9200/', # Elasticsearch服务器ip地址，端口号固定为9200
+        'URL': 'http://192.168.163.134:9200/', # Elasticsearch服务器ip地址，端口号固定为9200
         'INDEX_NAME': 'meiduo', # Elasticsearch建立的索引库的名称
     },
 }
@@ -330,3 +340,29 @@ HAYSTACK_SEARCH_RESULTS_PER_PAGE = 5
 APP_KEY='3305669385'
 APP_SECRET='74c7bea69d5fc64f5c3b80c802325276'
 REDIRECT_URL='http://www.meiduo.site:8000/sina_callback'
+
+
+# Django REST framework JWT
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+    ),
+}
+import datetime
+JWT_AUTH = {
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(days=14),
+    "JWT_RESPONSE_PAYLOAD_HANDLER":"apps.meiduo_admin.utils.jwt_response_payload_handler",
+    'JWT_PAYLOAD_HANDLER':"apps.meiduo_admin.utils.jwt_my_handler",
+}
+
+# CORS跨域配置白名单
+CORS_ORIGIN_WHITELIST = (
+    'http://127.0.0.1:8080',
+    'http://localhost:8080',
+    'http://www.meiduo.site:8080',
+    'http://api.meiduo.site:8000'
+)
+CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
+

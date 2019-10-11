@@ -14,10 +14,10 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import url, include
-from django.contrib import admin
+# from django.contrib import admin
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    # url(r'^admin/', admin.site.urls),
 
     url(r"^users/", include("apps.users.urls", namespace="users")),
 
@@ -44,5 +44,7 @@ urlpatterns = [
     url(r'^', include('apps.shixun.urls',namespace="shixun")),
 
 
+    # ｍｅｉｄｕｏ后台实现
+    url(r"^meiduo_admin/",include("apps.meiduo_admin.urls",namespace="meiduo_admin"))
 
 ]

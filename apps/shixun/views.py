@@ -237,8 +237,10 @@ class SianCallback(View):
         try:
             user_sian = OAuthSinaUser.objects.get(uid=uid)
         except Exception as e:
+            from utils.secret import SecretOauth
+            uid = SecretOauth().dumps(uid)
             logger.error(e)
-            return render(requests, 'sina_callback.html', context={'uid': str(uid)})
+            return render(requests, 'sina_callback.html', context={'uid': uid})
         else:
             user = user_sian.user
             user = User.objects.get(id=user.id)
@@ -274,7 +276,8 @@ class OauthSinaUser(View):
         mobile = json_dict.get("mobile")
         password = json_dict.get("password")
         sms_code = json_dict.get("sms_code")
-        uid = json_dict.get("uid")
+        from utils.secret import SecretOauth
+        uid = SecretOauth().loads(json_dict.get("uid"))
 
         # 校验参数
         if not all([sms_code, password,mobile,uid]):

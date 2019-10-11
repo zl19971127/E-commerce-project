@@ -49,17 +49,37 @@ from meiduo_mall.settings.dev import logger
 
 class UsernameMobileAuthBackend(ModelBackend):
     def authenticate(self, request, username=None, password=None, **kwargs):
-        try:
-            if re.match(r"^[0-9]{11}",username):
-                user = User.objects.get(mobile=username)
+        # 判断是前台的访问还是后台的访问
+        if request == None:
+            # 后台的访问
+            try:
+                if re.match(r"^[0-9]{11}",username):
+                    user = User.objects.get(mobile=username)
+                else:
+                    user = User.objects.get(username= username,is_staff=True)
+            except Exception as e:
+                logger.error(e)
+                return None
             else:
-                user = User.objects.get(username= username)
-        except Exception as e:
-            logger.error(e)
+                if user.check_password(password):
+                    return user
+                else:
+                    user = None
+                    return user
         else:
-            if user.check_password(password):
-                return user
+            # 前台的访问
+
+            try:
+                if re.match(r"^[0-9]{11}",username):
+                    user = User.objects.get(mobile=username)
+                else:
+                    user = User.objects.get(username= username)
+            except Exception as e:
+                logger.error(e)
             else:
-                user = None
-                return user
+                if user.check_password(password):
+                    return user
+                else:
+                    user = None
+                    return user
 
