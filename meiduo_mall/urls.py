@@ -47,4 +47,5 @@ urlpatterns = [
     # ｍｅｉｄｕｏ后台实现
     url(r"^meiduo_admin/",include("apps.meiduo_admin.urls",namespace="meiduo_admin"))
 
+
 ]

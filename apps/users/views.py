@@ -234,6 +234,14 @@ class Login(View):
             logger.error(e)
             return http.HttpResponseForbidden("查无此人")
 
+        # 修改最后登录时间为今天
+        try:
+            from datetime import date
+            user.last_login = date.today()
+            user.save()
+        except Exception as e:
+            logger.error(e)
+
 
         # 判断是否记住登陆
         if remembered == "on":

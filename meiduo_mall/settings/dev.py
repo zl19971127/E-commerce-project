@@ -73,7 +73,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    # 'django.middleware.csrf.CsrfViewMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -229,6 +229,13 @@ CACHES = {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     },
+    "celery": { # celery
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/14",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
 }
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "session"
@@ -310,6 +317,8 @@ EMAIL_VERIFY_URL = 'http://www.meiduo.site:8000/users/emails/verification/'
 # FDFS_BASE_URL = 'http://192.168.103.158:8888/'
 FDFS_BASE_URL = 'http://image.meiduo.site:8888/'
 
+# FDFS_CLIENT_URL = os.path.join(BASE_DIR, '/utils/fastdfs/client.conf')
+FDFS_CLIENT_CONF = os.path.join(BASE_DIR, 'utils/fastdfs/client.conf')
 
 # 指定自定义的Django文件存储类
 DEFAULT_FILE_STORAGE = 'utils.fastdfs.fastdfs_storage.FastDFSStorage'
@@ -325,13 +334,13 @@ ALIPAY_RETURN_URL = 'http://www.meiduo.site:8000/payment/status/'
 HAYSTACK_CONNECTIONS = {
     'default': {
         'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
-        'URL': 'http://192.168.163.134:9200/', # Elasticsearch服务器ip地址，端口号固定为9200
+        'URL': 'http://192.168.163.135:9200/', #自己 Elasticsearch服务器ip地址，端口号固定为9200
         'INDEX_NAME': 'meiduo', # Elasticsearch建立的索引库的名称
     },
 }
 
 # 当添加、修改、删除数据时，自动生成索引
-HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
+# HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
 
 # 搜索一页有几条记录
 HAYSTACK_SEARCH_RESULTS_PER_PAGE = 5
@@ -349,6 +358,12 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication',
         'rest_framework.authentication.BasicAuthentication',
     ),
+    # 'DEFAULT_PERMISSION_CLASSES': (
+    #     'rest_framework.permissions.IsAuthenticated',
+    # ),
+    # # 分页
+    # 'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    # 'PAGE_SIZE': 10  # 每页数目
 }
 import datetime
 JWT_AUTH = {
@@ -365,4 +380,7 @@ CORS_ORIGIN_WHITELIST = (
     'http://api.meiduo.site:8000'
 )
 CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
+
+
+
 

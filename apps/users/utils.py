@@ -48,6 +48,7 @@ from meiduo_mall.settings.dev import logger
 
 
 class UsernameMobileAuthBackend(ModelBackend):
+
     def authenticate(self, request, username=None, password=None, **kwargs):
         # 判断是前台的访问还是后台的访问
         if request == None:
@@ -68,7 +69,6 @@ class UsernameMobileAuthBackend(ModelBackend):
                     return user
         else:
             # 前台的访问
-
             try:
                 if re.match(r"^[0-9]{11}",username):
                     user = User.objects.get(mobile=username)
