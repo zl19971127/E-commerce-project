@@ -17,6 +17,7 @@ from django.conf.urls import url
 from rest_framework_jwt.views import obtain_jwt_token
 
 from apps.meiduo_admin.views import admin
+from apps.meiduo_admin.views import channelGroup
 from apps.meiduo_admin.views import options
 from apps.meiduo_admin.views import AtatisticalAndUser
 from apps.meiduo_admin.views import brands
@@ -26,7 +27,7 @@ from apps.meiduo_admin.views import sku
 from apps.meiduo_admin.views import order
 from apps.meiduo_admin.views import perms
 from apps.meiduo_admin.views import group
-from apps.meiduo_admin.views import categories
+from apps.meiduo_admin.views import channel
 from rest_framework.routers import SimpleRouter
 
 urlpatterns = [
@@ -97,7 +98,17 @@ urlpatterns = [
     url(r"^permission/simple/$",perms.PermsSimpleView.as_view(),name="PermsSimple1"),
 
     # 商品类别查询
-    url(r"^goods/categories/$", categories.CategoriesView.as_view(),name="categories"),
+    # url(r"^goods/categori$", categories.CategoriesView.as_view(),name="categories"),
+    #
+    url(r"^goods/channels/(?P<pk>\d+)/$", channel.CategoryView.as_view(), name="category"),
+    # 商品频道页
+    url(r"^goods/channels/$", channel.CategoriesView.as_view(), name="categories"),
+
+    # 商品组的简单查询
+    url(r"^goods/channel_types/$",channelGroup.ChannelGroupView.as_view(),name="channelGroup"),
+    # 商品频道中一级分类查询
+    url(r"^goods/categories/$",channelGroup.categoriesView.as_view(),name="categories123"),
+
 
 ]
 

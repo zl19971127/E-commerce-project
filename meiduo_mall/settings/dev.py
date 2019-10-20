@@ -73,7 +73,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -144,12 +144,15 @@ USE_L10N = True
 USE_TZ = True
 
 
+#  指定静态文件存放的目录
+STATIC_ROOT = "/home/python/Desktop/projects/meiduo_project/static"
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
-
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
-
+# STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+# STATIC_GENERIC_HTML = STATIC_ROOT[0]
+STATIC_GENERIC_HTML = STATIC_ROOT
 
 # jinja2的加载
 
@@ -380,6 +383,8 @@ CORS_ORIGIN_WHITELIST = (
     'http://api.meiduo.site:8000'
 )
 CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
+
+
 
 
 

@@ -31,7 +31,7 @@ def generate_static_index_html():
     # 渲染首页的html字符串
     html_text = template.render(context)
     # 将首页html字符串写入指定的目录，叫“index.html”
-    file_path = os.path.join(settings.STATICFILES_DIRS[0],"index.html")
+    file_path = os.path.join(settings.STATIC_GENERIC_HTML,"index.html")
 
     with open(file_path, "w", encoding="utf-8") as file:
         file.write(html_text)
